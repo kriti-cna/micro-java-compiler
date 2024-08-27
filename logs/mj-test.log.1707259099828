@@ -1,0 +1,145 @@
+INFO  23:36:35,096 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:36:35,124 - #2 program
+INFO  23:36:35,125 - #46 test301
+INFO  23:36:35,125 - #46 int
+INFO  23:36:35,125 - #46 a
+INFO  23:36:35,126 - #29 ,
+INFO  23:36:35,126 - #46 c
+INFO  23:36:35,126 - #12 -
+ERROR 23:36:35,126 - 
+Sintaksna greska na liniji 5
+INFO  23:36:35,126 - #27 ;
+INFO  23:36:35,127 - #35 {
+INFO  23:36:35,127 - #8 void
+INFO  23:36:35,127 - #46 main
+ERROR 23:36:35,127 - Recovered from error
+INFO  23:36:35,128 - #31 (
+INFO  23:36:35,128 - #32 )
+INFO  23:36:35,128 - #46 int
+INFO  23:36:35,129 - #46 b
+INFO  23:36:35,129 - #27 ;
+INFO  23:36:35,129 - #46 bool
+INFO  23:36:35,140 - #46 c
+INFO  23:36:35,140 - #27 ;
+INFO  23:36:35,140 - #35 {
+INFO  23:36:35,140 - #46 b
+INFO  23:36:35,141 - #24 =
+INFO  23:36:35,141 - #46 b
+INFO  23:36:35,142 - #11 +
+INFO  23:36:35,142 - #45 1
+INFO  23:36:35,142 - #27 ;
+INFO  23:36:35,143 - #36 }
+INFO  23:36:35,143 - #36 }
+INFO  23:36:35,148 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclarations(
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+          AddVarDeclDerived1(
+          ) [AddVarDeclDerived1]
+        ) [MultipleVarDeclarations]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               b
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             c
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               b
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignOperation(
+            ) [AssignOperation]
+            AddExpression(
+              PositiveStartExpr(
+                SingleTerm(
+                  DesignatorFact(
+                    Designator(
+                      WithoutNamespace(
+                       b
+                      ) [WithoutNamespace]
+                      NoArrayExpression(
+                      ) [NoArrayExpression]
+                    ) [Designator]
+                  ) [DesignatorFact]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+              Plus(
+              ) [Plus]
+              SingleTerm(
+                NumberConst(
+                 1
+                ) [NumberConst]
+              ) [SingleTerm]
+            ) [AddExpression]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:36:35,148 - ===================================
+INFO  23:36:35,154 - Parsiranje uspesno zavrseno!

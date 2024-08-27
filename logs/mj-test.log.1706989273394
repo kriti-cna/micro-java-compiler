@@ -1,0 +1,70 @@
+INFO  20:40:58,836 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+ERROR 20:40:58,872 - 
+Sintaksna greska na liniji 5
+ERROR 20:40:58,874 -  SEMICOLON Global variable declaration syntax error on line 5
+INFO  20:40:58,880 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VariableDeclaration(
+            VarDeclaration(
+              TypeWithoutNamespace(
+               int
+              ) [TypeWithoutNamespace]
+             a
+              NoBrackets(
+              ) [NoBrackets]
+              NoVarDeclaration(
+              ) [NoVarDeclaration]
+            ) [VarDeclaration]
+          ) [VariableDeclaration]
+        ) [Declarations]
+        VariableDeclaration(
+          VarDeclaration(
+            TypeWithoutNamespace(
+             char
+            ) [TypeWithoutNamespace]
+           b
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDeclaration(
+            ) [NoVarDeclaration]
+          ) [VarDeclaration]
+        ) [VariableDeclaration]
+      ) [Declarations]
+      VariableDeclaration(
+        VarDeclaration(
+          TypeWithoutNamespace(
+           bool
+          ) [TypeWithoutNamespace]
+         c
+          NoBrackets(
+          ) [NoBrackets]
+          NoVarDeclaration(
+          ) [NoVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclDerived1(
+      ) [VarDeclDerived1]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  20:40:58,916 - ===================================
+INFO  20:40:58,924 - int
+INFO  20:40:58,924 - Deklarisana promenljiva a na liniji 2
+INFO  20:40:58,925 - char
+INFO  20:40:58,925 - Deklarisana promenljiva b na liniji 3
+INFO  20:40:58,925 - bool
+INFO  20:40:58,925 - Deklarisana promenljiva c na liniji 4

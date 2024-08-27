@@ -1,0 +1,141 @@
+INFO  16:46:16,006 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:46:16,007 - ================= LEKSICKA ANALIZA =================
+INFO  16:46:16,030 - #2 program
+INFO  16:46:16,030 - #47 test301
+INFO  16:46:16,030 - #35 {
+INFO  16:46:16,031 - #8 void
+INFO  16:46:16,031 - #47 main
+INFO  16:46:16,032 - #31 (
+INFO  16:46:16,032 - #32 )
+INFO  16:46:16,032 - #47 int
+INFO  16:46:16,033 - #47 niz
+INFO  16:46:16,033 - #33 [
+INFO  16:46:16,033 - #34 ]
+INFO  16:46:16,033 - #27 ;
+INFO  16:46:16,033 - #47 bool
+INFO  16:46:16,033 - #47 nizb
+INFO  16:46:16,033 - #33 [
+INFO  16:46:16,033 - #34 ]
+INFO  16:46:16,033 - #27 ;
+INFO  16:46:16,034 - #35 {
+INFO  16:46:16,044 - #47 niz
+INFO  16:46:16,044 - #24 =
+INFO  16:46:16,045 - #45 range
+INFO  16:46:16,045 - #31 (
+INFO  16:46:16,045 - #46 7
+INFO  16:46:16,046 - #32 )
+INFO  16:46:16,046 - #27 ;
+INFO  16:46:16,046 - #5 print
+INFO  16:46:16,046 - #31 (
+INFO  16:46:16,046 - #47 niz
+INFO  16:46:16,046 - #32 )
+INFO  16:46:16,046 - #27 ;
+INFO  16:46:16,046 - #36 }
+INFO  16:46:16,048 - #36 }
+INFO  16:46:16,048 - ================= PARSIRANO STABLO =================
+INFO  16:46:16,052 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               niz
+                Brackets(
+                ) [Brackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             nizb
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 niz
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  RangeExpression(
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         7
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [RangeExpression]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   niz
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:46:16,053 - ================ Semanticka obrada ===================
+INFO  16:46:16,055 - Symbol niz found on line 9
+INFO  16:46:16,055 - Symbol niz found on line 10
+INFO  16:46:16,055 - main() method found on line 1
+INFO  16:46:16,058 - Parser SUCCESS!

@@ -1,0 +1,308 @@
+INFO  09:34:54,934 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  09:34:54,935 - ================= LEKSICKA ANALIZA =================
+INFO  09:34:54,955 - #2 program
+INFO  09:34:54,955 - #46 test301
+INFO  09:34:54,955 - #10 namespace
+INFO  09:34:54,957 - #46 Konstante
+INFO  09:34:54,957 - #35 {
+INFO  09:34:54,957 - #3 const
+INFO  09:34:54,957 - #46 int
+INFO  09:34:54,957 - #46 nula
+INFO  09:34:54,957 - #24 =
+INFO  09:34:54,957 - #45 0
+INFO  09:34:54,957 - #27 ;
+INFO  09:34:54,958 - #3 const
+INFO  09:34:54,958 - #46 int
+INFO  09:34:54,958 - #46 jedan
+INFO  09:34:54,958 - #24 =
+INFO  09:34:54,958 - #45 1
+INFO  09:34:54,958 - #27 ;
+INFO  09:34:54,967 - #3 const
+INFO  09:34:54,967 - #46 int
+INFO  09:34:54,967 - #46 pet
+INFO  09:34:54,967 - #24 =
+INFO  09:34:54,967 - #45 5
+INFO  09:34:54,967 - #27 ;
+INFO  09:34:54,967 - #35 {
+INFO  09:34:54,968 - #36 }
+INFO  09:34:54,968 - #36 }
+INFO  09:34:54,968 - #10 namespace
+INFO  09:34:54,968 - #46 Nizovi
+INFO  09:34:54,969 - #35 {
+INFO  09:34:54,969 - #46 int
+INFO  09:34:54,969 - #46 niz
+INFO  09:34:54,969 - #33 [
+INFO  09:34:54,969 - #34 ]
+INFO  09:34:54,969 - #27 ;
+INFO  09:34:54,970 - #46 char
+INFO  09:34:54,970 - #46 nizch
+INFO  09:34:54,970 - #33 [
+INFO  09:34:54,970 - #34 ]
+INFO  09:34:54,970 - #27 ;
+INFO  09:34:54,970 - #35 {
+INFO  09:34:54,970 - #36 }
+INFO  09:34:54,970 - #36 }
+INFO  09:34:54,970 - #46 int
+INFO  09:34:54,970 - #46 a
+INFO  09:34:54,970 - #27 ;
+INFO  09:34:54,971 - #46 bool
+INFO  09:34:54,971 - #46 b
+INFO  09:34:54,971 - #27 ;
+INFO  09:34:54,971 - #35 {
+INFO  09:34:54,971 - #8 void
+INFO  09:34:54,971 - #46 main
+INFO  09:34:54,971 - #31 (
+INFO  09:34:54,972 - #32 )
+INFO  09:34:54,972 - #46 int
+INFO  09:34:54,972 - #46 bodovi
+INFO  09:34:54,972 - #33 [
+INFO  09:34:54,972 - #34 ]
+INFO  09:34:54,972 - #27 ;
+INFO  09:34:54,972 - #46 bool
+INFO  09:34:54,972 - #46 bt
+INFO  09:34:54,974 - #27 ;
+INFO  09:34:54,974 - #35 {
+INFO  09:34:54,974 - #46 a
+INFO  09:34:54,974 - #24 =
+INFO  09:34:54,975 - #46 a
+INFO  09:34:54,975 - #13 *
+INFO  09:34:54,975 - #48 true
+INFO  09:34:54,976 - #27 ;
+INFO  09:34:54,976 - #36 }
+INFO  09:34:54,976 - #36 }
+INFO  09:34:54,977 - ================= PARSIRANO STABLO =================
+INFO  09:34:54,979 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamespaceDeclarations(
+    NamespaceDeclarations(
+      NoNamespaceDeclarations(
+      ) [NoNamespaceDeclarations]
+      Namespace(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstantDeclaration(
+                ConDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDef(
+                   nula
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [ConstDef]
+                  NoConstantDeclaration(
+                  ) [NoConstantDeclaration]
+                ) [ConDecl]
+              ) [ConstantDeclaration]
+            ) [Declarations]
+            ConstantDeclaration(
+              ConDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstDef(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstDef]
+                NoConstantDeclaration(
+                ) [NoConstantDeclaration]
+              ) [ConDecl]
+            ) [ConstantDeclaration]
+          ) [Declarations]
+          ConstantDeclaration(
+            ConDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDef(
+               pet
+                NumConst(
+                 5
+                ) [NumConst]
+              ) [ConstDef]
+              NoConstantDeclaration(
+              ) [NoConstantDeclaration]
+            ) [ConDecl]
+          ) [ConstantDeclaration]
+        ) [Declarations]
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+      ) [Namespace]
+    ) [NamespaceDeclarations]
+    Namespace(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VariableDeclaration(
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclaration(
+                AddVarDecl1(
+                 niz
+                  Brackets(
+                  ) [Brackets]
+                ) [AddVarDecl1]
+              ) [OneVarDeclaration]
+            ) [VarDeclaration]
+          ) [VariableDeclaration]
+        ) [Declarations]
+        VariableDeclaration(
+          VarDeclaration(
+            Type(
+             char
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               nizch
+                Brackets(
+                ) [Brackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [VariableDeclaration]
+      ) [Declarations]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [Namespace]
+  ) [NamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VariableDeclaration(
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         bool
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           b
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               bodovi
+                Brackets(
+                ) [Brackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             bt
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               a
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignOperation(
+            ) [AssignOperation]
+            PositiveStartExpr(
+              MultipleTerms(
+                SingleTerm(
+                  DesignatorFact(
+                    Designator(
+                      WithoutNamespace(
+                       a
+                      ) [WithoutNamespace]
+                      NoArrayExpression(
+                      ) [NoArrayExpression]
+                    ) [Designator]
+                  ) [DesignatorFact]
+                ) [SingleTerm]
+                Multiply(
+                ) [Multiply]
+                BooleanConst(
+                 true
+                ) [BooleanConst]
+              ) [MultipleTerms]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  09:34:54,980 - ================ Semanticka obrada ===================
+INFO  09:34:54,982 - Const nula defined on line 6
+INFO  09:34:54,982 - Const jedan defined on line 7
+INFO  09:34:54,982 - Const pet defined on line 8
+INFO  09:34:54,982 - Symbol a found on line 28
+INFO  09:34:54,982 - Symbol a found on line 28
+ERROR 09:34:54,982 - Invalid mulop for types on line 28
+INFO  09:34:54,982 - main() method found on line 3
+ERROR 09:34:54,982 - Parser FAIL!

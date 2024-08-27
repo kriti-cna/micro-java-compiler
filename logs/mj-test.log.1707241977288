@@ -1,0 +1,68 @@
+INFO  18:51:51,043 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:51:51,080 - #2 program
+INFO  18:51:51,081 - #46 test301
+INFO  18:51:51,081 - #46 int
+INFO  18:51:51,082 - #46 a
+INFO  18:51:51,082 - #29 ,
+INFO  18:51:51,083 - #46 a
+INFO  18:51:51,083 - #11 +
+ERROR 18:51:51,083 - 
+Sintaksna greska na liniji 5
+INFO  18:51:51,083 - #27 ;
+INFO  18:51:51,083 - #35 {
+INFO  18:51:51,083 - #8 void
+INFO  18:51:51,084 - #46 main
+ERROR 18:51:51,084 - 
+INFO  18:51:51,085 - #31 (
+INFO  18:51:51,086 - #32 )
+INFO  18:51:51,088 - #35 {
+INFO  18:51:51,089 - #36 }
+INFO  18:51:51,091 - #36 }
+INFO  18:51:51,124 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclarations(
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+          AddVarDeclDerived1(
+          ) [AddVarDeclDerived1]
+        ) [MultipleVarDeclarations]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:51:51,124 - ===================================
+ERROR 18:51:51,155 - Parsiranje NIJE uspesno zavrseno!

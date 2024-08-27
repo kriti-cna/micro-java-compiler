@@ -1,0 +1,67 @@
+INFO  19:59:54,047 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+ERROR 19:59:54,096 - 
+Sintaksna greska na liniji 5
+ERROR 19:59:54,097 -  SEMICOLON Global variable declaration syntax error on line 5
+INFO  19:59:54,103 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VariableDeclaration(
+            VarDeclaration(
+              TypeWithoutNamespace(
+               int
+              ) [TypeWithoutNamespace]
+             a
+              NoBrackets(
+              ) [NoBrackets]
+              NoVarDeclaration(
+              ) [NoVarDeclaration]
+            ) [VarDeclaration]
+          ) [VariableDeclaration]
+        ) [Declarations]
+        VariableDeclaration(
+          VarDeclaration(
+            TypeWithoutNamespace(
+             char
+            ) [TypeWithoutNamespace]
+           b
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDeclaration(
+            ) [NoVarDeclaration]
+          ) [VarDeclaration]
+        ) [VariableDeclaration]
+      ) [Declarations]
+      VariableDeclaration(
+        VarDeclaration(
+          TypeWithoutNamespace(
+           bool
+          ) [TypeWithoutNamespace]
+         c
+          NoBrackets(
+          ) [NoBrackets]
+          NoVarDeclaration(
+          ) [NoVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclDerived1(
+      ) [VarDeclDerived1]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  19:59:54,140 - ===================================
+INFO  19:59:54,149 - int
+INFO  19:59:54,149 - char
+INFO  19:59:54,149 - bool

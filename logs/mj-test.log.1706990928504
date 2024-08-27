@@ -1,0 +1,19 @@
+INFO  21:08:11,186 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+ERROR 21:08:11,231 - 
+Sintaksna greska na liniji 21
+ERROR 21:08:11,232 -  SEMICOLON Global variable declaration syntax error on line 20
+ERROR 21:08:11,234 - 
+Sintaksna greska na liniji 25
+ERROR 21:08:11,234 -  SEMICOLON Global variable declaration syntax error on line 24
+ERROR 21:08:11,234 - 
+Sintaksna greska na liniji 32
+ERROR 21:08:11,234 -  SEMICOLON Global variable declaration syntax error on line 32
+ERROR 21:08:11,234 - 
+Sintaksna greska na liniji 33
+ERROR 21:08:11,234 -  SEMICOLON Global variable declaration syntax error on line 33
+ERROR 21:08:11,234 - 
+Sintaksna greska na liniji 34
+ERROR 21:08:11,234 -  SEMICOLON Global variable declaration syntax error on line 34
+ERROR 21:08:11,235 - 
+Sintaksna greska na liniji 35
+ERROR 21:08:11,235 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 48

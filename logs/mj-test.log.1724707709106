@@ -1,0 +1,402 @@
+INFO  23:28:05,129 - Compiling source file: C:\Users\elena\Desktop\wsp7\MJCompilerAVGUST4.zip_expanded\MJCompiler\test\program.mj
+INFO  23:28:05,130 - ================= LEKSICKA ANALIZA =================
+INFO  23:28:05,150 - #2 program
+INFO  23:28:05,150 - #48 test301
+INFO  23:28:05,150 - #48 int
+INFO  23:28:05,151 - #48 mat
+INFO  23:28:05,152 - #33 [
+INFO  23:28:05,152 - #34 ]
+INFO  23:28:05,152 - #33 [
+INFO  23:28:05,152 - #34 ]
+INFO  23:28:05,152 - #27 ;
+INFO  23:28:05,153 - #35 {
+INFO  23:28:05,154 - #8 void
+INFO  23:28:05,154 - #48 main
+INFO  23:28:05,155 - #31 (
+INFO  23:28:05,156 - #32 )
+INFO  23:28:05,157 - #48 int
+INFO  23:28:05,157 - #48 najveci
+INFO  23:28:05,157 - #27 ;
+INFO  23:28:05,157 - #35 {
+INFO  23:28:05,158 - #48 mat
+INFO  23:28:05,158 - #24 =
+INFO  23:28:05,159 - #4 new
+INFO  23:28:05,159 - #48 int
+INFO  23:28:05,159 - #33 [
+INFO  23:28:05,159 - #47 2
+INFO  23:28:05,159 - #34 ]
+INFO  23:28:05,159 - #33 [
+INFO  23:28:05,160 - #47 2
+INFO  23:28:05,160 - #34 ]
+INFO  23:28:05,160 - #27 ;
+INFO  23:28:05,160 - #48 mat
+INFO  23:28:05,160 - #33 [
+INFO  23:28:05,160 - #47 0
+INFO  23:28:05,160 - #34 ]
+INFO  23:28:05,160 - #33 [
+INFO  23:28:05,161 - #47 0
+INFO  23:28:05,161 - #34 ]
+INFO  23:28:05,161 - #24 =
+INFO  23:28:05,161 - #47 13
+INFO  23:28:05,161 - #27 ;
+INFO  23:28:05,161 - #48 mat
+INFO  23:28:05,161 - #33 [
+INFO  23:28:05,161 - #47 0
+INFO  23:28:05,161 - #34 ]
+INFO  23:28:05,161 - #33 [
+INFO  23:28:05,162 - #47 1
+INFO  23:28:05,162 - #34 ]
+INFO  23:28:05,162 - #24 =
+INFO  23:28:05,162 - #47 14
+INFO  23:28:05,162 - #27 ;
+INFO  23:28:05,162 - #48 mat
+INFO  23:28:05,162 - #33 [
+INFO  23:28:05,162 - #47 1
+INFO  23:28:05,162 - #34 ]
+INFO  23:28:05,162 - #33 [
+INFO  23:28:05,162 - #47 0
+INFO  23:28:05,162 - #34 ]
+INFO  23:28:05,162 - #24 =
+INFO  23:28:05,163 - #47 12
+INFO  23:28:05,163 - #27 ;
+INFO  23:28:05,163 - #48 mat
+INFO  23:28:05,163 - #33 [
+INFO  23:28:05,163 - #47 1
+INFO  23:28:05,163 - #34 ]
+INFO  23:28:05,163 - #33 [
+INFO  23:28:05,163 - #47 1
+INFO  23:28:05,163 - #34 ]
+INFO  23:28:05,163 - #24 =
+INFO  23:28:05,164 - #47 2
+INFO  23:28:05,164 - #27 ;
+INFO  23:28:05,164 - #48 najveci
+INFO  23:28:05,164 - #24 =
+INFO  23:28:05,164 - #46 max
+INFO  23:28:05,164 - #31 (
+INFO  23:28:05,164 - #48 mat
+INFO  23:28:05,164 - #32 )
+INFO  23:28:05,164 - #27 ;
+INFO  23:28:05,164 - #5 print
+INFO  23:28:05,165 - #31 (
+INFO  23:28:05,165 - #48 najveci
+INFO  23:28:05,165 - #32 )
+INFO  23:28:05,166 - #27 ;
+INFO  23:28:05,166 - #36 }
+INFO  23:28:05,167 - #36 }
+INFO  23:28:05,169 - ================= PARSIRANO STABLO =================
+INFO  23:28:05,173 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           mat
+            TwoBrackets(
+            ) [TwoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             najveci
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NoStatements(
+                    ) [NoStatements]
+                    DesignatorStat(
+                      DesignatorExpr(
+                        Designator(
+                          WithoutNamespace(
+                           mat
+                          ) [WithoutNamespace]
+                          NoArrayExpression(
+                          ) [NoArrayExpression]
+                        ) [Designator]
+                        AssignOperation(
+                        ) [AssignOperation]
+                        PositiveStartExpr(
+                          SingleTerm(
+                            NewTypeMat(
+                              Type(
+                               int
+                              ) [Type]
+                              PositiveStartExpr(
+                                SingleTerm(
+                                  NumberConst(
+                                   2
+                                  ) [NumberConst]
+                                ) [SingleTerm]
+                              ) [PositiveStartExpr]
+                              PositiveStartExpr(
+                                SingleTerm(
+                                  NumberConst(
+                                   2
+                                  ) [NumberConst]
+                                ) [SingleTerm]
+                              ) [PositiveStartExpr]
+                            ) [NewTypeMat]
+                          ) [SingleTerm]
+                        ) [PositiveStartExpr]
+                      ) [DesignatorExpr]
+                    ) [DesignatorStat]
+                  ) [Statements]
+                  DesignatorStat(
+                    DesignatorExpr(
+                      Designator(
+                        WithoutNamespace(
+                         mat
+                        ) [WithoutNamespace]
+                        AddMatrixExpression(
+                          BraExpr(
+                            PositiveStartExpr(
+                              SingleTerm(
+                                NumberConst(
+                                 0
+                                ) [NumberConst]
+                              ) [SingleTerm]
+                            ) [PositiveStartExpr]
+                          ) [BraExpr]
+                          BraExpr(
+                            PositiveStartExpr(
+                              SingleTerm(
+                                NumberConst(
+                                 0
+                                ) [NumberConst]
+                              ) [SingleTerm]
+                            ) [PositiveStartExpr]
+                          ) [BraExpr]
+                        ) [AddMatrixExpression]
+                      ) [Designator]
+                      AssignOperation(
+                      ) [AssignOperation]
+                      PositiveStartExpr(
+                        SingleTerm(
+                          NumberConst(
+                           13
+                          ) [NumberConst]
+                        ) [SingleTerm]
+                      ) [PositiveStartExpr]
+                    ) [DesignatorExpr]
+                  ) [DesignatorStat]
+                ) [Statements]
+                DesignatorStat(
+                  DesignatorExpr(
+                    Designator(
+                      WithoutNamespace(
+                       mat
+                      ) [WithoutNamespace]
+                      AddMatrixExpression(
+                        BraExpr(
+                          PositiveStartExpr(
+                            SingleTerm(
+                              NumberConst(
+                               0
+                              ) [NumberConst]
+                            ) [SingleTerm]
+                          ) [PositiveStartExpr]
+                        ) [BraExpr]
+                        BraExpr(
+                          PositiveStartExpr(
+                            SingleTerm(
+                              NumberConst(
+                               1
+                              ) [NumberConst]
+                            ) [SingleTerm]
+                          ) [PositiveStartExpr]
+                        ) [BraExpr]
+                      ) [AddMatrixExpression]
+                    ) [Designator]
+                    AssignOperation(
+                    ) [AssignOperation]
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         14
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [DesignatorExpr]
+                ) [DesignatorStat]
+              ) [Statements]
+              DesignatorStat(
+                DesignatorExpr(
+                  Designator(
+                    WithoutNamespace(
+                     mat
+                    ) [WithoutNamespace]
+                    AddMatrixExpression(
+                      BraExpr(
+                        PositiveStartExpr(
+                          SingleTerm(
+                            NumberConst(
+                             1
+                            ) [NumberConst]
+                          ) [SingleTerm]
+                        ) [PositiveStartExpr]
+                      ) [BraExpr]
+                      BraExpr(
+                        PositiveStartExpr(
+                          SingleTerm(
+                            NumberConst(
+                             0
+                            ) [NumberConst]
+                          ) [SingleTerm]
+                        ) [PositiveStartExpr]
+                      ) [BraExpr]
+                    ) [AddMatrixExpression]
+                  ) [Designator]
+                  AssignOperation(
+                  ) [AssignOperation]
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       12
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [DesignatorExpr]
+              ) [DesignatorStat]
+            ) [Statements]
+            DesignatorStat(
+              DesignatorExpr(
+                Designator(
+                  WithoutNamespace(
+                   mat
+                  ) [WithoutNamespace]
+                  AddMatrixExpression(
+                    BraExpr(
+                      PositiveStartExpr(
+                        SingleTerm(
+                          NumberConst(
+                           1
+                          ) [NumberConst]
+                        ) [SingleTerm]
+                      ) [PositiveStartExpr]
+                    ) [BraExpr]
+                    BraExpr(
+                      PositiveStartExpr(
+                        SingleTerm(
+                          NumberConst(
+                           1
+                          ) [NumberConst]
+                        ) [SingleTerm]
+                      ) [PositiveStartExpr]
+                    ) [BraExpr]
+                  ) [AddMatrixExpression]
+                ) [Designator]
+                AssignOperation(
+                ) [AssignOperation]
+                PositiveStartExpr(
+                  SingleTerm(
+                    NumberConst(
+                     2
+                    ) [NumberConst]
+                  ) [SingleTerm]
+                ) [PositiveStartExpr]
+              ) [DesignatorExpr]
+            ) [DesignatorStat]
+          ) [Statements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 najveci
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  MaxMatrix(
+                    Designator(
+                      WithoutNamespace(
+                       mat
+                      ) [WithoutNamespace]
+                      NoArrayExpression(
+                      ) [NoArrayExpression]
+                    ) [Designator]
+                  ) [MaxMatrix]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   najveci
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:28:05,173 - ================ Semanticka obrada ===================
+INFO  23:28:05,176 - NEW SYMBOL
+INFO  23:28:05,176 - Var mat: Matrix of int, 0, 0 on line 3
+INFO  23:28:05,176 - NEW SYMBOL
+INFO  23:28:05,176 - Var najveci: int, 0, 1 on line 7
+INFO  23:28:05,177 - Var mat: Matrix of int, 0, 0 on line 9
+INFO  23:28:05,177 - Var mat: Matrix of int, 0, 0 on line 10
+INFO  23:28:05,177 - Var mat: Matrix of int, 0, 0 on line 11
+INFO  23:28:05,177 - Var mat: Matrix of int, 0, 0 on line 12
+INFO  23:28:05,177 - Var mat: Matrix of int, 0, 0 on line 13
+INFO  23:28:05,177 - Var najveci: int, 0, 1 on line 14
+INFO  23:28:05,177 - Var mat: Matrix of int, 0, 0 on line 14
+INFO  23:28:05,177 - Var najveci: int, 0, 1 on line 15
+INFO  23:28:05,177 - Meth main: notype, 0, 0 on line 1
+INFO  23:28:05,180 - Parser SUCCESS!

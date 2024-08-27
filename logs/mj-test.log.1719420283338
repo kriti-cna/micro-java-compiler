@@ -1,0 +1,189 @@
+INFO  18:40:29,027 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:40:29,049 - #2 program
+INFO  18:40:29,049 - #47 test301
+INFO  18:40:29,049 - #3 const
+INFO  18:40:29,050 - #47 int
+INFO  18:40:29,050 - #47 b
+INFO  18:40:29,050 - #24 =
+INFO  18:40:29,050 - #46 5
+INFO  18:40:29,050 - #27 ;
+INFO  18:40:29,051 - #47 int
+INFO  18:40:29,051 - #47 a
+INFO  18:40:29,051 - #29 ,
+INFO  18:40:29,052 - #47 b
+INFO  18:40:29,052 - #11 +
+ERROR 18:40:29,052 - 
+Sintaksna greska on line 3
+INFO  18:40:29,052 - #27 ;
+INFO  18:40:29,052 - #35 {
+INFO  18:40:29,052 - #8 void
+INFO  18:40:29,052 - #47 main
+ERROR 18:40:29,052 - Recovered from error3
+INFO  18:40:29,064 - #31 (
+INFO  18:40:29,064 - #32 )
+INFO  18:40:29,064 - #47 int
+INFO  18:40:29,065 - #47 niz
+INFO  18:40:29,065 - #33 [
+INFO  18:40:29,065 - #34 ]
+INFO  18:40:29,065 - #27 ;
+INFO  18:40:29,065 - #47 bool
+INFO  18:40:29,066 - #47 nizb
+INFO  18:40:29,066 - #33 [
+INFO  18:40:29,066 - #34 ]
+INFO  18:40:29,066 - #27 ;
+INFO  18:40:29,066 - #35 {
+INFO  18:40:29,066 - #47 niz
+INFO  18:40:29,066 - #24 =
+INFO  18:40:29,067 - #45 range
+INFO  18:40:29,068 - #31 (
+INFO  18:40:29,068 - #46 7
+INFO  18:40:29,068 - #32 )
+INFO  18:40:29,068 - #27 ;
+INFO  18:40:29,068 - #5 print
+INFO  18:40:29,069 - #31 (
+INFO  18:40:29,069 - #47 niz
+INFO  18:40:29,069 - #32 )
+INFO  18:40:29,070 - #27 ;
+INFO  18:40:29,070 - #36 }
+INFO  18:40:29,070 - #36 }
+INFO  18:40:29,072 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstantDeclaration(
+        ConDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDef(
+           b
+            NumConst(
+             5
+            ) [NumConst]
+          ) [ConstDef]
+          NoConstantDeclaration(
+          ) [NoConstantDeclaration]
+        ) [ConDecl]
+      ) [ConstantDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclarations(
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+          AddVarDeclDerived1(
+          ) [AddVarDeclDerived1]
+        ) [MultipleVarDeclarations]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               niz
+                Brackets(
+                ) [Brackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             nizb
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 niz
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  RangeExpression(
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         7
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [RangeExpression]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   niz
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:40:29,073 - ===================================
+INFO  18:40:29,074 - Prepoznata naredba Print!
+INFO  18:40:29,074 -  Print count calls = 1

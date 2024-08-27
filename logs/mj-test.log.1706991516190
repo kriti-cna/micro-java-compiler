@@ -1,0 +1,59 @@
+INFO  21:18:19,171 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:18:19,241 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        MethodType(
+         int
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormPars(
+      ) [NoFormPars]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            TypeWithoutNamespace(
+             int
+            ) [TypeWithoutNamespace]
+           bodovi
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDeclaration(
+            ) [NoVarDeclaration]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          TypeWithoutNamespace(
+           bool
+          ) [TypeWithoutNamespace]
+         bt
+          NoBrackets(
+          ) [NoBrackets]
+          NoVarDeclaration(
+          ) [NoVarDeclaration]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:18:19,278 - ===================================
+INFO  21:18:19,286 - int
+INFO  21:18:19,287 - Obradjuje se funkcija main na liniji 4
+INFO  21:18:19,287 - int
+INFO  21:18:19,287 - Deklarisana promenljiva bodovi na liniji 5
+INFO  21:18:19,287 - bool
+INFO  21:18:19,289 - Deklarisana promenljiva bt na liniji 6

@@ -1,0 +1,118 @@
+
+  pos: instruction operands
+     | expressionstack
+-----------------------------
+    4: enter       0 2 
+     | 
+    7: load_0      
+     | 0 
+    8: read        
+     | 0 5 
+    9: store_0     
+     | 0 
+   10: const_2     
+     | 0 2 
+   11: const_3     
+     | 0 2 3 
+   12: dup2        
+     | 0 2 3 2 3 
+   13: pop         
+     | 0 2 3 2 
+   14: newarray    1 
+     | 0 2 3 2 
+   16: ???         
+     | 0 2 2 3 2 
+   17: pop         
+     | 0 2 2 3 
+   18: ???         
+     | 0 2 3 2 3 
+   19: pop         
+     | 0 2 3 2 
+   20: pop         
+     | 0 2 3 
+   21: dup2        
+     | 0 2 3 2 3 
+   22: pop         
+     | 0 2 3 2 
+   23: ???         
+     | 0 2 2 3 2 
+   24: pop         
+     | 0 2 2 3 
+   25: newarray    1 
+     | 0 2 2 5 
+   27: const_0     
+     | 0 2 2 5 0 
+   28: ???         
+     | 0 2 0 2 5 0 
+   29: ???         
+     | 0 2 0 2 0 5 0 
+   30: pop         
+     | 0 2 0 2 0 5 
+   31: astore      
+Arraylength = 2
+Address = 2
+Index = 0
+Value = 5
+
+     | 0 2 0 
+   32: const_1     
+     | 0 2 0 1 
+   33: add         
+     | 0 2 1 
+   34: dup         
+     | 0 2 1 1 
+   35: pop         
+     | 0 2 1 
+   36: dup2        
+     | 0 2 1 2 1 
+   37: dup2        
+     | 0 2 1 2 1 2 1 
+   38: pop         
+     | 0 2 1 2 1 2 
+   39: const_0     
+     | 0 2 1 2 1 2 0 
+   40: aload       
+     | 0 2 1 2 1 5 
+   41: arraylength 
+     | 0 2 1 2 1 3 
+   42: newarray    1 
+     | 0 2 1 2 1 9 
+   44: astore      
+Arraylength = 2
+Address = 2
+Index = 1
+Value = 9
+
+     | 0 2 1 
+   45: dup2        
+     | 0 2 1 2 1 
+   46: pop         
+     | 0 2 1 2 
+   47: arraylength 
+     | 0 2 1 2 
+   48: dup2        
+     | 0 2 1 2 1 2 
+   49: pop         
+     | 0 2 1 2 1 
+   50: const_1     
+     | 0 2 1 2 1 1 
+   51: add         
+     | 0 2 1 2 2 
+   52: ???         
+     | 0 2 2 1 2 2 
+   53: jne         -18 
+     | 0 2 2 1 
+   56: pop         
+     | 0 2 2 
+   57: pop         
+     | 0 2 
+   58: putstatic   2 
+     | 0 
+   61: getstatic   2 
+     | 0 2 
+   64: const_2     
+     | 0 2 2 
+   65: aload       
+-- exception at address 65: index out of bounds
+
+Completion took 18 ms

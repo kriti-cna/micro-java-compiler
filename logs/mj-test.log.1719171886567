@@ -1,0 +1,134 @@
+INFO  21:43:45,867 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  21:43:45,868 - ================= LEKSICKA ANALIZA =================
+INFO  21:43:45,898 - #2 program
+INFO  21:43:45,898 - #47 test301
+INFO  21:43:45,898 - #35 {
+INFO  21:43:45,900 - #8 void
+INFO  21:43:45,901 - #47 main
+INFO  21:43:45,901 - #31 (
+INFO  21:43:45,901 - #32 )
+INFO  21:43:45,902 - #47 int
+INFO  21:43:45,902 - #47 niz
+INFO  21:43:45,903 - #33 [
+INFO  21:43:45,903 - #34 ]
+INFO  21:43:45,903 - #27 ;
+INFO  21:43:45,904 - #35 {
+INFO  21:43:45,904 - #47 niz
+INFO  21:43:45,904 - #24 =
+INFO  21:43:45,906 - #45 range
+INFO  21:43:45,907 - #31 (
+INFO  21:43:45,908 - #46 10
+INFO  21:43:45,908 - #32 )
+INFO  21:43:45,908 - #27 ;
+INFO  21:43:45,908 - #5 print
+INFO  21:43:45,910 - #31 (
+INFO  21:43:45,910 - #47 niz
+INFO  21:43:45,910 - #33 [
+INFO  21:43:45,910 - #46 9
+INFO  21:43:45,910 - #34 ]
+INFO  21:43:45,910 - #32 )
+INFO  21:43:45,913 - #27 ;
+INFO  21:43:45,913 - #36 }
+INFO  21:43:45,914 - #36 }
+INFO  21:43:45,915 - ================= PARSIRANO STABLO =================
+INFO  21:43:45,923 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             niz
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 niz
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  RangeExpression(
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         10
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [RangeExpression]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   niz
+                  ) [WithoutNamespace]
+                  AddArrayExpression(
+                    BraExpr(
+                      PositiveStartExpr(
+                        SingleTerm(
+                          NumberConst(
+                           9
+                          ) [NumberConst]
+                        ) [SingleTerm]
+                      ) [PositiveStartExpr]
+                    ) [BraExpr]
+                  ) [AddArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:43:45,927 - ================ Semanticka obrada ===================
+INFO  21:43:45,930 - Symbol niz found on line 8
+INFO  21:43:45,930 - Symbol niz found on line 9
+INFO  21:43:45,930 - main() method found on line 1
+INFO  21:43:45,933 - Parser SUCCESS!

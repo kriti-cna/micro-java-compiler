@@ -1,0 +1,320 @@
+INFO  19:11:36,871 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:11:37,010 - #2 program
+INFO  19:11:37,011 - #46 MJProgram
+INFO  19:11:37,012 - #46 int
+INFO  19:11:37,018 - #46 a
+INFO  19:11:37,018 - #27 ;
+INFO  19:11:37,024 - #35 {
+INFO  19:11:37,025 - #8 void
+INFO  19:11:37,028 - #46 main
+INFO  19:11:37,030 - #31 (
+INFO  19:11:37,031 - #32 )
+INFO  19:11:37,032 - #46 int
+INFO  19:11:37,035 - #46 bodovi
+INFO  19:11:37,035 - #27 ;
+INFO  19:11:37,036 - #46 bool
+INFO  19:11:37,036 - #46 bt
+INFO  19:11:37,036 - #27 ;
+INFO  19:11:37,036 - #35 {
+INFO  19:11:37,036 - #46 bodovi
+INFO  19:11:37,037 - #24 =
+INFO  19:11:37,039 - #45 0
+INFO  19:11:37,078 - #27 ;
+INFO  19:11:37,080 - #46 bodovi
+INFO  19:11:37,080 - #25 ++
+INFO  19:11:37,081 - #27 ;
+INFO  19:11:37,081 - #46 bodovi
+INFO  19:11:37,081 - #24 =
+INFO  19:11:37,081 - #46 bodovi
+INFO  19:11:37,081 - #11 +
+INFO  19:11:37,081 - #46 Konstante
+INFO  19:11:37,083 - #28 :
+INFO  19:11:37,083 - #28 :
+INFO  19:11:37,083 - #46 jedan
+INFO  19:11:37,083 - #27 ;
+INFO  19:11:37,083 - #46 bodovi
+INFO  19:11:37,083 - #24 =
+INFO  19:11:37,084 - #46 bodovi
+INFO  19:11:37,084 - #13 *
+INFO  19:11:37,084 - #46 Konstante
+INFO  19:11:37,085 - #28 :
+INFO  19:11:37,085 - #28 :
+INFO  19:11:37,085 - #46 pet
+INFO  19:11:37,085 - #27 ;
+INFO  19:11:37,086 - #46 bodovi
+INFO  19:11:37,086 - #26 --
+INFO  19:11:37,086 - #27 ;
+INFO  19:11:37,086 - #5 print
+INFO  19:11:37,086 - #31 (
+INFO  19:11:37,086 - #46 bodovi
+INFO  19:11:37,086 - #32 )
+INFO  19:11:37,087 - #27 ;
+INFO  19:11:37,087 - #46 Nizovi
+INFO  19:11:37,087 - #28 :
+INFO  19:11:37,087 - #28 :
+INFO  19:11:37,087 - #46 niz
+INFO  19:11:37,088 - #24 =
+INFO  19:11:37,088 - #4 new
+INFO  19:11:37,088 - #46 int
+INFO  19:11:37,088 - #33 [
+INFO  19:11:37,088 - #45 3
+INFO  19:11:37,088 - #34 ]
+INFO  19:11:37,088 - #27 ;
+INFO  19:11:37,088 - #36 }
+INFO  19:11:37,088 - #36 }
+INFO  19:11:37,090 - ProgramDef(
+  ProgNameDef(
+   MJProgram
+  ) [ProgNameDef]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        TypeWithoutNamespace(
+         int
+        ) [TypeWithoutNamespace]
+       a
+        NoBrackets(
+        ) [NoBrackets]
+        NoVarDeclaration(
+        ) [NoVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDeclaration(
+      ReturnVoid(
+      ) [ReturnVoid]
+     main
+      NoFormPars(
+      ) [NoFormPars]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            TypeWithoutNamespace(
+             int
+            ) [TypeWithoutNamespace]
+           bodovi
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDeclaration(
+            ) [NoVarDeclaration]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          TypeWithoutNamespace(
+           bool
+          ) [TypeWithoutNamespace]
+         bt
+          NoBrackets(
+          ) [NoBrackets]
+          NoVarDeclaration(
+          ) [NoVarDeclaration]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NoStatements(
+                    ) [NoStatements]
+                    DesignatorStat(
+                      DesignatorExpr(
+                        DesignatorWithoutNamespace(
+                         bodovi
+                          NoBracketsExpression(
+                          ) [NoBracketsExpression]
+                        ) [DesignatorWithoutNamespace]
+                        ExpressionDef(
+                          NoMinus(
+                          ) [NoMinus]
+                          TermDef(
+                            NumberConst(
+                             0
+                            ) [NumberConst]
+                            NoFactor(
+                            ) [NoFactor]
+                          ) [TermDef]
+                          NoTer(
+                          ) [NoTer]
+                        ) [ExpressionDef]
+                      ) [DesignatorExpr]
+                    ) [DesignatorStat]
+                  ) [Statements]
+                  DesignatorStat(
+                    DesignatorPP(
+                      DesignatorWithoutNamespace(
+                       bodovi
+                        NoBracketsExpression(
+                        ) [NoBracketsExpression]
+                      ) [DesignatorWithoutNamespace]
+                    ) [DesignatorPP]
+                  ) [DesignatorStat]
+                ) [Statements]
+                DesignatorStat(
+                  DesignatorExpr(
+                    DesignatorWithoutNamespace(
+                     bodovi
+                      NoBracketsExpression(
+                      ) [NoBracketsExpression]
+                    ) [DesignatorWithoutNamespace]
+                    ExpressionDef(
+                      NoMinus(
+                      ) [NoMinus]
+                      TermDef(
+                        DesignatorFact(
+                          DesignatorWithoutNamespace(
+                           bodovi
+                            NoBracketsExpression(
+                            ) [NoBracketsExpression]
+                          ) [DesignatorWithoutNamespace]
+                        ) [DesignatorFact]
+                        NoFactor(
+                        ) [NoFactor]
+                      ) [TermDef]
+                      AddTer(
+                        NoTer(
+                        ) [NoTer]
+                        Plus(
+                        ) [Plus]
+                        TermDef(
+                          DesignatorFact(
+                            DesignatorWithNamespace(
+                             Konstante
+                             jedan
+                              NoBracketsExpression(
+                              ) [NoBracketsExpression]
+                            ) [DesignatorWithNamespace]
+                          ) [DesignatorFact]
+                          NoFactor(
+                          ) [NoFactor]
+                        ) [TermDef]
+                      ) [AddTer]
+                    ) [ExpressionDef]
+                  ) [DesignatorExpr]
+                ) [DesignatorStat]
+              ) [Statements]
+              DesignatorStat(
+                DesignatorExpr(
+                  DesignatorWithoutNamespace(
+                   bodovi
+                    NoBracketsExpression(
+                    ) [NoBracketsExpression]
+                  ) [DesignatorWithoutNamespace]
+                  ExpressionDef(
+                    NoMinus(
+                    ) [NoMinus]
+                    TermDef(
+                      DesignatorFact(
+                        DesignatorWithoutNamespace(
+                         bodovi
+                          NoBracketsExpression(
+                          ) [NoBracketsExpression]
+                        ) [DesignatorWithoutNamespace]
+                      ) [DesignatorFact]
+                      AddFactors(
+                        NoFactor(
+                        ) [NoFactor]
+                        Multiply(
+                        ) [Multiply]
+                        DesignatorFact(
+                          DesignatorWithNamespace(
+                           Konstante
+                           pet
+                            NoBracketsExpression(
+                            ) [NoBracketsExpression]
+                          ) [DesignatorWithNamespace]
+                        ) [DesignatorFact]
+                      ) [AddFactors]
+                    ) [TermDef]
+                    NoTer(
+                    ) [NoTer]
+                  ) [ExpressionDef]
+                ) [DesignatorExpr]
+              ) [DesignatorStat]
+            ) [Statements]
+            DesignatorStat(
+              DesignatorMM(
+                DesignatorWithoutNamespace(
+                 bodovi
+                  NoBracketsExpression(
+                  ) [NoBracketsExpression]
+                ) [DesignatorWithoutNamespace]
+              ) [DesignatorMM]
+            ) [DesignatorStat]
+          ) [Statements]
+          PrintExpr(
+            ExpressionDef(
+              NoMinus(
+              ) [NoMinus]
+              TermDef(
+                DesignatorFact(
+                  DesignatorWithoutNamespace(
+                   bodovi
+                    NoBracketsExpression(
+                    ) [NoBracketsExpression]
+                  ) [DesignatorWithoutNamespace]
+                ) [DesignatorFact]
+                NoFactor(
+                ) [NoFactor]
+              ) [TermDef]
+              NoTer(
+              ) [NoTer]
+            ) [ExpressionDef]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [PrintExpr]
+        ) [Statements]
+        DesignatorStat(
+          DesignatorExpr(
+            DesignatorWithNamespace(
+             Nizovi
+             niz
+              NoBracketsExpression(
+              ) [NoBracketsExpression]
+            ) [DesignatorWithNamespace]
+            ExpressionDef(
+              NoMinus(
+              ) [NoMinus]
+              TermDef(
+                NewType(
+                  TypeWithoutNamespace(
+                   int
+                  ) [TypeWithoutNamespace]
+                  ExpressionDef(
+                    NoMinus(
+                    ) [NoMinus]
+                    TermDef(
+                      NumberConst(
+                       3
+                      ) [NumberConst]
+                      NoFactor(
+                      ) [NoFactor]
+                    ) [TermDef]
+                    NoTer(
+                    ) [NoTer]
+                  ) [ExpressionDef]
+                ) [NewType]
+                NoFactor(
+                ) [NoFactor]
+              ) [TermDef]
+              NoTer(
+              ) [NoTer]
+            ) [ExpressionDef]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [ProgramDef]
+INFO  19:11:37,092 - ===================================

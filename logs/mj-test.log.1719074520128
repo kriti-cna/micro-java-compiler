@@ -1,0 +1,103 @@
+INFO  14:54:16,854 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:54:16,856 - ================= LEKSICKA ANALIZA =================
+INFO  14:54:16,891 - #2 program
+INFO  14:54:16,891 - #46 test301
+INFO  14:54:16,891 - #46 int
+INFO  14:54:16,893 - #46 a
+INFO  14:54:16,893 - #33 [
+INFO  14:54:16,893 - #34 ]
+INFO  14:54:16,893 - #27 ;
+INFO  14:54:16,895 - #35 {
+INFO  14:54:16,895 - #8 void
+INFO  14:54:16,896 - #46 Main
+INFO  14:54:16,896 - #31 (
+INFO  14:54:16,897 - #32 )
+INFO  14:54:16,897 - #35 {
+INFO  14:54:16,898 - #46 a
+INFO  14:54:16,899 - #24 =
+INFO  14:54:16,900 - #4 new
+INFO  14:54:16,901 - #46 int
+INFO  14:54:16,902 - #33 [
+INFO  14:54:16,939 - #45 3
+INFO  14:54:16,939 - #34 ]
+INFO  14:54:16,940 - #27 ;
+INFO  14:54:16,941 - #36 }
+INFO  14:54:16,942 - #36 }
+INFO  14:54:16,946 - ================= PARSIRANO STABLO =================
+INFO  14:54:16,959 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           a
+            Brackets(
+            ) [Brackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       Main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               a
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignOperation(
+            ) [AssignOperation]
+            PositiveStartExpr(
+              SingleTerm(
+                NewType(
+                  Type(
+                   int
+                  ) [Type]
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       3
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [NewType]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:54:16,960 - ================ Semanticka obrada ===================
+INFO  14:54:16,970 - Symbol a found on line 12
+INFO  14:54:16,971 - main() method not found on line 3
+INFO  14:54:16,982 - Parser SUCCESS!

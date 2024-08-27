@@ -1,0 +1,86 @@
+INFO  11:02:23,013 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  11:02:23,014 - ================= LEKSICKA ANALIZA =================
+INFO  11:02:23,052 - #2 program
+INFO  11:02:23,054 - #47 test301
+INFO  11:02:23,054 - #47 int
+INFO  11:02:23,056 - #47 niz
+INFO  11:02:23,057 - #33 [
+INFO  11:02:23,058 - #34 ]
+INFO  11:02:23,058 - #27 ;
+INFO  11:02:23,059 - #47 int
+INFO  11:02:23,059 - #47 mat
+INFO  11:02:23,060 - #33 [
+INFO  11:02:23,060 - #34 ]
+INFO  11:02:23,060 - #33 [
+INFO  11:02:23,060 - #34 ]
+INFO  11:02:23,060 - #27 ;
+INFO  11:02:23,061 - #35 {
+INFO  11:02:23,061 - #8 void
+INFO  11:02:23,062 - #47 main
+INFO  11:02:23,063 - #31 (
+INFO  11:02:23,073 - #32 )
+INFO  11:02:23,074 - #35 {
+INFO  11:02:23,074 - #36 }
+INFO  11:02:23,076 - #36 }
+INFO  11:02:23,077 - ================= PARSIRANO STABLO =================
+INFO  11:02:23,083 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VariableDeclaration(
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             niz
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           mat
+            TwoBrackets(
+            ) [TwoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:02:23,083 - ================ Semanticka obrada ===================
+INFO  11:02:23,121 - NEW SYMBOL
+INFO  11:02:23,121 - Var niz: Arr of int, 0, 0 on line 4

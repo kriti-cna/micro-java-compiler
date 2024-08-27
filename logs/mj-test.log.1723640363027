@@ -1,0 +1,177 @@
+INFO  14:45:03,125 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:45:03,125 - ================= LEKSICKA ANALIZA =================
+INFO  14:45:03,156 - #2 program
+INFO  14:45:03,156 - #47 test301
+INFO  14:45:03,156 - #47 int
+INFO  14:45:03,157 - #47 mat
+INFO  14:45:03,157 - #33 [
+INFO  14:45:03,157 - #34 ]
+INFO  14:45:03,157 - #33 [
+INFO  14:45:03,157 - #34 ]
+INFO  14:45:03,157 - #27 ;
+INFO  14:45:03,158 - #47 int
+INFO  14:45:03,158 - #47 niz
+INFO  14:45:03,158 - #33 [
+INFO  14:45:03,158 - #34 ]
+INFO  14:45:03,158 - #27 ;
+INFO  14:45:03,160 - #35 {
+INFO  14:45:03,160 - #8 void
+INFO  14:45:03,161 - #47 main
+INFO  14:45:03,161 - #31 (
+INFO  14:45:03,171 - #32 )
+INFO  14:45:03,172 - #35 {
+INFO  14:45:03,172 - #47 niz
+INFO  14:45:03,172 - #24 =
+INFO  14:45:03,173 - #4 new
+INFO  14:45:03,175 - #47 int
+INFO  14:45:03,175 - #33 [
+INFO  14:45:03,175 - #46 2
+INFO  14:45:03,175 - #34 ]
+INFO  14:45:03,175 - #27 ;
+INFO  14:45:03,175 - #47 mat
+INFO  14:45:03,175 - #24 =
+INFO  14:45:03,175 - #4 new
+INFO  14:45:03,175 - #47 int
+INFO  14:45:03,175 - #33 [
+INFO  14:45:03,176 - #46 2
+INFO  14:45:03,176 - #34 ]
+INFO  14:45:03,176 - #33 [
+INFO  14:45:03,176 - #46 3
+INFO  14:45:03,176 - #34 ]
+INFO  14:45:03,176 - #27 ;
+INFO  14:45:03,176 - #36 }
+INFO  14:45:03,176 - #36 }
+INFO  14:45:03,178 - ================= PARSIRANO STABLO =================
+INFO  14:45:03,182 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VariableDeclaration(
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             mat
+              TwoBrackets(
+              ) [TwoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           niz
+            Brackets(
+            ) [Brackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 niz
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  NewType(
+                    Type(
+                     int
+                    ) [Type]
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         2
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [NewType]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               mat
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignOperation(
+            ) [AssignOperation]
+            PositiveStartExpr(
+              SingleTerm(
+                NewTypeMat(
+                  Type(
+                   int
+                  ) [Type]
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       2
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       3
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [NewTypeMat]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:45:03,182 - ================ Semanticka obrada ===================
+INFO  14:45:03,200 - NEW SYMBOL
+INFO  14:45:03,200 - Var mat: int, 0, 0 on line 5
+INFO  14:45:03,200 - NEW SYMBOL
+INFO  14:45:03,200 - Var niz: Arr of int, 1, 0 on line 6
+INFO  14:45:03,200 - Var niz: Arr of int, 1, 0 on line 13

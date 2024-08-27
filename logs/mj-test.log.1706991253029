@@ -1,0 +1,4 @@
+INFO  21:14:00,275 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+ERROR 21:14:00,337 - 
+Sintaksna greska na liniji 19
+ERROR 21:14:00,338 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

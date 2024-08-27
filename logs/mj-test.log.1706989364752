@@ -1,0 +1,45 @@
+INFO  20:42:31,560 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:42:31,611 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VariableDeclaration(
+        VarDeclaration(
+          TypeWithoutNamespace(
+           int
+          ) [TypeWithoutNamespace]
+         a
+          NoBrackets(
+          ) [NoBrackets]
+          NoVarDeclaration(
+          ) [NoVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        TypeWithoutNamespace(
+         bool
+        ) [TypeWithoutNamespace]
+       b
+        NoBrackets(
+        ) [NoBrackets]
+        NoVarDeclaration(
+        ) [NoVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  20:42:31,611 - ===================================
+INFO  20:42:31,614 - int
+INFO  20:42:31,614 - Deklarisana promenljiva a na liniji 2
+INFO  20:42:31,614 - bool
+INFO  20:42:31,614 - Deklarisana promenljiva b na liniji 3

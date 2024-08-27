@@ -1,0 +1,112 @@
+INFO  11:52:36,327 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  11:52:36,515 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl(
+           a
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          ListOfVarDecl(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclaration(
+                AddVarDecl(
+                 bodovi
+                  NoBrackets(
+                  ) [NoBrackets]
+                ) [AddVarDecl]
+              ) [OneVarDeclaration]
+            ) [VarDeclaration]
+          ) [ListOfVarDecl]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            MultipleVarDeclarations(
+              OneVarDeclaration(
+                AddVarDecl(
+                 a
+                  NoBrackets(
+                  ) [NoBrackets]
+                ) [AddVarDecl]
+              ) [OneVarDeclaration]
+              AddVarDecl(
+               b
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl]
+            ) [MultipleVarDeclarations]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl(
+             bt
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   bt
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:52:36,516 - ===================================

@@ -1,0 +1,140 @@
+INFO  17:47:20,065 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:47:20,067 - ================= LEKSICKA ANALIZA =================
+INFO  17:47:20,121 - #2 program
+INFO  17:47:20,121 - #47 test301
+INFO  17:47:20,121 - #47 int
+INFO  17:47:20,123 - #47 niz
+INFO  17:47:20,124 - #33 [
+INFO  17:47:20,125 - #34 ]
+INFO  17:47:20,125 - #27 ;
+INFO  17:47:20,126 - #47 int
+INFO  17:47:20,127 - #47 mat
+INFO  17:47:20,127 - #33 [
+INFO  17:47:20,127 - #34 ]
+INFO  17:47:20,127 - #33 [
+INFO  17:47:20,127 - #34 ]
+INFO  17:47:20,127 - #27 ;
+INFO  17:47:20,128 - #35 {
+INFO  17:47:20,128 - #8 void
+INFO  17:47:20,129 - #47 main
+INFO  17:47:20,130 - #31 (
+INFO  17:47:20,168 - #32 )
+INFO  17:47:20,170 - #35 {
+INFO  17:47:20,172 - #47 mat
+INFO  17:47:20,174 - #24 =
+INFO  17:47:20,178 - #4 new
+INFO  17:47:20,182 - #47 int
+INFO  17:47:20,182 - #33 [
+INFO  17:47:20,183 - #46 2
+INFO  17:47:20,183 - #34 ]
+INFO  17:47:20,184 - #33 [
+INFO  17:47:20,185 - #46 3
+INFO  17:47:20,185 - #34 ]
+INFO  17:47:20,185 - #27 ;
+INFO  17:47:20,186 - #36 }
+INFO  17:47:20,187 - #36 }
+INFO  17:47:20,193 - ================= PARSIRANO STABLO =================
+INFO  17:47:20,205 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VariableDeclaration(
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             niz
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           mat
+            TwoBrackets(
+            ) [TwoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               mat
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignOperation(
+            ) [AssignOperation]
+            PositiveStartExpr(
+              SingleTerm(
+                NewTypeMat(
+                  Type(
+                   int
+                  ) [Type]
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       2
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       3
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [NewTypeMat]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:47:20,206 - ================ Semanticka obrada ===================
+INFO  17:47:20,218 - NEW SYMBOL
+INFO  17:47:20,218 - Var niz: Arr of int, 0, 0 on line 4
+INFO  17:47:20,218 - NEW SYMBOL
+INFO  17:47:20,219 - Var mat: Mat of , 1, 0 on line 5
+INFO  17:47:20,219 - Var mat: Mat of , 1, 0 on line 13
+INFO  17:47:20,220 - Meth main: notype, 0, 0 on line 3
+INFO  17:47:20,229 - Parser SUCCESS!

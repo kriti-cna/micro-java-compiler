@@ -1,0 +1,26 @@
+INFO  20:16:12,428 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:16:12,475 - #2 program
+INFO  20:16:12,475 - #46 MJProgram
+INFO  20:16:12,475 - #46 int
+INFO  20:16:12,476 - #46 a
+INFO  20:16:12,476 - #27 ;
+INFO  20:16:12,478 - #35 {
+INFO  20:16:12,478 - #8 void
+INFO  20:16:12,479 - #46 main
+INFO  20:16:12,479 - #31 (
+INFO  20:16:12,480 - #32 )
+INFO  20:16:12,480 - #46 int
+INFO  20:16:12,481 - #46 bodovi
+INFO  20:16:12,481 - #27 ;
+INFO  20:16:12,481 - #46 bool
+INFO  20:16:12,481 - #46 bt
+INFO  20:16:12,481 - #27 ;
+INFO  20:16:12,481 - #35 {
+INFO  20:16:12,481 - #46 bodovi
+INFO  20:16:12,482 - #24 =
+INFO  20:16:12,483 - #45 0
+INFO  20:16:12,520 - #27 ;
+INFO  20:16:12,521 - #45 56
+ERROR 20:16:12,521 - 
+Sintaksna greska na liniji 9
+ERROR 20:16:12,521 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9

@@ -1,0 +1,6 @@
+INFO  14:15:14,928 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:15:14,953 - #2 program
+INFO  14:15:14,953 - #46 MJProgram
+ERROR 14:15:14,953 - 
+Sintaksna greska na liniji 5
+ERROR 14:15:14,953 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

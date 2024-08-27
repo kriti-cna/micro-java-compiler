@@ -1,0 +1,134 @@
+INFO  23:39:21,535 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:39:21,564 - #2 program
+INFO  23:39:21,564 - #46 test301
+INFO  23:39:21,564 - #46 int
+INFO  23:39:21,564 - #46 a
+INFO  23:39:21,565 - #29 ,
+INFO  23:39:21,565 - #46 c
+INFO  23:39:21,565 - #27 ;
+INFO  23:39:21,565 - #35 {
+INFO  23:39:21,565 - #8 void
+INFO  23:39:21,566 - #46 main
+INFO  23:39:21,566 - #31 (
+INFO  23:39:21,567 - #32 )
+INFO  23:39:21,567 - #46 int
+INFO  23:39:21,567 - #46 b
+INFO  23:39:21,567 - #27 ;
+INFO  23:39:21,567 - #46 bool
+INFO  23:39:21,568 - #46 c
+INFO  23:39:21,568 - #27 ;
+INFO  23:39:21,568 - #35 {
+INFO  23:39:21,568 - #46 b
+INFO  23:39:21,568 - #24 =
+INFO  23:39:21,579 - #46 c
+INFO  23:39:21,581 - #27 ;
+INFO  23:39:21,581 - #36 }
+INFO  23:39:21,581 - #36 }
+INFO  23:39:21,587 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclarations(
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+          AddVarDecl1(
+           c
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [MultipleVarDeclarations]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               b
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             c
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               b
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignOperation(
+            ) [AssignOperation]
+            PositiveStartExpr(
+              SingleTerm(
+                DesignatorFact(
+                  Designator(
+                    WithoutNamespace(
+                     c
+                    ) [WithoutNamespace]
+                    NoArrayExpression(
+                    ) [NoArrayExpression]
+                  ) [Designator]
+                ) [DesignatorFact]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:39:21,587 - ===================================
+ERROR 23:39:21,591 - Error: Types not matching na liniji 13
+ERROR 23:39:21,591 - Parsiranje NIJE uspesno zavrseno!

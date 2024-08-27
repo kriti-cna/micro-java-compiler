@@ -1,0 +1,140 @@
+INFO  19:30:06,680 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:30:06,683 - ================= LEKSICKA ANALIZA =================
+INFO  19:30:06,751 - #2 program
+INFO  19:30:06,752 - #46 test1
+INFO  19:30:06,752 - #46 int
+INFO  19:30:06,755 - #46 a
+INFO  19:30:06,757 - #27 ;
+INFO  19:30:06,759 - #35 {
+INFO  19:30:06,760 - #8 void
+INFO  19:30:06,761 - #46 main
+INFO  19:30:06,762 - #31 (
+INFO  19:30:06,764 - #32 )
+INFO  19:30:06,765 - #46 int
+INFO  19:30:06,766 - #46 b
+INFO  19:30:06,766 - #27 ;
+INFO  19:30:06,766 - #46 bool
+INFO  19:30:06,768 - #46 c
+INFO  19:30:06,803 - #27 ;
+INFO  19:30:06,804 - #35 {
+INFO  19:30:06,804 - #46 b
+INFO  19:30:06,808 - #24 =
+INFO  19:30:06,812 - #46 b
+INFO  19:30:06,814 - #11 +
+INFO  19:30:06,815 - #45 1
+INFO  19:30:06,818 - #27 ;
+INFO  19:30:06,819 - #36 }
+INFO  19:30:06,820 - #36 }
+INFO  19:30:06,825 - ================= PARSIRANO STABLO =================
+INFO  19:30:06,841 - Program(
+  ProgName(
+   test1
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           a
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               b
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             c
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               b
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignOperation(
+            ) [AssignOperation]
+            AddExpression(
+              PositiveStartExpr(
+                SingleTerm(
+                  DesignatorFact(
+                    Designator(
+                      WithoutNamespace(
+                       b
+                      ) [WithoutNamespace]
+                      NoArrayExpression(
+                      ) [NoArrayExpression]
+                    ) [Designator]
+                  ) [DesignatorFact]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+              Plus(
+              ) [Plus]
+              SingleTerm(
+                NumberConst(
+                 1
+                ) [NumberConst]
+              ) [SingleTerm]
+            ) [AddExpression]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:30:06,842 - ================ Semanticka obrada ===================
+INFO  19:30:06,856 - Symbol b found on line 11
+INFO  19:30:06,856 - Symbol b found on line 11
+INFO  19:30:06,857 - main() method found on line 1
+INFO  19:30:06,867 - Parser SUCCESS!

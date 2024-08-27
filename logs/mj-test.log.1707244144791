@@ -1,0 +1,100 @@
+INFO  19:25:14,295 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:25:14,319 - #2 program
+INFO  19:25:14,319 - #46 test301
+INFO  19:25:14,319 - #46 int
+INFO  19:25:14,320 - #46 a
+INFO  19:25:14,320 - #29 ,
+INFO  19:25:14,321 - #46 b
+INFO  19:25:14,321 - #27 ;
+INFO  19:25:14,321 - #35 {
+INFO  19:25:14,321 - #8 void
+INFO  19:25:14,321 - #46 main
+INFO  19:25:14,322 - #31 (
+INFO  19:25:14,322 - #32 )
+INFO  19:25:14,323 - #35 {
+INFO  19:25:14,323 - #46 a
+INFO  19:25:14,324 - #24 =
+INFO  19:25:14,326 - #12 -
+INFO  19:25:14,328 - #27 ;
+ERROR 19:25:14,328 - 
+Sintaksna greska na liniji 10
+INFO  19:25:14,328 - #46 b
+INFO  19:25:14,329 - #24 =
+INFO  19:25:14,339 - #45 4
+INFO  19:25:14,339 - #27 ;
+INFO  19:25:14,339 - #36 }
+INFO  19:25:14,339 - #36 }
+ERROR 19:25:14,340 - Syntax assignment error on line 10
+INFO  19:25:14,346 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclarations(
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+          AddVarDecl1(
+           b
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [MultipleVarDeclarations]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               a
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            PositiveStartExpr(
+              SingleTerm(
+                NumberConst(
+                 4
+                ) [NumberConst]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:25:14,346 - ===================================
+ERROR 19:25:14,350 - Parsiranje NIJE uspesno zavrseno!

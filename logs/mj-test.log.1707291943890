@@ -1,0 +1,1432 @@
+INFO  08:25:57,400 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  08:25:57,401 - ================= LEKSICKA ANALIZA =================
+INFO  08:25:57,426 - #2 program
+INFO  08:25:57,426 - #46 test301
+INFO  08:25:57,426 - #10 namespace
+INFO  08:25:57,428 - #46 Konstante
+INFO  08:25:57,428 - #35 {
+INFO  08:25:57,428 - #3 const
+INFO  08:25:57,429 - #46 int
+INFO  08:25:57,429 - #46 nula
+INFO  08:25:57,429 - #24 =
+INFO  08:25:57,429 - #45 0
+INFO  08:25:57,429 - #27 ;
+INFO  08:25:57,430 - #3 const
+INFO  08:25:57,430 - #46 int
+INFO  08:25:57,430 - #46 jedan
+INFO  08:25:57,430 - #24 =
+INFO  08:25:57,430 - #45 1
+INFO  08:25:57,430 - #27 ;
+INFO  08:25:57,466 - #3 const
+INFO  08:25:57,466 - #46 int
+INFO  08:25:57,466 - #46 pet
+INFO  08:25:57,466 - #24 =
+INFO  08:25:57,466 - #45 5
+INFO  08:25:57,466 - #27 ;
+INFO  08:25:57,466 - #35 {
+INFO  08:25:57,467 - #36 }
+INFO  08:25:57,467 - #36 }
+INFO  08:25:57,467 - #10 namespace
+INFO  08:25:57,468 - #46 Nizovi
+INFO  08:25:57,468 - #35 {
+INFO  08:25:57,468 - #46 int
+INFO  08:25:57,469 - #46 niz
+INFO  08:25:57,469 - #33 [
+INFO  08:25:57,469 - #34 ]
+INFO  08:25:57,469 - #27 ;
+INFO  08:25:57,470 - #46 char
+INFO  08:25:57,470 - #46 nizch
+INFO  08:25:57,470 - #33 [
+INFO  08:25:57,470 - #34 ]
+INFO  08:25:57,470 - #27 ;
+INFO  08:25:57,470 - #35 {
+INFO  08:25:57,470 - #36 }
+INFO  08:25:57,470 - #36 }
+INFO  08:25:57,470 - #46 int
+INFO  08:25:57,471 - #46 a
+INFO  08:25:57,471 - #27 ;
+INFO  08:25:57,471 - #35 {
+INFO  08:25:57,471 - #8 void
+INFO  08:25:57,471 - #46 main
+INFO  08:25:57,472 - #31 (
+INFO  08:25:57,472 - #32 )
+INFO  08:25:57,473 - #46 int
+INFO  08:25:57,473 - #46 bodovi
+INFO  08:25:57,473 - #27 ;
+INFO  08:25:57,473 - #46 bool
+INFO  08:25:57,473 - #46 bt
+INFO  08:25:57,473 - #27 ;
+INFO  08:25:57,473 - #35 {
+INFO  08:25:57,473 - #46 bodovi
+INFO  08:25:57,474 - #24 =
+INFO  08:25:57,474 - #45 0
+INFO  08:25:57,475 - #27 ;
+INFO  08:25:57,476 - #46 bodovi
+INFO  08:25:57,476 - #25 ++
+INFO  08:25:57,476 - #27 ;
+INFO  08:25:57,476 - #46 bodovi
+INFO  08:25:57,476 - #24 =
+INFO  08:25:57,476 - #46 bodovi
+INFO  08:25:57,476 - #11 +
+INFO  08:25:57,476 - #46 Konstante
+INFO  08:25:57,478 - #28 :
+INFO  08:25:57,478 - #28 :
+INFO  08:25:57,478 - #46 jedan
+INFO  08:25:57,478 - #27 ;
+INFO  08:25:57,478 - #46 bodovi
+INFO  08:25:57,478 - #24 =
+INFO  08:25:57,478 - #46 bodovi
+INFO  08:25:57,478 - #13 *
+INFO  08:25:57,478 - #46 Konstante
+INFO  08:25:57,479 - #28 :
+INFO  08:25:57,479 - #28 :
+INFO  08:25:57,479 - #46 pet
+INFO  08:25:57,479 - #27 ;
+INFO  08:25:57,479 - #46 bodovi
+INFO  08:25:57,479 - #26 --
+INFO  08:25:57,479 - #27 ;
+INFO  08:25:57,479 - #5 print
+INFO  08:25:57,479 - #31 (
+INFO  08:25:57,479 - #46 bodovi
+INFO  08:25:57,479 - #32 )
+INFO  08:25:57,479 - #27 ;
+INFO  08:25:57,479 - #46 Nizovi
+INFO  08:25:57,479 - #28 :
+INFO  08:25:57,479 - #28 :
+INFO  08:25:57,479 - #46 niz
+INFO  08:25:57,480 - #24 =
+INFO  08:25:57,480 - #4 new
+INFO  08:25:57,480 - #46 int
+INFO  08:25:57,480 - #33 [
+INFO  08:25:57,480 - #45 3
+INFO  08:25:57,480 - #34 ]
+INFO  08:25:57,480 - #27 ;
+INFO  08:25:57,480 - #46 Nizovi
+INFO  08:25:57,480 - #28 :
+INFO  08:25:57,480 - #28 :
+INFO  08:25:57,480 - #46 niz
+INFO  08:25:57,480 - #33 [
+INFO  08:25:57,480 - #46 Konstante
+INFO  08:25:57,480 - #28 :
+INFO  08:25:57,480 - #28 :
+INFO  08:25:57,480 - #46 nula
+INFO  08:25:57,480 - #34 ]
+INFO  08:25:57,480 - #24 =
+INFO  08:25:57,481 - #46 Konstante
+INFO  08:25:57,481 - #28 :
+INFO  08:25:57,481 - #28 :
+INFO  08:25:57,481 - #46 jedan
+INFO  08:25:57,481 - #27 ;
+INFO  08:25:57,481 - #46 Nizovi
+INFO  08:25:57,481 - #28 :
+INFO  08:25:57,481 - #28 :
+INFO  08:25:57,481 - #46 niz
+INFO  08:25:57,481 - #33 [
+INFO  08:25:57,481 - #45 1
+INFO  08:25:57,481 - #34 ]
+INFO  08:25:57,481 - #24 =
+INFO  08:25:57,481 - #45 2
+INFO  08:25:57,481 - #27 ;
+INFO  08:25:57,481 - #46 Nizovi
+INFO  08:25:57,481 - #28 :
+INFO  08:25:57,481 - #28 :
+INFO  08:25:57,482 - #46 niz
+INFO  08:25:57,482 - #33 [
+INFO  08:25:57,482 - #46 Nizovi
+INFO  08:25:57,482 - #28 :
+INFO  08:25:57,482 - #28 :
+INFO  08:25:57,482 - #46 niz
+INFO  08:25:57,482 - #33 [
+INFO  08:25:57,482 - #46 Konstante
+INFO  08:25:57,482 - #28 :
+INFO  08:25:57,482 - #28 :
+INFO  08:25:57,482 - #46 jedan
+INFO  08:25:57,482 - #34 ]
+INFO  08:25:57,482 - #34 ]
+INFO  08:25:57,482 - #24 =
+INFO  08:25:57,482 - #46 Nizovi
+INFO  08:25:57,482 - #28 :
+INFO  08:25:57,482 - #28 :
+INFO  08:25:57,482 - #46 niz
+INFO  08:25:57,482 - #33 [
+INFO  08:25:57,482 - #46 Nizovi
+INFO  08:25:57,482 - #28 :
+INFO  08:25:57,482 - #28 :
+INFO  08:25:57,482 - #46 niz
+INFO  08:25:57,482 - #33 [
+INFO  08:25:57,482 - #45 0
+INFO  08:25:57,482 - #34 ]
+INFO  08:25:57,482 - #34 ]
+INFO  08:25:57,482 - #13 *
+INFO  08:25:57,482 - #45 3
+INFO  08:25:57,483 - #27 ;
+INFO  08:25:57,483 - #46 bodovi
+INFO  08:25:57,483 - #24 =
+INFO  08:25:57,483 - #46 Nizovi
+INFO  08:25:57,483 - #28 :
+INFO  08:25:57,483 - #28 :
+INFO  08:25:57,483 - #46 niz
+INFO  08:25:57,483 - #33 [
+INFO  08:25:57,483 - #45 2
+INFO  08:25:57,483 - #34 ]
+INFO  08:25:57,483 - #14 /
+INFO  08:25:57,483 - #46 Nizovi
+INFO  08:25:57,483 - #28 :
+INFO  08:25:57,483 - #28 :
+INFO  08:25:57,483 - #46 niz
+INFO  08:25:57,483 - #33 [
+INFO  08:25:57,483 - #45 0
+INFO  08:25:57,485 - #34 ]
+INFO  08:25:57,485 - #27 ;
+INFO  08:25:57,485 - #5 print
+INFO  08:25:57,485 - #31 (
+INFO  08:25:57,485 - #46 bodovi
+INFO  08:25:57,485 - #32 )
+INFO  08:25:57,485 - #27 ;
+INFO  08:25:57,485 - #5 print
+INFO  08:25:57,485 - #31 (
+INFO  08:25:57,485 - #46 Nizovi
+INFO  08:25:57,485 - #28 :
+INFO  08:25:57,485 - #28 :
+INFO  08:25:57,485 - #46 niz
+INFO  08:25:57,485 - #33 [
+INFO  08:25:57,485 - #45 2
+INFO  08:25:57,485 - #34 ]
+INFO  08:25:57,485 - #32 )
+INFO  08:25:57,485 - #27 ;
+INFO  08:25:57,485 - #46 Nizovi
+INFO  08:25:57,485 - #28 :
+INFO  08:25:57,485 - #28 :
+INFO  08:25:57,485 - #46 nizch
+INFO  08:25:57,485 - #24 =
+INFO  08:25:57,485 - #4 new
+INFO  08:25:57,485 - #46 char
+INFO  08:25:57,485 - #33 [
+INFO  08:25:57,485 - #45 3
+INFO  08:25:57,485 - #34 ]
+INFO  08:25:57,485 - #27 ;
+INFO  08:25:57,485 - #46 Nizovi
+INFO  08:25:57,486 - #28 :
+INFO  08:25:57,486 - #28 :
+INFO  08:25:57,486 - #46 nizch
+INFO  08:25:57,486 - #33 [
+INFO  08:25:57,486 - #45 0
+INFO  08:25:57,486 - #34 ]
+INFO  08:25:57,486 - #24 =
+INFO  08:25:57,486 - #47 a
+INFO  08:25:57,486 - #27 ;
+INFO  08:25:57,486 - #46 Nizovi
+INFO  08:25:57,486 - #28 :
+INFO  08:25:57,486 - #28 :
+INFO  08:25:57,486 - #46 nizch
+INFO  08:25:57,486 - #33 [
+INFO  08:25:57,486 - #46 Konstante
+INFO  08:25:57,486 - #28 :
+INFO  08:25:57,486 - #28 :
+INFO  08:25:57,486 - #46 jedan
+INFO  08:25:57,486 - #34 ]
+INFO  08:25:57,486 - #24 =
+INFO  08:25:57,487 - #47 b
+INFO  08:25:57,487 - #27 ;
+INFO  08:25:57,487 - #46 Nizovi
+INFO  08:25:57,487 - #28 :
+INFO  08:25:57,487 - #28 :
+INFO  08:25:57,487 - #46 nizch
+INFO  08:25:57,487 - #33 [
+INFO  08:25:57,487 - #46 Konstante
+INFO  08:25:57,487 - #28 :
+INFO  08:25:57,487 - #28 :
+INFO  08:25:57,487 - #46 pet
+INFO  08:25:57,487 - #12 -
+INFO  08:25:57,487 - #45 3
+INFO  08:25:57,489 - #34 ]
+INFO  08:25:57,489 - #24 =
+INFO  08:25:57,489 - #47 c
+INFO  08:25:57,489 - #27 ;
+INFO  08:25:57,489 - #5 print
+INFO  08:25:57,489 - #31 (
+INFO  08:25:57,489 - #46 Nizovi
+INFO  08:25:57,489 - #28 :
+INFO  08:25:57,489 - #28 :
+INFO  08:25:57,489 - #46 nizch
+INFO  08:25:57,489 - #33 [
+INFO  08:25:57,489 - #45 1
+INFO  08:25:57,489 - #34 ]
+INFO  08:25:57,489 - #32 )
+INFO  08:25:57,489 - #27 ;
+INFO  08:25:57,489 - #5 print
+INFO  08:25:57,489 - #31 (
+INFO  08:25:57,489 - #46 Nizovi
+INFO  08:25:57,489 - #28 :
+INFO  08:25:57,489 - #28 :
+INFO  08:25:57,489 - #46 nizch
+INFO  08:25:57,489 - #33 [
+INFO  08:25:57,489 - #46 Konstante
+INFO  08:25:57,489 - #28 :
+INFO  08:25:57,489 - #28 :
+INFO  08:25:57,489 - #46 jedan
+INFO  08:25:57,489 - #13 *
+INFO  08:25:57,490 - #45 2
+INFO  08:25:57,490 - #34 ]
+INFO  08:25:57,490 - #32 )
+INFO  08:25:57,490 - #27 ;
+INFO  08:25:57,490 - #46 a
+INFO  08:25:57,490 - #24 =
+INFO  08:25:57,490 - #45 1
+INFO  08:25:57,490 - #27 ;
+INFO  08:25:57,490 - #6 read
+INFO  08:25:57,490 - #31 (
+INFO  08:25:57,490 - #46 bodovi
+INFO  08:25:57,490 - #32 )
+INFO  08:25:57,490 - #27 ;
+INFO  08:25:57,490 - #46 bodovi
+INFO  08:25:57,490 - #24 =
+INFO  08:25:57,490 - #12 -
+INFO  08:25:57,490 - #46 bodovi
+INFO  08:25:57,490 - #11 +
+INFO  08:25:57,491 - #31 (
+INFO  08:25:57,491 - #46 Konstante
+INFO  08:25:57,491 - #28 :
+INFO  08:25:57,491 - #28 :
+INFO  08:25:57,491 - #46 pet
+INFO  08:25:57,491 - #13 *
+INFO  08:25:57,491 - #46 a
+INFO  08:25:57,491 - #14 /
+INFO  08:25:57,491 - #45 2
+INFO  08:25:57,491 - #12 -
+INFO  08:25:57,491 - #46 Konstante
+INFO  08:25:57,491 - #28 :
+INFO  08:25:57,491 - #28 :
+INFO  08:25:57,491 - #46 jedan
+INFO  08:25:57,491 - #32 )
+INFO  08:25:57,491 - #13 *
+INFO  08:25:57,491 - #46 bodovi
+INFO  08:25:57,491 - #12 -
+INFO  08:25:57,491 - #31 (
+INFO  08:25:57,491 - #45 3
+INFO  08:25:57,491 - #15 %
+INFO  08:25:57,491 - #45 2
+INFO  08:25:57,492 - #11 +
+INFO  08:25:57,492 - #45 3
+INFO  08:25:57,492 - #13 *
+INFO  08:25:57,492 - #45 2
+INFO  08:25:57,492 - #12 -
+INFO  08:25:57,492 - #45 3
+INFO  08:25:57,492 - #32 )
+INFO  08:25:57,492 - #27 ;
+INFO  08:25:57,492 - #5 print
+INFO  08:25:57,492 - #31 (
+INFO  08:25:57,492 - #46 bodovi
+INFO  08:25:57,492 - #32 )
+INFO  08:25:57,492 - #27 ;
+INFO  08:25:57,492 - #36 }
+INFO  08:25:57,492 - #36 }
+INFO  08:25:57,493 - ================= PARSIRANO STABLO =================
+INFO  08:25:57,498 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamespaceDeclarations(
+    NamespaceDeclarations(
+      NoNamespaceDeclarations(
+      ) [NoNamespaceDeclarations]
+      Namespace(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        Declarations(
+          Declarations(
+            Declarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstantDeclaration(
+                ConDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDef(
+                   nula
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [ConstDef]
+                  NoConstantDeclaration(
+                  ) [NoConstantDeclaration]
+                ) [ConDecl]
+              ) [ConstantDeclaration]
+            ) [Declarations]
+            ConstantDeclaration(
+              ConDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstDef(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstDef]
+                NoConstantDeclaration(
+                ) [NoConstantDeclaration]
+              ) [ConDecl]
+            ) [ConstantDeclaration]
+          ) [Declarations]
+          ConstantDeclaration(
+            ConDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDef(
+               pet
+                NumConst(
+                 5
+                ) [NumConst]
+              ) [ConstDef]
+              NoConstantDeclaration(
+              ) [NoConstantDeclaration]
+            ) [ConDecl]
+          ) [ConstantDeclaration]
+        ) [Declarations]
+        NoMethodDeclarations(
+        ) [NoMethodDeclarations]
+      ) [Namespace]
+    ) [NamespaceDeclarations]
+    Namespace(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      Declarations(
+        Declarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VariableDeclaration(
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclaration(
+                AddVarDecl1(
+                 niz
+                  Brackets(
+                  ) [Brackets]
+                ) [AddVarDecl1]
+              ) [OneVarDeclaration]
+            ) [VarDeclaration]
+          ) [VariableDeclaration]
+        ) [Declarations]
+        VariableDeclaration(
+          VarDeclaration(
+            Type(
+             char
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               nizch
+                Brackets(
+                ) [Brackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [VariableDeclaration]
+      ) [Declarations]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [Namespace]
+  ) [NamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           a
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               bodovi
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             bt
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    NoStatements(
+                                                    ) [NoStatements]
+                                                    DesignatorStat(
+                                                      DesignatorExpr(
+                                                        Designator(
+                                                          WithoutNamespace(
+                                                           bodovi
+                                                          ) [WithoutNamespace]
+                                                          NoArrayExpression(
+                                                          ) [NoArrayExpression]
+                                                        ) [Designator]
+                                                        AssignOperation(
+                                                        ) [AssignOperation]
+                                                        PositiveStartExpr(
+                                                          SingleTerm(
+                                                            NumberConst(
+                                                             0
+                                                            ) [NumberConst]
+                                                          ) [SingleTerm]
+                                                        ) [PositiveStartExpr]
+                                                      ) [DesignatorExpr]
+                                                    ) [DesignatorStat]
+                                                  ) [Statements]
+                                                  DesignatorStat(
+                                                    DesignatorPP(
+                                                      Designator(
+                                                        WithoutNamespace(
+                                                         bodovi
+                                                        ) [WithoutNamespace]
+                                                        NoArrayExpression(
+                                                        ) [NoArrayExpression]
+                                                      ) [Designator]
+                                                    ) [DesignatorPP]
+                                                  ) [DesignatorStat]
+                                                ) [Statements]
+                                                DesignatorStat(
+                                                  DesignatorExpr(
+                                                    Designator(
+                                                      WithoutNamespace(
+                                                       bodovi
+                                                      ) [WithoutNamespace]
+                                                      NoArrayExpression(
+                                                      ) [NoArrayExpression]
+                                                    ) [Designator]
+                                                    AssignOperation(
+                                                    ) [AssignOperation]
+                                                    AddExpression(
+                                                      PositiveStartExpr(
+                                                        SingleTerm(
+                                                          DesignatorFact(
+                                                            Designator(
+                                                              WithoutNamespace(
+                                                               bodovi
+                                                              ) [WithoutNamespace]
+                                                              NoArrayExpression(
+                                                              ) [NoArrayExpression]
+                                                            ) [Designator]
+                                                          ) [DesignatorFact]
+                                                        ) [SingleTerm]
+                                                      ) [PositiveStartExpr]
+                                                      Plus(
+                                                      ) [Plus]
+                                                      SingleTerm(
+                                                        DesignatorFact(
+                                                          Designator(
+                                                            WithNamespace(
+                                                             Konstante
+                                                             jedan
+                                                            ) [WithNamespace]
+                                                            NoArrayExpression(
+                                                            ) [NoArrayExpression]
+                                                          ) [Designator]
+                                                        ) [DesignatorFact]
+                                                      ) [SingleTerm]
+                                                    ) [AddExpression]
+                                                  ) [DesignatorExpr]
+                                                ) [DesignatorStat]
+                                              ) [Statements]
+                                              DesignatorStat(
+                                                DesignatorExpr(
+                                                  Designator(
+                                                    WithoutNamespace(
+                                                     bodovi
+                                                    ) [WithoutNamespace]
+                                                    NoArrayExpression(
+                                                    ) [NoArrayExpression]
+                                                  ) [Designator]
+                                                  AssignOperation(
+                                                  ) [AssignOperation]
+                                                  PositiveStartExpr(
+                                                    MultipleTerms(
+                                                      SingleTerm(
+                                                        DesignatorFact(
+                                                          Designator(
+                                                            WithoutNamespace(
+                                                             bodovi
+                                                            ) [WithoutNamespace]
+                                                            NoArrayExpression(
+                                                            ) [NoArrayExpression]
+                                                          ) [Designator]
+                                                        ) [DesignatorFact]
+                                                      ) [SingleTerm]
+                                                      Multiply(
+                                                      ) [Multiply]
+                                                      DesignatorFact(
+                                                        Designator(
+                                                          WithNamespace(
+                                                           Konstante
+                                                           pet
+                                                          ) [WithNamespace]
+                                                          NoArrayExpression(
+                                                          ) [NoArrayExpression]
+                                                        ) [Designator]
+                                                      ) [DesignatorFact]
+                                                    ) [MultipleTerms]
+                                                  ) [PositiveStartExpr]
+                                                ) [DesignatorExpr]
+                                              ) [DesignatorStat]
+                                            ) [Statements]
+                                            DesignatorStat(
+                                              DesignatorMM(
+                                                Designator(
+                                                  WithoutNamespace(
+                                                   bodovi
+                                                  ) [WithoutNamespace]
+                                                  NoArrayExpression(
+                                                  ) [NoArrayExpression]
+                                                ) [Designator]
+                                              ) [DesignatorMM]
+                                            ) [DesignatorStat]
+                                          ) [Statements]
+                                          PrintExpr(
+                                            PositiveStartExpr(
+                                              SingleTerm(
+                                                DesignatorFact(
+                                                  Designator(
+                                                    WithoutNamespace(
+                                                     bodovi
+                                                    ) [WithoutNamespace]
+                                                    NoArrayExpression(
+                                                    ) [NoArrayExpression]
+                                                  ) [Designator]
+                                                ) [DesignatorFact]
+                                              ) [SingleTerm]
+                                            ) [PositiveStartExpr]
+                                            NoNumConstOpt(
+                                            ) [NoNumConstOpt]
+                                          ) [PrintExpr]
+                                        ) [Statements]
+                                        DesignatorStat(
+                                          DesignatorExpr(
+                                            Designator(
+                                              WithNamespace(
+                                               Nizovi
+                                               niz
+                                              ) [WithNamespace]
+                                              NoArrayExpression(
+                                              ) [NoArrayExpression]
+                                            ) [Designator]
+                                            AssignOperation(
+                                            ) [AssignOperation]
+                                            PositiveStartExpr(
+                                              SingleTerm(
+                                                NewType(
+                                                  Type(
+                                                   int
+                                                  ) [Type]
+                                                  PositiveStartExpr(
+                                                    SingleTerm(
+                                                      NumberConst(
+                                                       3
+                                                      ) [NumberConst]
+                                                    ) [SingleTerm]
+                                                  ) [PositiveStartExpr]
+                                                ) [NewType]
+                                              ) [SingleTerm]
+                                            ) [PositiveStartExpr]
+                                          ) [DesignatorExpr]
+                                        ) [DesignatorStat]
+                                      ) [Statements]
+                                      DesignatorStat(
+                                        DesignatorExpr(
+                                          Designator(
+                                            WithNamespace(
+                                             Nizovi
+                                             niz
+                                            ) [WithNamespace]
+                                            AddArrayExpression(
+                                              BraExpr(
+                                                PositiveStartExpr(
+                                                  SingleTerm(
+                                                    DesignatorFact(
+                                                      Designator(
+                                                        WithNamespace(
+                                                         Konstante
+                                                         nula
+                                                        ) [WithNamespace]
+                                                        NoArrayExpression(
+                                                        ) [NoArrayExpression]
+                                                      ) [Designator]
+                                                    ) [DesignatorFact]
+                                                  ) [SingleTerm]
+                                                ) [PositiveStartExpr]
+                                              ) [BraExpr]
+                                            ) [AddArrayExpression]
+                                          ) [Designator]
+                                          AssignOperation(
+                                          ) [AssignOperation]
+                                          PositiveStartExpr(
+                                            SingleTerm(
+                                              DesignatorFact(
+                                                Designator(
+                                                  WithNamespace(
+                                                   Konstante
+                                                   jedan
+                                                  ) [WithNamespace]
+                                                  NoArrayExpression(
+                                                  ) [NoArrayExpression]
+                                                ) [Designator]
+                                              ) [DesignatorFact]
+                                            ) [SingleTerm]
+                                          ) [PositiveStartExpr]
+                                        ) [DesignatorExpr]
+                                      ) [DesignatorStat]
+                                    ) [Statements]
+                                    DesignatorStat(
+                                      DesignatorExpr(
+                                        Designator(
+                                          WithNamespace(
+                                           Nizovi
+                                           niz
+                                          ) [WithNamespace]
+                                          AddArrayExpression(
+                                            BraExpr(
+                                              PositiveStartExpr(
+                                                SingleTerm(
+                                                  NumberConst(
+                                                   1
+                                                  ) [NumberConst]
+                                                ) [SingleTerm]
+                                              ) [PositiveStartExpr]
+                                            ) [BraExpr]
+                                          ) [AddArrayExpression]
+                                        ) [Designator]
+                                        AssignOperation(
+                                        ) [AssignOperation]
+                                        PositiveStartExpr(
+                                          SingleTerm(
+                                            NumberConst(
+                                             2
+                                            ) [NumberConst]
+                                          ) [SingleTerm]
+                                        ) [PositiveStartExpr]
+                                      ) [DesignatorExpr]
+                                    ) [DesignatorStat]
+                                  ) [Statements]
+                                  DesignatorStat(
+                                    DesignatorExpr(
+                                      Designator(
+                                        WithNamespace(
+                                         Nizovi
+                                         niz
+                                        ) [WithNamespace]
+                                        AddArrayExpression(
+                                          BraExpr(
+                                            PositiveStartExpr(
+                                              SingleTerm(
+                                                DesignatorFact(
+                                                  Designator(
+                                                    WithNamespace(
+                                                     Nizovi
+                                                     niz
+                                                    ) [WithNamespace]
+                                                    AddArrayExpression(
+                                                      BraExpr(
+                                                        PositiveStartExpr(
+                                                          SingleTerm(
+                                                            DesignatorFact(
+                                                              Designator(
+                                                                WithNamespace(
+                                                                 Konstante
+                                                                 jedan
+                                                                ) [WithNamespace]
+                                                                NoArrayExpression(
+                                                                ) [NoArrayExpression]
+                                                              ) [Designator]
+                                                            ) [DesignatorFact]
+                                                          ) [SingleTerm]
+                                                        ) [PositiveStartExpr]
+                                                      ) [BraExpr]
+                                                    ) [AddArrayExpression]
+                                                  ) [Designator]
+                                                ) [DesignatorFact]
+                                              ) [SingleTerm]
+                                            ) [PositiveStartExpr]
+                                          ) [BraExpr]
+                                        ) [AddArrayExpression]
+                                      ) [Designator]
+                                      AssignOperation(
+                                      ) [AssignOperation]
+                                      PositiveStartExpr(
+                                        MultipleTerms(
+                                          SingleTerm(
+                                            DesignatorFact(
+                                              Designator(
+                                                WithNamespace(
+                                                 Nizovi
+                                                 niz
+                                                ) [WithNamespace]
+                                                AddArrayExpression(
+                                                  BraExpr(
+                                                    PositiveStartExpr(
+                                                      SingleTerm(
+                                                        DesignatorFact(
+                                                          Designator(
+                                                            WithNamespace(
+                                                             Nizovi
+                                                             niz
+                                                            ) [WithNamespace]
+                                                            AddArrayExpression(
+                                                              BraExpr(
+                                                                PositiveStartExpr(
+                                                                  SingleTerm(
+                                                                    NumberConst(
+                                                                     0
+                                                                    ) [NumberConst]
+                                                                  ) [SingleTerm]
+                                                                ) [PositiveStartExpr]
+                                                              ) [BraExpr]
+                                                            ) [AddArrayExpression]
+                                                          ) [Designator]
+                                                        ) [DesignatorFact]
+                                                      ) [SingleTerm]
+                                                    ) [PositiveStartExpr]
+                                                  ) [BraExpr]
+                                                ) [AddArrayExpression]
+                                              ) [Designator]
+                                            ) [DesignatorFact]
+                                          ) [SingleTerm]
+                                          Multiply(
+                                          ) [Multiply]
+                                          NumberConst(
+                                           3
+                                          ) [NumberConst]
+                                        ) [MultipleTerms]
+                                      ) [PositiveStartExpr]
+                                    ) [DesignatorExpr]
+                                  ) [DesignatorStat]
+                                ) [Statements]
+                                DesignatorStat(
+                                  DesignatorExpr(
+                                    Designator(
+                                      WithoutNamespace(
+                                       bodovi
+                                      ) [WithoutNamespace]
+                                      NoArrayExpression(
+                                      ) [NoArrayExpression]
+                                    ) [Designator]
+                                    AssignOperation(
+                                    ) [AssignOperation]
+                                    PositiveStartExpr(
+                                      MultipleTerms(
+                                        SingleTerm(
+                                          DesignatorFact(
+                                            Designator(
+                                              WithNamespace(
+                                               Nizovi
+                                               niz
+                                              ) [WithNamespace]
+                                              AddArrayExpression(
+                                                BraExpr(
+                                                  PositiveStartExpr(
+                                                    SingleTerm(
+                                                      NumberConst(
+                                                       2
+                                                      ) [NumberConst]
+                                                    ) [SingleTerm]
+                                                  ) [PositiveStartExpr]
+                                                ) [BraExpr]
+                                              ) [AddArrayExpression]
+                                            ) [Designator]
+                                          ) [DesignatorFact]
+                                        ) [SingleTerm]
+                                        Divide(
+                                        ) [Divide]
+                                        DesignatorFact(
+                                          Designator(
+                                            WithNamespace(
+                                             Nizovi
+                                             niz
+                                            ) [WithNamespace]
+                                            AddArrayExpression(
+                                              BraExpr(
+                                                PositiveStartExpr(
+                                                  SingleTerm(
+                                                    NumberConst(
+                                                     0
+                                                    ) [NumberConst]
+                                                  ) [SingleTerm]
+                                                ) [PositiveStartExpr]
+                                              ) [BraExpr]
+                                            ) [AddArrayExpression]
+                                          ) [Designator]
+                                        ) [DesignatorFact]
+                                      ) [MultipleTerms]
+                                    ) [PositiveStartExpr]
+                                  ) [DesignatorExpr]
+                                ) [DesignatorStat]
+                              ) [Statements]
+                              PrintExpr(
+                                PositiveStartExpr(
+                                  SingleTerm(
+                                    DesignatorFact(
+                                      Designator(
+                                        WithoutNamespace(
+                                         bodovi
+                                        ) [WithoutNamespace]
+                                        NoArrayExpression(
+                                        ) [NoArrayExpression]
+                                      ) [Designator]
+                                    ) [DesignatorFact]
+                                  ) [SingleTerm]
+                                ) [PositiveStartExpr]
+                                NoNumConstOpt(
+                                ) [NoNumConstOpt]
+                              ) [PrintExpr]
+                            ) [Statements]
+                            PrintExpr(
+                              PositiveStartExpr(
+                                SingleTerm(
+                                  DesignatorFact(
+                                    Designator(
+                                      WithNamespace(
+                                       Nizovi
+                                       niz
+                                      ) [WithNamespace]
+                                      AddArrayExpression(
+                                        BraExpr(
+                                          PositiveStartExpr(
+                                            SingleTerm(
+                                              NumberConst(
+                                               2
+                                              ) [NumberConst]
+                                            ) [SingleTerm]
+                                          ) [PositiveStartExpr]
+                                        ) [BraExpr]
+                                      ) [AddArrayExpression]
+                                    ) [Designator]
+                                  ) [DesignatorFact]
+                                ) [SingleTerm]
+                              ) [PositiveStartExpr]
+                              NoNumConstOpt(
+                              ) [NoNumConstOpt]
+                            ) [PrintExpr]
+                          ) [Statements]
+                          DesignatorStat(
+                            DesignatorExpr(
+                              Designator(
+                                WithNamespace(
+                                 Nizovi
+                                 nizch
+                                ) [WithNamespace]
+                                NoArrayExpression(
+                                ) [NoArrayExpression]
+                              ) [Designator]
+                              AssignOperation(
+                              ) [AssignOperation]
+                              PositiveStartExpr(
+                                SingleTerm(
+                                  NewType(
+                                    Type(
+                                     char
+                                    ) [Type]
+                                    PositiveStartExpr(
+                                      SingleTerm(
+                                        NumberConst(
+                                         3
+                                        ) [NumberConst]
+                                      ) [SingleTerm]
+                                    ) [PositiveStartExpr]
+                                  ) [NewType]
+                                ) [SingleTerm]
+                              ) [PositiveStartExpr]
+                            ) [DesignatorExpr]
+                          ) [DesignatorStat]
+                        ) [Statements]
+                        DesignatorStat(
+                          DesignatorExpr(
+                            Designator(
+                              WithNamespace(
+                               Nizovi
+                               nizch
+                              ) [WithNamespace]
+                              AddArrayExpression(
+                                BraExpr(
+                                  PositiveStartExpr(
+                                    SingleTerm(
+                                      NumberConst(
+                                       0
+                                      ) [NumberConst]
+                                    ) [SingleTerm]
+                                  ) [PositiveStartExpr]
+                                ) [BraExpr]
+                              ) [AddArrayExpression]
+                            ) [Designator]
+                            AssignOperation(
+                            ) [AssignOperation]
+                            PositiveStartExpr(
+                              SingleTerm(
+                                CharacterConst(
+                                 a
+                                ) [CharacterConst]
+                              ) [SingleTerm]
+                            ) [PositiveStartExpr]
+                          ) [DesignatorExpr]
+                        ) [DesignatorStat]
+                      ) [Statements]
+                      DesignatorStat(
+                        DesignatorExpr(
+                          Designator(
+                            WithNamespace(
+                             Nizovi
+                             nizch
+                            ) [WithNamespace]
+                            AddArrayExpression(
+                              BraExpr(
+                                PositiveStartExpr(
+                                  SingleTerm(
+                                    DesignatorFact(
+                                      Designator(
+                                        WithNamespace(
+                                         Konstante
+                                         jedan
+                                        ) [WithNamespace]
+                                        NoArrayExpression(
+                                        ) [NoArrayExpression]
+                                      ) [Designator]
+                                    ) [DesignatorFact]
+                                  ) [SingleTerm]
+                                ) [PositiveStartExpr]
+                              ) [BraExpr]
+                            ) [AddArrayExpression]
+                          ) [Designator]
+                          AssignOperation(
+                          ) [AssignOperation]
+                          PositiveStartExpr(
+                            SingleTerm(
+                              CharacterConst(
+                               b
+                              ) [CharacterConst]
+                            ) [SingleTerm]
+                          ) [PositiveStartExpr]
+                        ) [DesignatorExpr]
+                      ) [DesignatorStat]
+                    ) [Statements]
+                    DesignatorStat(
+                      DesignatorExpr(
+                        Designator(
+                          WithNamespace(
+                           Nizovi
+                           nizch
+                          ) [WithNamespace]
+                          AddArrayExpression(
+                            BraExpr(
+                              AddExpression(
+                                PositiveStartExpr(
+                                  SingleTerm(
+                                    DesignatorFact(
+                                      Designator(
+                                        WithNamespace(
+                                         Konstante
+                                         pet
+                                        ) [WithNamespace]
+                                        NoArrayExpression(
+                                        ) [NoArrayExpression]
+                                      ) [Designator]
+                                    ) [DesignatorFact]
+                                  ) [SingleTerm]
+                                ) [PositiveStartExpr]
+                                Minus(
+                                ) [Minus]
+                                SingleTerm(
+                                  NumberConst(
+                                   3
+                                  ) [NumberConst]
+                                ) [SingleTerm]
+                              ) [AddExpression]
+                            ) [BraExpr]
+                          ) [AddArrayExpression]
+                        ) [Designator]
+                        AssignOperation(
+                        ) [AssignOperation]
+                        PositiveStartExpr(
+                          SingleTerm(
+                            CharacterConst(
+                             c
+                            ) [CharacterConst]
+                          ) [SingleTerm]
+                        ) [PositiveStartExpr]
+                      ) [DesignatorExpr]
+                    ) [DesignatorStat]
+                  ) [Statements]
+                  PrintExpr(
+                    PositiveStartExpr(
+                      SingleTerm(
+                        DesignatorFact(
+                          Designator(
+                            WithNamespace(
+                             Nizovi
+                             nizch
+                            ) [WithNamespace]
+                            AddArrayExpression(
+                              BraExpr(
+                                PositiveStartExpr(
+                                  SingleTerm(
+                                    NumberConst(
+                                     1
+                                    ) [NumberConst]
+                                  ) [SingleTerm]
+                                ) [PositiveStartExpr]
+                              ) [BraExpr]
+                            ) [AddArrayExpression]
+                          ) [Designator]
+                        ) [DesignatorFact]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                    NoNumConstOpt(
+                    ) [NoNumConstOpt]
+                  ) [PrintExpr]
+                ) [Statements]
+                PrintExpr(
+                  PositiveStartExpr(
+                    SingleTerm(
+                      DesignatorFact(
+                        Designator(
+                          WithNamespace(
+                           Nizovi
+                           nizch
+                          ) [WithNamespace]
+                          AddArrayExpression(
+                            BraExpr(
+                              PositiveStartExpr(
+                                MultipleTerms(
+                                  SingleTerm(
+                                    DesignatorFact(
+                                      Designator(
+                                        WithNamespace(
+                                         Konstante
+                                         jedan
+                                        ) [WithNamespace]
+                                        NoArrayExpression(
+                                        ) [NoArrayExpression]
+                                      ) [Designator]
+                                    ) [DesignatorFact]
+                                  ) [SingleTerm]
+                                  Multiply(
+                                  ) [Multiply]
+                                  NumberConst(
+                                   2
+                                  ) [NumberConst]
+                                ) [MultipleTerms]
+                              ) [PositiveStartExpr]
+                            ) [BraExpr]
+                          ) [AddArrayExpression]
+                        ) [Designator]
+                      ) [DesignatorFact]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                  NoNumConstOpt(
+                  ) [NoNumConstOpt]
+                ) [PrintExpr]
+              ) [Statements]
+              DesignatorStat(
+                DesignatorExpr(
+                  Designator(
+                    WithoutNamespace(
+                     a
+                    ) [WithoutNamespace]
+                    NoArrayExpression(
+                    ) [NoArrayExpression]
+                  ) [Designator]
+                  AssignOperation(
+                  ) [AssignOperation]
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       1
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [DesignatorExpr]
+              ) [DesignatorStat]
+            ) [Statements]
+            ReadDesignator(
+              Designator(
+                WithoutNamespace(
+                 bodovi
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+            ) [ReadDesignator]
+          ) [Statements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 bodovi
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              AddExpression(
+                AddExpression(
+                  NegativeStartExpr(
+                    SingleTerm(
+                      DesignatorFact(
+                        Designator(
+                          WithoutNamespace(
+                           bodovi
+                          ) [WithoutNamespace]
+                          NoArrayExpression(
+                          ) [NoArrayExpression]
+                        ) [Designator]
+                      ) [DesignatorFact]
+                    ) [SingleTerm]
+                  ) [NegativeStartExpr]
+                  Plus(
+                  ) [Plus]
+                  MultipleTerms(
+                    SingleTerm(
+                      ExpressionFact(
+                        AddExpression(
+                          PositiveStartExpr(
+                            MultipleTerms(
+                              MultipleTerms(
+                                SingleTerm(
+                                  DesignatorFact(
+                                    Designator(
+                                      WithNamespace(
+                                       Konstante
+                                       pet
+                                      ) [WithNamespace]
+                                      NoArrayExpression(
+                                      ) [NoArrayExpression]
+                                    ) [Designator]
+                                  ) [DesignatorFact]
+                                ) [SingleTerm]
+                                Multiply(
+                                ) [Multiply]
+                                DesignatorFact(
+                                  Designator(
+                                    WithoutNamespace(
+                                     a
+                                    ) [WithoutNamespace]
+                                    NoArrayExpression(
+                                    ) [NoArrayExpression]
+                                  ) [Designator]
+                                ) [DesignatorFact]
+                              ) [MultipleTerms]
+                              Divide(
+                              ) [Divide]
+                              NumberConst(
+                               2
+                              ) [NumberConst]
+                            ) [MultipleTerms]
+                          ) [PositiveStartExpr]
+                          Minus(
+                          ) [Minus]
+                          SingleTerm(
+                            DesignatorFact(
+                              Designator(
+                                WithNamespace(
+                                 Konstante
+                                 jedan
+                                ) [WithNamespace]
+                                NoArrayExpression(
+                                ) [NoArrayExpression]
+                              ) [Designator]
+                            ) [DesignatorFact]
+                          ) [SingleTerm]
+                        ) [AddExpression]
+                      ) [ExpressionFact]
+                    ) [SingleTerm]
+                    Multiply(
+                    ) [Multiply]
+                    DesignatorFact(
+                      Designator(
+                        WithoutNamespace(
+                         bodovi
+                        ) [WithoutNamespace]
+                        NoArrayExpression(
+                        ) [NoArrayExpression]
+                      ) [Designator]
+                    ) [DesignatorFact]
+                  ) [MultipleTerms]
+                ) [AddExpression]
+                Minus(
+                ) [Minus]
+                SingleTerm(
+                  ExpressionFact(
+                    AddExpression(
+                      AddExpression(
+                        PositiveStartExpr(
+                          MultipleTerms(
+                            SingleTerm(
+                              NumberConst(
+                               3
+                              ) [NumberConst]
+                            ) [SingleTerm]
+                            Modulo(
+                            ) [Modulo]
+                            NumberConst(
+                             2
+                            ) [NumberConst]
+                          ) [MultipleTerms]
+                        ) [PositiveStartExpr]
+                        Plus(
+                        ) [Plus]
+                        MultipleTerms(
+                          SingleTerm(
+                            NumberConst(
+                             3
+                            ) [NumberConst]
+                          ) [SingleTerm]
+                          Multiply(
+                          ) [Multiply]
+                          NumberConst(
+                           2
+                          ) [NumberConst]
+                        ) [MultipleTerms]
+                      ) [AddExpression]
+                      Minus(
+                      ) [Minus]
+                      SingleTerm(
+                        NumberConst(
+                         3
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [AddExpression]
+                  ) [ExpressionFact]
+                ) [SingleTerm]
+              ) [AddExpression]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   bodovi
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  08:25:57,499 - ================ Semanticka obrada ===================
+INFO  08:25:57,502 - Symbol bodovi found on line 27
+INFO  08:25:57,502 - Symbol bodovi found on line 28
+INFO  08:25:57,502 - Symbol bodovi found on line 29
+INFO  08:25:57,502 - Symbol bodovi found on line 29
+INFO  08:25:57,502 - Symbol jedan found on line 29
+INFO  08:25:57,502 - Symbol bodovi found on line 30
+INFO  08:25:57,502 - Symbol bodovi found on line 30
+INFO  08:25:57,502 - Symbol pet found on line 30
+INFO  08:25:57,502 - Symbol bodovi found on line 31
+INFO  08:25:57,502 - Symbol bodovi found on line 32
+INFO  08:25:57,502 - Symbol niz found on line 34
+INFO  08:25:57,502 - Symbol niz found on line 35
+INFO  08:25:57,502 - Symbol nula found on line 35
+INFO  08:25:57,502 - Symbol jedan found on line 35
+INFO  08:25:57,502 - Symbol niz found on line 36
+INFO  08:25:57,502 - Symbol niz found on line 37
+INFO  08:25:57,502 - Symbol niz found on line 37
+INFO  08:25:57,502 - Symbol jedan found on line 37
+INFO  08:25:57,502 - Symbol niz found on line 37
+INFO  08:25:57,502 - Symbol niz found on line 37
+INFO  08:25:57,502 - Symbol bodovi found on line 38
+INFO  08:25:57,502 - Symbol niz found on line 38
+INFO  08:25:57,502 - Symbol niz found on line 38
+INFO  08:25:57,502 - Symbol bodovi found on line 39
+INFO  08:25:57,502 - Symbol niz found on line 40
+INFO  08:25:57,502 - Symbol nizch found on line 43
+INFO  08:25:57,503 - Symbol nizch found on line 44
+INFO  08:25:57,503 - Symbol nizch found on line 45
+INFO  08:25:57,503 - Symbol jedan found on line 45
+INFO  08:25:57,503 - Symbol nizch found on line 46
+INFO  08:25:57,503 - Symbol pet found on line 46
+INFO  08:25:57,503 - Symbol nizch found on line 47
+INFO  08:25:57,503 - Symbol nizch found on line 48
+INFO  08:25:57,503 - Symbol jedan found on line 48
+INFO  08:25:57,503 - Symbol a found on line 50
+INFO  08:25:57,503 - Symbol bodovi found on line 51
+INFO  08:25:57,503 - Symbol bodovi found on line 52
+INFO  08:25:57,503 - Symbol bodovi found on line 52
+INFO  08:25:57,503 - Symbol pet found on line 52
+INFO  08:25:57,503 - Symbol a found on line 52
+INFO  08:25:57,503 - Symbol jedan found on line 52
+INFO  08:25:57,503 - Symbol bodovi found on line 52
+INFO  08:25:57,503 - Symbol bodovi found on line 53
+INFO  08:25:57,503 - Found main() method on line 3
+INFO  08:25:57,507 - Parser SUCCESS!

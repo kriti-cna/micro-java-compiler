@@ -1,0 +1,409 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected = false;
+
+	Logger log = Logger.getLogger(getClass());
+
+
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      errorDetected=true;
+      report_error(message, info);
+    }
+
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        errorDetected=true;
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = false;
+    	StringBuilder msg = new StringBuilder(message);
+    	if (info instanceof Symbol)
+            msg.append (" on line ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message);
+    	if (info instanceof Symbol)
+            msg.append (" on line ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null)
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+init with {:
+	errorDetected = false;
+:}
+
+
+terminal PROGRAM, CONST, NEW, PRINT;
+terminal READ, RETURN, VOID, STATIC, NAMESPACE;
+terminal PLUS, MINUS, MULTIPLY, DIVIDE, MODULO;
+terminal EQUALS, NOT_EQUALS, GREATER_THAN, GREATER_EQUAL, LESS_THAN;
+terminal LESS_EQUAL, AND, OR, ASSIGN, INCREMENT, DECREMENT, SEMICOLON, COLON;
+terminal COMMA, DOT, LPAREN, RPAREN, LBRACKET, RBRACKET, LBRACE, RBRACE, ARROW;
+terminal FOR, EXTENDS, ELSE, IF, BREAK, CLASS,CONTINUE;
+terminal RANGE, MAX;
+terminal Integer NUMBER ;
+terminal String IDENT;
+terminal Character CHAR_CONST;
+terminal String BOOL_CONST;
+nonterminal NamespaceList, DeclarationsList, Declaration, MethodDeclList;
+nonterminal Namespace, ConstDecl, ConstList, VarDecl, VarDeclarations, VarDeclarationsList;
+nonterminal OptBrackets, StaticInitializer, StatementList, FormParsOpt;
+nonterminal VarDeclList, FormPars, AddFormPars, OptNamespace, Statement, OptNumConst;
+nonterminal DesignatorStatement, ActPars, AddActParExpr, Condition, AddCondTerm, CondTerm;
+nonterminal AddCondFact, CondFact, OptExpr, OptMinus, AddTerm, AddFactor;
+nonterminal Label, Assignop, Relop, Addop, Mulop, NamespaceOpt;
+
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj NamespaceName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ConstDef;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj AddVarDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj BraExpr;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj DesignatorName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj OptBraExpr;
+
+
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct MethodType;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Const;
+
+
+
+
+Program ::= (Program) PROGRAM ProgName NamespaceList DeclarationsList LBRACE MethodDeclList RBRACE
+		;
+		
+ProgName ::= (ProgName) IDENT:progName
+			;
+			
+NamespaceList ::= (NamespaceDeclarations) NamespaceList Namespace
+				|
+				(NoNamespaceDeclarations)
+				;
+				
+			
+DeclarationsList ::= (Declarations) DeclarationsList Declaration
+					|
+					(NoDeclarations)
+					;
+					
+					
+Declaration ::= (ConstantDeclaration) ConstDecl
+				|
+				(VariableDeclaration) VarDecl
+				;
+				
+				
+MethodDeclList::= (MethodDeclarations) MethodDeclList MethodDecl
+				|
+				(NoMethodDeclarations)
+				;			
+				
+
+					
+Namespace ::= (Namespace) NAMESPACE NamespaceName LBRACE DeclarationsList LBRACE MethodDeclList RBRACE RBRACE
+			;   				
+			
+NamespaceName ::= (NamespaceName) IDENT:nspName
+				;
+
+Type ::= (Type) IDENT:typeName
+		;
+		
+		
+ConstList ::= (AddConstantDeclaration) ConstList COMMA ConstDef
+			|
+			(NoConstantDeclaration)
+			;
+			
+							
+ConstDecl ::= (ConDecl) CONST Type ConstDef ConstList SEMICOLON
+			;
+
+
+ConstDef ::= (ConstDef) IDENT:constName ASSIGN Const:constValue
+			;
+
+
+Const ::=(NumConst) NUMBER
+		|
+		(CharConst) CHAR_CONST
+		|
+		(BoolConst) BOOL_CONST
+		;
+		
+		
+
+
+		
+			
+VarDecl ::= (VarDeclaration) Type VarDeclarations SEMICOLON
+		;
+			
+VarDeclarations ::= (MultipleVarDeclarations) VarDeclarations COMMA AddVarDecl
+				|
+				(OneVarDeclaration) AddVarDecl
+				 ;
+				 
+AddVarDecl::= (AddVarDecl1) IDENT:varName OptBrackets
+			|
+			error:l {: parser.report_error("Recovered from error" + lleft,  null); :}
+			;
+			
+			
+				
+OptBrackets ::= (Brackets) LBRACKET RBRACKET
+				|
+				(TwoBrackets) LBRACKET RBRACKET LBRACKET RBRACKET
+				|
+				(NoBrackets)
+				;
+				
+
+MethodType ::= (MethodWithType) Type
+			|
+			(MethodVoid) VOID
+			;
+
+			
+StatementList ::= (Statements) StatementList Statement
+			|
+			(NoStatements)
+			;			
+
+
+VarDeclList ::= (ListOfVarDecl) VarDeclList VarDecl
+			|
+			(NoVarDeclarations)
+			;
+					
+			
+MethodDecl ::= (MethodDecl) MethodType MethodName LPAREN FormParsOpt RPAREN VarDeclList LBRACE StatementList RBRACE
+			;
+			
+MethodName ::= (MethodName) IDENT:name;
+
+
+
+			
+FormParsOpt ::= (YesFormPars) AddFormPars
+			|
+			(NoFormPars)
+			;			
+
+							
+FormPars ::= (FormPars) Type:parType IDENT:parName OptBrackets
+			;
+	
+	
+			
+AddFormPars ::= (AddFormPar) AddFormPars COMMA FormPars
+			|
+			(OneFormPar) FormPars
+			;
+
+			
+
+
+StaticInitializer ::=(StaticInitializer) STATIC LBRACE StatementList RBRACE
+					;
+					
+
+			
+			
+			
+
+
+Statement ::= (DesignatorStat) DesignatorStatement SEMICOLON
+			|
+			(ReadDesignator) READ LPAREN Designator RPAREN SEMICOLON
+			|
+			(PrintExpr) PRINT LPAREN Expr OptNumConst RPAREN SEMICOLON
+			|
+			(ReturnVoid) RETURN SEMICOLON
+			|
+			(ReturnExpression) RETURN Expr SEMICOLON
+			|
+			(StatementsBraces) LBRACE StatementList RBRACE
+			;
+			
+OptNumConst ::= (NumConstOpt) COMMA NUMBER
+			|
+			(NoNumConstOpt)
+			;
+
+			
+DesignatorStatement ::= (DesignatorExpr) Designator:dest Assignop Expr:e
+					|
+					(DesignatorPP) Designator:dest INCREMENT
+					|
+					(DesignatorMM) Designator:dest DECREMENT
+					;			
+			
+		
+ActPars ::= (ActPars) Expr AddActParExpr
+		;
+		
+		
+AddActParExpr ::= (AddActParExpression) AddActParExpr COMMA Expr
+				|
+				(NoActParExpression)
+				;
+				
+Condition ::=(Condition) CondTerm:val AddCondTerm
+			;
+			
+AddCondTerm ::= (AddConditionTerm) AddCondTerm OR CondTerm:val
+			|
+			(NoConditionTerm)
+			;
+			
+CondTerm ::= (CondTerm) CondFact:val AddCondFact
+			;
+			
+AddCondFact ::= (AddConditionFact) AddCondFact AND CondFact:val
+			|
+			(NoConditionFact)
+			;
+			
+CondFact ::= (CondFact) Expr:val OptExpr
+			;
+			
+OptExpr ::= (Compare) Relop Expr:val
+			|
+			(NoCompare)
+			;
+			
+		
+		
+Expr ::= (NegativeStartExpr) MINUS Term
+		|
+		(PositiveStartExpr) Term
+		|
+		(AddExpression) Expr Addop Term
+		;
+	
+
+
+			
+Term ::= (MultipleTerms) Term Mulop Factor
+		|
+		(SingleTerm) Factor
+		;
+		
+
+			
+Factor ::= (NumberConst) NUMBER
+		|
+		(CharacterConst) CHAR_CONST
+		|
+		(ExpressionFact) LPAREN Expr RPAREN
+		|
+		(BooleanConst) BOOL_CONST
+		|
+		(DesignatorFact) Designator:desName
+		|
+		(NewType) NEW Type LBRACKET Expr RBRACKET
+		|
+		(NewTypeMat) NEW  Type LBRACKET Expr RBRACKET LBRACKET Expr RBRACKET
+		|
+		(RangeExpression) RANGE LPAREN Expr RPAREN
+		|
+		(MaxMatrix) MAX LPAREN Designator RPAREN
+		;
+		
+			
+	
+Designator ::=(Designator) DesignatorName OptBraExpr
+			;
+			
+DesignatorName ::= (WithNamespace) IDENT:nspName COLON COLON IDENT:desName 
+				|
+				(WithoutNamespace) IDENT:desName
+				;
+			
+OptBraExpr ::= (AddArrayExpression) BraExpr
+			|
+			(AddMatrixExpression) BraExpr BraExpr
+			|
+			(NoArrayExpression)
+			; 
+
+				
+BraExpr ::= (BraExpr) LBRACKET Expr RBRACKET
+			;
+			
+Label ::= (Label) IDENT
+		;
+		
+Assignop ::= (AssignOperation) ASSIGN
+			|
+			error:l {: parser.report_error("Recovered from error" + lleft, null); :}
+			;
+			
+Relop ::= 	(Equals) EQUALS
+			|
+			(NotEquals) NOT_EQUALS
+			|
+			(GreaterThan) GREATER_THAN
+			|
+			(GreaterEqual) GREATER_EQUAL
+			|
+			(LessThan) LESS_THAN
+			|
+			(LessEqual) LESS_EQUAL
+			;
+			
+Addop ::= (Plus) PLUS
+		|
+		(Minus) MINUS
+		;
+		
+Mulop ::= (Multiply) MULTIPLY
+		|
+		(Divide) DIVIDE
+		|
+		(Modulo) MODULO
+		;
+	
+	
+		
+			
+			
+			
+			
+
+				
+			

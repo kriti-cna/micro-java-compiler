@@ -1,0 +1,65 @@
+INFO  14:25:06,632 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:25:06,634 - ================= LEKSICKA ANALIZA =================
+INFO  14:25:07,553 - #2 program
+INFO  14:25:07,554 - #47 test301
+INFO  14:25:07,554 - #47 int
+INFO  14:25:07,575 - #47 mat
+INFO  14:25:07,577 - #33 [
+INFO  14:25:07,577 - #34 ]
+INFO  14:25:07,578 - #33 [
+ERROR 14:25:07,578 - 
+Sintaksna greska on line 5
+INFO  14:25:07,578 - #34 ]
+INFO  14:25:07,578 - #27 ;
+INFO  14:25:07,578 - #35 {
+INFO  14:25:07,578 - #8 void
+INFO  14:25:07,579 - #47 main
+ERROR 14:25:07,579 - Recovered from error5
+INFO  14:25:07,607 - #31 (
+INFO  14:25:07,617 - #32 )
+INFO  14:25:07,619 - #35 {
+INFO  14:25:07,629 - #36 }
+INFO  14:25:07,636 - #36 }
+INFO  14:25:07,661 - ================= PARSIRANO STABLO =================
+INFO  14:25:07,675 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDeclDerived1(
+          ) [AddVarDeclDerived1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:25:07,675 - ================ Semanticka obrada ===================
+INFO  14:25:07,707 - Meth main: notype, 0, 0 on line 3
+INFO  14:25:07,724 - Parser SUCCESS!

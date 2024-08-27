@@ -1,0 +1,180 @@
+INFO  18:52:47,144 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:52:47,144 - ================= LEKSICKA ANALIZA =================
+INFO  18:52:47,174 - #2 program
+INFO  18:52:47,174 - #47 test301
+INFO  18:52:47,174 - #3 const
+INFO  18:52:47,174 - #47 int
+INFO  18:52:47,174 - #47 b
+INFO  18:52:47,175 - #24 =
+INFO  18:52:47,175 - #46 5
+INFO  18:52:47,175 - #27 ;
+INFO  18:52:47,175 - #47 int
+INFO  18:52:47,176 - #47 a
+INFO  18:52:47,176 - #29 ,
+INFO  18:52:47,176 - #47 B
+INFO  18:52:47,176 - #11 +
+ERROR 18:52:47,177 - 
+Sintaksna greska on line 3
+INFO  18:52:47,177 - #27 ;
+INFO  18:52:47,177 - #35 {
+INFO  18:52:47,177 - #8 void
+INFO  18:52:47,188 - #47 main
+ERROR 18:52:47,189 - Recovered from error8
+INFO  18:52:47,195 - #31 (
+INFO  18:52:47,196 - #32 )
+INFO  18:52:47,197 - #47 int
+INFO  18:52:47,197 - #47 niz
+INFO  18:52:47,197 - #33 [
+INFO  18:52:47,197 - #34 ]
+INFO  18:52:47,197 - #27 ;
+INFO  18:52:47,197 - #47 bool
+INFO  18:52:47,198 - #47 nizb
+INFO  18:52:47,198 - #33 [
+INFO  18:52:47,198 - #34 ]
+INFO  18:52:47,198 - #27 ;
+INFO  18:52:47,198 - #35 {
+INFO  18:52:47,198 - #47 niz
+INFO  18:52:47,198 - #24 =
+INFO  18:52:47,200 - #45 range
+INFO  18:52:47,202 - #31 (
+INFO  18:52:47,203 - #46 7
+INFO  18:52:47,203 - #32 )
+INFO  18:52:47,203 - #27 ;
+INFO  18:52:47,204 - #5 print
+INFO  18:52:47,204 - #31 (
+INFO  18:52:47,204 - #47 niz
+INFO  18:52:47,204 - #32 )
+INFO  18:52:47,205 - #27 ;
+INFO  18:52:47,205 - #36 }
+INFO  18:52:47,205 - #36 }
+INFO  18:52:47,206 - ================= PARSIRANO STABLO =================
+INFO  18:52:47,211 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      ConstantDeclaration(
+        ConDecl(
+          Type(
+           int
+          ) [Type]
+          ConstDef(
+           b
+            NumConst(
+             5
+            ) [NumConst]
+          ) [ConstDef]
+          NoConstantDeclaration(
+          ) [NoConstantDeclaration]
+        ) [ConDecl]
+      ) [ConstantDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclDerived1(
+      ) [VarDeclDerived1]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               niz
+                Brackets(
+                ) [Brackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             nizb
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 niz
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  RangeExpression(
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         7
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [RangeExpression]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   niz
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:52:47,211 - ================ Semanticka obrada ===================
+INFO  18:52:47,213 - Const b defined on line 2
+INFO  18:52:47,213 - Symbol niz found on line 10
+INFO  18:52:47,213 - Symbol niz found on line 11
+INFO  18:52:47,213 - main() method found on line 1
+INFO  18:52:47,215 - Parser SUCCESS!

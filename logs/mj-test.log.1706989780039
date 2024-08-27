@@ -1,0 +1,45 @@
+INFO  20:49:20,279 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:49:20,414 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VariableDeclaration(
+        VarDeclaration(
+          TypeWithoutNamespace(
+           int
+          ) [TypeWithoutNamespace]
+         a
+          NoBrackets(
+          ) [NoBrackets]
+          NoVarDeclaration(
+          ) [NoVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        TypeWithoutNamespace(
+         dd
+        ) [TypeWithoutNamespace]
+       b
+        NoBrackets(
+        ) [NoBrackets]
+        NoVarDeclaration(
+        ) [NoVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  20:49:20,451 - ===================================
+INFO  20:49:20,455 - int
+INFO  20:49:20,456 - Deklarisana promenljiva a na liniji 2
+ERROR 20:49:20,456 - Nije pronadjen tip dd u tabeli simbola! 
+INFO  20:49:20,456 - Deklarisana promenljiva b na liniji 3

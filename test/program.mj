@@ -1,0 +1,17 @@
+program test301
+
+	int mat[][];
+	
+{
+	void main()	
+	int najveci;
+	{
+		mat = new int[2][2];
+		mat[0][0]= 14;
+		mat[0][1] = 15;
+		mat[1][0] = 10;
+		mat[1][1] = 9;
+		najveci = max(mat);
+		//print(najveci);
+	}
+}

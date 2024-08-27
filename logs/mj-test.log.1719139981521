@@ -1,0 +1,84 @@
+INFO  12:52:04,467 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:52:04,469 - ================= LEKSICKA ANALIZA =================
+INFO  12:52:04,529 - #2 program
+INFO  12:52:04,529 - #46 test301
+INFO  12:52:04,529 - #3 const
+INFO  12:52:04,533 - #46 int
+INFO  12:52:04,533 - #46 pet
+INFO  12:52:04,534 - #24 =
+INFO  12:52:04,534 - #45 5
+INFO  12:52:04,535 - #27 ;
+INFO  12:52:04,536 - #35 {
+INFO  12:52:04,537 - #8 void
+INFO  12:52:04,538 - #46 main
+INFO  12:52:04,539 - #31 (
+INFO  12:52:04,540 - #32 )
+INFO  12:52:04,541 - #35 {
+INFO  12:52:04,542 - #5 print
+INFO  12:52:04,544 - #31 (
+INFO  12:52:04,544 - #45 5
+INFO  12:52:04,544 - #32 )
+INFO  12:52:04,583 - #27 ;
+INFO  12:52:04,583 - #36 }
+INFO  12:52:04,584 - #36 }
+INFO  12:52:04,590 - ================= PARSIRANO STABLO =================
+INFO  12:52:04,605 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstantDeclaration(
+      ConDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDef(
+         pet
+          NumConst(
+           5
+          ) [NumConst]
+        ) [ConstDef]
+        NoConstantDeclaration(
+        ) [NoConstantDeclaration]
+      ) [ConDecl]
+    ) [ConstantDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              NumberConst(
+               5
+              ) [NumberConst]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:52:04,605 - ================ Semanticka obrada ===================
+INFO  12:52:04,617 - Const pet defined on line 3
+INFO  12:52:04,617 - main() method found on line 1
+INFO  12:52:04,627 - Parser SUCCESS!

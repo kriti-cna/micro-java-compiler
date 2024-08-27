@@ -1,0 +1,29 @@
+INFO  13:16:59,606 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:16:59,607 - ================= LEKSICKA ANALIZA =================
+INFO  13:16:59,654 - #2 program
+INFO  13:16:59,654 - #46 test301
+INFO  13:16:59,654 - #3 const
+INFO  13:16:59,656 - #46 int
+INFO  13:16:59,656 - #46 jed
+INFO  13:16:59,656 - #24 =
+INFO  13:16:59,657 - #45 11
+INFO  13:16:59,657 - #27 ;
+INFO  13:16:59,658 - #35 {
+INFO  13:16:59,658 - #8 void
+INFO  13:16:59,659 - #46 main
+INFO  13:16:59,660 - #31 (
+INFO  13:16:59,660 - #32 )
+INFO  13:16:59,661 - #46 int
+INFO  13:16:59,661 - #46 a
+INFO  13:16:59,661 - #27 ;
+INFO  13:16:59,663 - #35 {
+INFO  13:16:59,663 - #46 a
+INFO  13:16:59,702 - #24 =
+INFO  13:16:59,706 - #45 10
+INFO  13:16:59,709 - #27 ;
+INFO  13:16:59,711 - #5 print
+INFO  13:16:59,712 - #46 a
+ERROR 13:16:59,712 - 
+Sintaksna greska on line 10
+ERROR 13:16:59,712 - Fatalna greska, parsiranje se ne moze nastaviti on line 10
+INFO  13:16:59,713 - ================= PARSIRANO STABLO =================

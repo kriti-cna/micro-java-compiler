@@ -1,0 +1,224 @@
+INFO  09:11:49,049 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  09:11:49,050 - ================= LEKSICKA ANALIZA =================
+INFO  09:11:49,072 - #2 program
+INFO  09:11:49,072 - #46 test4
+INFO  09:11:49,072 - #10 namespace
+INFO  09:11:49,074 - #46 Konstante
+INFO  09:11:49,074 - #35 {
+INFO  09:11:49,074 - #3 const
+INFO  09:11:49,074 - #46 int
+INFO  09:11:49,074 - #46 nula
+INFO  09:11:49,074 - #24 =
+INFO  09:11:49,074 - #45 0
+INFO  09:11:49,074 - #27 ;
+INFO  09:11:49,075 - #3 const
+INFO  09:11:49,075 - #46 int
+INFO  09:11:49,075 - #46 jedan
+INFO  09:11:49,075 - #24 =
+INFO  09:11:49,075 - #45 1
+INFO  09:11:49,075 - #27 ;
+INFO  09:11:49,086 - #3 const
+INFO  09:11:49,086 - #46 int
+INFO  09:11:49,086 - #46 pet
+INFO  09:11:49,086 - #24 =
+INFO  09:11:49,086 - #45 5
+INFO  09:11:49,086 - #27 ;
+INFO  09:11:49,086 - #35 {
+INFO  09:11:49,086 - #36 }
+INFO  09:11:49,087 - #36 }
+INFO  09:11:49,087 - #3 const
+INFO  09:11:49,088 - #46 int
+INFO  09:11:49,088 - #46 a
+INFO  09:11:49,088 - #24 =
+INFO  09:11:49,088 - #45 5
+INFO  09:11:49,088 - #27 ;
+INFO  09:11:49,088 - #35 {
+INFO  09:11:49,088 - #8 void
+INFO  09:11:49,088 - #46 main
+INFO  09:11:49,089 - #31 (
+INFO  09:11:49,090 - #32 )
+INFO  09:11:49,090 - #46 int
+INFO  09:11:49,091 - #46 bodovi
+INFO  09:11:49,091 - #27 ;
+INFO  09:11:49,092 - #46 char
+INFO  09:11:49,093 - #46 c
+INFO  09:11:49,093 - #29 ,
+INFO  09:11:49,093 - #46 c
+INFO  09:11:49,093 - #27 ;
+INFO  09:11:49,093 - #35 {
+INFO  09:11:49,093 - #5 print
+INFO  09:11:49,093 - #31 (
+INFO  09:11:49,093 - #46 a
+INFO  09:11:49,093 - #32 )
+INFO  09:11:49,095 - #27 ;
+INFO  09:11:49,095 - #36 }
+INFO  09:11:49,095 - #36 }
+INFO  09:11:49,096 - ================= PARSIRANO STABLO =================
+INFO  09:11:49,099 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  NamespaceDeclarations(
+    NoNamespaceDeclarations(
+    ) [NoNamespaceDeclarations]
+    Namespace(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstantDeclaration(
+              ConDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstDef(
+                 nula
+                  NumConst(
+                   0
+                  ) [NumConst]
+                ) [ConstDef]
+                NoConstantDeclaration(
+                ) [NoConstantDeclaration]
+              ) [ConDecl]
+            ) [ConstantDeclaration]
+          ) [Declarations]
+          ConstantDeclaration(
+            ConDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDef(
+               jedan
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [ConstDef]
+              NoConstantDeclaration(
+              ) [NoConstantDeclaration]
+            ) [ConDecl]
+          ) [ConstantDeclaration]
+        ) [Declarations]
+        ConstantDeclaration(
+          ConDecl(
+            Type(
+             int
+            ) [Type]
+            ConstDef(
+             pet
+              NumConst(
+               5
+              ) [NumConst]
+            ) [ConstDef]
+            NoConstantDeclaration(
+            ) [NoConstantDeclaration]
+          ) [ConDecl]
+        ) [ConstantDeclaration]
+      ) [Declarations]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [Namespace]
+  ) [NamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstantDeclaration(
+      ConDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDef(
+         a
+          NumConst(
+           5
+          ) [NumConst]
+        ) [ConstDef]
+        NoConstantDeclaration(
+        ) [NoConstantDeclaration]
+      ) [ConDecl]
+    ) [ConstantDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               bodovi
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+          MultipleVarDeclarations(
+            OneVarDeclaration(
+              AddVarDecl1(
+               c
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+            AddVarDecl1(
+             c
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [MultipleVarDeclarations]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   a
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  09:11:49,099 - ================ Semanticka obrada ===================
+INFO  09:11:49,101 - Const nula defined on line 6
+INFO  09:11:49,101 - Const jedan defined on line 7
+INFO  09:11:49,101 - Const pet defined on line 8
+INFO  09:11:49,101 - Const a defined on line 14
+ERROR 09:11:49,102 - Variable c already exists on line 19
+INFO  09:11:49,102 - Symbol a found on line 21
+INFO  09:11:49,102 - main() method found on line 3
+ERROR 09:11:49,102 - Parser FAIL!

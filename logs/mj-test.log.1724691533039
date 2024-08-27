@@ -1,0 +1,183 @@
+INFO  18:58:34,482 - Compiling source file: C:\Users\elena\Desktop\wsp7\MJCompilerAVGUST4.zip_expanded\MJCompiler\test\program.mj
+INFO  18:58:34,483 - ================= LEKSICKA ANALIZA =================
+INFO  18:58:34,530 - #2 program
+INFO  18:58:34,531 - #48 test301
+INFO  18:58:34,531 - #48 int
+INFO  18:58:34,532 - #48 mat
+INFO  18:58:34,533 - #33 [
+INFO  18:58:34,533 - #34 ]
+INFO  18:58:34,533 - #33 [
+INFO  18:58:34,533 - #34 ]
+INFO  18:58:34,533 - #27 ;
+INFO  18:58:34,535 - #35 {
+INFO  18:58:34,535 - #8 void
+INFO  18:58:34,536 - #48 main
+INFO  18:58:34,537 - #31 (
+INFO  18:58:34,537 - #32 )
+INFO  18:58:34,538 - #48 int
+INFO  18:58:34,538 - #48 najveci
+INFO  18:58:34,538 - #27 ;
+INFO  18:58:34,539 - #35 {
+INFO  18:58:34,539 - #48 mat
+INFO  18:58:34,541 - #24 =
+INFO  18:58:34,542 - #4 new
+INFO  18:58:34,543 - #48 int
+INFO  18:58:34,543 - #33 [
+INFO  18:58:34,543 - #47 3
+INFO  18:58:34,543 - #34 ]
+INFO  18:58:34,544 - #33 [
+INFO  18:58:34,544 - #47 4
+INFO  18:58:34,544 - #34 ]
+INFO  18:58:34,544 - #27 ;
+INFO  18:58:34,546 - #48 najveci
+INFO  18:58:34,546 - #24 =
+INFO  18:58:34,546 - #46 max
+INFO  18:58:34,546 - #31 (
+ERROR 18:58:34,546 - 
+Sintaksna greska on line 10
+INFO  18:58:34,547 - #48 mat
+INFO  18:58:34,547 - #32 )
+INFO  18:58:34,547 - #27 ;
+ERROR 18:58:34,548 - Recovered from error10
+INFO  18:58:34,550 - #36 }
+INFO  18:58:34,550 - #36 }
+INFO  18:58:34,552 - ================= PARSIRANO STABLO =================
+INFO  18:58:34,559 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           mat
+            TwoBrackets(
+            ) [TwoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             najveci
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 mat
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  NewTypeMat(
+                    Type(
+                     int
+                    ) [Type]
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         3
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         4
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [NewTypeMat]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               najveci
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            PositiveStartExpr(
+              SingleTerm(
+                ExpressionFact(
+                  PositiveStartExpr(
+                    SingleTerm(
+                      DesignatorFact(
+                        Designator(
+                          WithoutNamespace(
+                           mat
+                          ) [WithoutNamespace]
+                          NoArrayExpression(
+                          ) [NoArrayExpression]
+                        ) [Designator]
+                      ) [DesignatorFact]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [ExpressionFact]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:58:34,559 - ================ Semanticka obrada ===================
+INFO  18:58:34,564 - NEW SYMBOL
+INFO  18:58:34,564 - Var mat: Matrix of int, 0, 0 on line 3
+INFO  18:58:34,564 - NEW SYMBOL
+INFO  18:58:34,564 - Var najveci: int, 0, 1 on line 7
+INFO  18:58:34,565 - Var mat: Matrix of int, 0, 0 on line 9
+INFO  18:58:34,566 - Var najveci: int, 0, 1 on line 10
+INFO  18:58:34,566 - Var mat: Matrix of int, 0, 0 on line 10
+ERROR 18:58:34,566 - Types not matching  on line 10
+INFO  18:58:34,567 - Meth main: notype, 0, 0 on line 1
+ERROR 18:58:34,567 - Parser FAIL!

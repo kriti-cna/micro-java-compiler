@@ -1,0 +1,171 @@
+INFO  22:06:24,945 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:06:24,946 - ================= LEKSICKA ANALIZA =================
+INFO  22:06:24,970 - #2 program
+INFO  22:06:24,970 - #47 test301
+INFO  22:06:24,970 - #35 {
+INFO  22:06:24,972 - #8 void
+INFO  22:06:24,972 - #47 main
+INFO  22:06:24,973 - #31 (
+INFO  22:06:24,973 - #32 )
+INFO  22:06:24,973 - #47 int
+INFO  22:06:24,974 - #47 niz
+INFO  22:06:24,974 - #33 [
+INFO  22:06:24,974 - #34 ]
+INFO  22:06:24,974 - #27 ;
+INFO  22:06:24,976 - #35 {
+INFO  22:06:24,977 - #47 niz
+INFO  22:06:24,978 - #24 =
+INFO  22:06:24,978 - #45 range
+INFO  22:06:24,979 - #31 (
+INFO  22:06:24,979 - #46 10
+INFO  22:06:24,988 - #32 )
+INFO  22:06:24,988 - #27 ;
+INFO  22:06:24,988 - #5 print
+INFO  22:06:24,988 - #31 (
+INFO  22:06:24,988 - #47 niz
+INFO  22:06:24,988 - #33 [
+INFO  22:06:24,988 - #46 9
+INFO  22:06:24,988 - #34 ]
+INFO  22:06:24,988 - #32 )
+INFO  22:06:24,990 - #27 ;
+INFO  22:06:24,990 - #5 print
+INFO  22:06:24,990 - #31 (
+INFO  22:06:24,990 - #47 niz
+INFO  22:06:24,990 - #33 [
+INFO  22:06:24,991 - #46 0
+INFO  22:06:24,991 - #34 ]
+INFO  22:06:24,991 - #32 )
+INFO  22:06:24,991 - #27 ;
+INFO  22:06:24,991 - #36 }
+INFO  22:06:24,991 - #36 }
+INFO  22:06:24,992 - ================= PARSIRANO STABLO =================
+INFO  22:06:24,995 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             niz
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStat(
+              DesignatorExpr(
+                Designator(
+                  WithoutNamespace(
+                   niz
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+                AssignOperation(
+                ) [AssignOperation]
+                PositiveStartExpr(
+                  SingleTerm(
+                    RangeExpression(
+                      PositiveStartExpr(
+                        SingleTerm(
+                          NumberConst(
+                           10
+                          ) [NumberConst]
+                        ) [SingleTerm]
+                      ) [PositiveStartExpr]
+                    ) [RangeExpression]
+                  ) [SingleTerm]
+                ) [PositiveStartExpr]
+              ) [DesignatorExpr]
+            ) [DesignatorStat]
+          ) [Statements]
+          PrintExpr(
+            PositiveStartExpr(
+              SingleTerm(
+                DesignatorFact(
+                  Designator(
+                    WithoutNamespace(
+                     niz
+                    ) [WithoutNamespace]
+                    AddArrayExpression(
+                      BraExpr(
+                        PositiveStartExpr(
+                          SingleTerm(
+                            NumberConst(
+                             9
+                            ) [NumberConst]
+                          ) [SingleTerm]
+                        ) [PositiveStartExpr]
+                      ) [BraExpr]
+                    ) [AddArrayExpression]
+                  ) [Designator]
+                ) [DesignatorFact]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [PrintExpr]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   niz
+                  ) [WithoutNamespace]
+                  AddArrayExpression(
+                    BraExpr(
+                      PositiveStartExpr(
+                        SingleTerm(
+                          NumberConst(
+                           0
+                          ) [NumberConst]
+                        ) [SingleTerm]
+                      ) [PositiveStartExpr]
+                    ) [BraExpr]
+                  ) [AddArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:06:24,995 - ================ Semanticka obrada ===================
+INFO  22:06:24,997 - Symbol niz found on line 8
+INFO  22:06:24,997 - Symbol niz found on line 9
+INFO  22:06:24,998 - Symbol niz found on line 10
+INFO  22:06:24,998 - main() method found on line 1
+INFO  22:06:24,999 - Parser SUCCESS!

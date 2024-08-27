@@ -1,0 +1,182 @@
+INFO  08:55:09,368 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  08:55:09,369 - ================= LEKSICKA ANALIZA =================
+INFO  08:55:09,389 - #2 program
+INFO  08:55:09,389 - #46 test4
+INFO  08:55:09,389 - #10 namespace
+INFO  08:55:09,390 - #46 Konstante
+INFO  08:55:09,391 - #35 {
+INFO  08:55:09,392 - #3 const
+INFO  08:55:09,392 - #46 int
+INFO  08:55:09,392 - #46 nula
+INFO  08:55:09,392 - #24 =
+INFO  08:55:09,392 - #45 0
+INFO  08:55:09,392 - #27 ;
+INFO  08:55:09,393 - #3 const
+INFO  08:55:09,393 - #46 int
+INFO  08:55:09,393 - #46 jedan
+INFO  08:55:09,393 - #24 =
+INFO  08:55:09,393 - #45 1
+INFO  08:55:09,393 - #27 ;
+INFO  08:55:09,403 - #3 const
+INFO  08:55:09,403 - #46 int
+INFO  08:55:09,403 - #46 pet
+INFO  08:55:09,403 - #24 =
+INFO  08:55:09,403 - #45 5
+INFO  08:55:09,403 - #27 ;
+INFO  08:55:09,403 - #35 {
+INFO  08:55:09,403 - #36 }
+INFO  08:55:09,403 - #36 }
+INFO  08:55:09,404 - #46 int
+INFO  08:55:09,404 - #46 a
+INFO  08:55:09,404 - #27 ;
+INFO  08:55:09,405 - #35 {
+INFO  08:55:09,405 - #8 void
+INFO  08:55:09,405 - #46 main
+INFO  08:55:09,407 - #31 (
+INFO  08:55:09,408 - #32 )
+INFO  08:55:09,409 - #46 int
+INFO  08:55:09,409 - #46 bodovi
+INFO  08:55:09,409 - #27 ;
+INFO  08:55:09,409 - #46 int
+INFO  08:55:09,409 - #46 bodovi
+INFO  08:55:09,409 - #27 ;
+INFO  08:55:09,409 - #35 {
+INFO  08:55:09,409 - #36 }
+INFO  08:55:09,411 - #36 }
+INFO  08:55:09,411 - ================= PARSIRANO STABLO =================
+INFO  08:55:09,414 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  NamespaceDeclarations(
+    NoNamespaceDeclarations(
+    ) [NoNamespaceDeclarations]
+    Namespace(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstantDeclaration(
+              ConDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstDef(
+                 nula
+                  NumConst(
+                   0
+                  ) [NumConst]
+                ) [ConstDef]
+                NoConstantDeclaration(
+                ) [NoConstantDeclaration]
+              ) [ConDecl]
+            ) [ConstantDeclaration]
+          ) [Declarations]
+          ConstantDeclaration(
+            ConDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDef(
+               jedan
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [ConstDef]
+              NoConstantDeclaration(
+              ) [NoConstantDeclaration]
+            ) [ConDecl]
+          ) [ConstantDeclaration]
+        ) [Declarations]
+        ConstantDeclaration(
+          ConDecl(
+            Type(
+             int
+            ) [Type]
+            ConstDef(
+             pet
+              NumConst(
+               5
+              ) [NumConst]
+            ) [ConstDef]
+            NoConstantDeclaration(
+            ) [NoConstantDeclaration]
+          ) [ConDecl]
+        ) [ConstantDeclaration]
+      ) [Declarations]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [Namespace]
+  ) [NamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           a
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               bodovi
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             bodovi
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  08:55:09,414 - ================ Semanticka obrada ===================
+ERROR 08:55:09,416 - Variable bodovi already exist on line 19
+INFO  08:55:09,416 - main() method found on line 3
+ERROR 08:55:09,416 - Parser FAIL!

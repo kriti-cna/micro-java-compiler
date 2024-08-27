@@ -1,0 +1,389 @@
+INFO  19:47:58,990 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:47:58,991 - ================= LEKSICKA ANALIZA =================
+INFO  19:47:59,027 - #2 program
+INFO  19:47:59,028 - #46 test301
+INFO  19:47:59,028 - #3 const
+INFO  19:47:59,029 - #46 int
+INFO  19:47:59,030 - #46 nula
+INFO  19:47:59,030 - #24 =
+INFO  19:47:59,030 - #45 0
+INFO  19:47:59,030 - #27 ;
+INFO  19:47:59,031 - #3 const
+INFO  19:47:59,031 - #46 int
+INFO  19:47:59,031 - #46 jedan
+INFO  19:47:59,031 - #24 =
+INFO  19:47:59,032 - #45 1
+INFO  19:47:59,032 - #27 ;
+INFO  19:47:59,032 - #3 const
+INFO  19:47:59,032 - #46 int
+INFO  19:47:59,032 - #46 pet
+INFO  19:47:59,068 - #24 =
+INFO  19:47:59,068 - #45 5
+INFO  19:47:59,068 - #27 ;
+INFO  19:47:59,069 - #46 int
+INFO  19:47:59,069 - #46 niz
+INFO  19:47:59,069 - #33 [
+INFO  19:47:59,069 - #34 ]
+INFO  19:47:59,069 - #29 ,
+INFO  19:47:59,071 - #46 niz2
+INFO  19:47:59,071 - #33 [
+INFO  19:47:59,072 - #34 ]
+INFO  19:47:59,072 - #27 ;
+INFO  19:47:59,072 - #46 char
+INFO  19:47:59,073 - #46 nizch
+INFO  19:47:59,073 - #33 [
+INFO  19:47:59,073 - #34 ]
+INFO  19:47:59,073 - #27 ;
+INFO  19:47:59,074 - #35 {
+INFO  19:47:59,074 - #8 void
+INFO  19:47:59,077 - #46 main
+INFO  19:47:59,079 - #31 (
+INFO  19:47:59,082 - #32 )
+INFO  19:47:59,084 - #46 int
+INFO  19:47:59,088 - #46 bodovi
+INFO  19:47:59,088 - #27 ;
+INFO  19:47:59,091 - #46 bool
+INFO  19:47:59,091 - #46 bt
+INFO  19:47:59,091 - #27 ;
+INFO  19:47:59,092 - #35 {
+INFO  19:47:59,092 - #46 bodovi
+INFO  19:47:59,095 - #24 =
+INFO  19:47:59,101 - #45 0
+INFO  19:47:59,104 - #27 ;
+INFO  19:47:59,106 - #46 bodovi
+INFO  19:47:59,106 - #25 ++
+INFO  19:47:59,107 - #27 ;
+INFO  19:47:59,107 - #46 bodovi
+INFO  19:47:59,107 - #24 =
+INFO  19:47:59,107 - #46 bodovi
+INFO  19:47:59,108 - #11 +
+INFO  19:47:59,108 - #46 jedan
+INFO  19:47:59,112 - #27 ;
+INFO  19:47:59,112 - #46 bodovi
+INFO  19:47:59,113 - #24 =
+INFO  19:47:59,113 - #46 bodovi
+INFO  19:47:59,113 - #13 *
+INFO  19:47:59,114 - #46 pet
+INFO  19:47:59,116 - #27 ;
+INFO  19:47:59,117 - #46 bodovi
+INFO  19:47:59,117 - #26 --
+INFO  19:47:59,118 - #27 ;
+INFO  19:47:59,118 - #5 print
+INFO  19:47:59,118 - #31 (
+INFO  19:47:59,118 - #46 bodovi
+INFO  19:47:59,119 - #32 )
+INFO  19:47:59,120 - #27 ;
+INFO  19:47:59,121 - #36 }
+INFO  19:47:59,121 - #36 }
+INFO  19:47:59,125 - ================= PARSIRANO STABLO =================
+INFO  19:47:59,143 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstantDeclaration(
+              ConDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstDef(
+                 nula
+                  NumConst(
+                   0
+                  ) [NumConst]
+                ) [ConstDef]
+                NoConstantDeclaration(
+                ) [NoConstantDeclaration]
+              ) [ConDecl]
+            ) [ConstantDeclaration]
+          ) [Declarations]
+          ConstantDeclaration(
+            ConDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDef(
+               jedan
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [ConstDef]
+              NoConstantDeclaration(
+              ) [NoConstantDeclaration]
+            ) [ConDecl]
+          ) [ConstantDeclaration]
+        ) [Declarations]
+        ConstantDeclaration(
+          ConDecl(
+            Type(
+             int
+            ) [Type]
+            ConstDef(
+             pet
+              NumConst(
+               5
+              ) [NumConst]
+            ) [ConstDef]
+            NoConstantDeclaration(
+            ) [NoConstantDeclaration]
+          ) [ConDecl]
+        ) [ConstantDeclaration]
+      ) [Declarations]
+      VariableDeclaration(
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          MultipleVarDeclarations(
+            OneVarDeclaration(
+              AddVarDecl1(
+               niz
+                Brackets(
+                ) [Brackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+            AddVarDecl1(
+             niz2
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [MultipleVarDeclarations]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         char
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           nizch
+            Brackets(
+            ) [Brackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               bodovi
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             bt
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NoStatements(
+                  ) [NoStatements]
+                  DesignatorStat(
+                    DesignatorExpr(
+                      Designator(
+                        WithoutNamespace(
+                         bodovi
+                        ) [WithoutNamespace]
+                        NoArrayExpression(
+                        ) [NoArrayExpression]
+                      ) [Designator]
+                      AssignOperation(
+                      ) [AssignOperation]
+                      PositiveStartExpr(
+                        SingleTerm(
+                          NumberConst(
+                           0
+                          ) [NumberConst]
+                        ) [SingleTerm]
+                      ) [PositiveStartExpr]
+                    ) [DesignatorExpr]
+                  ) [DesignatorStat]
+                ) [Statements]
+                DesignatorStat(
+                  DesignatorPP(
+                    Designator(
+                      WithoutNamespace(
+                       bodovi
+                      ) [WithoutNamespace]
+                      NoArrayExpression(
+                      ) [NoArrayExpression]
+                    ) [Designator]
+                  ) [DesignatorPP]
+                ) [DesignatorStat]
+              ) [Statements]
+              DesignatorStat(
+                DesignatorExpr(
+                  Designator(
+                    WithoutNamespace(
+                     bodovi
+                    ) [WithoutNamespace]
+                    NoArrayExpression(
+                    ) [NoArrayExpression]
+                  ) [Designator]
+                  AssignOperation(
+                  ) [AssignOperation]
+                  AddExpression(
+                    PositiveStartExpr(
+                      SingleTerm(
+                        DesignatorFact(
+                          Designator(
+                            WithoutNamespace(
+                             bodovi
+                            ) [WithoutNamespace]
+                            NoArrayExpression(
+                            ) [NoArrayExpression]
+                          ) [Designator]
+                        ) [DesignatorFact]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                    Plus(
+                    ) [Plus]
+                    SingleTerm(
+                      DesignatorFact(
+                        Designator(
+                          WithoutNamespace(
+                           jedan
+                          ) [WithoutNamespace]
+                          NoArrayExpression(
+                          ) [NoArrayExpression]
+                        ) [Designator]
+                      ) [DesignatorFact]
+                    ) [SingleTerm]
+                  ) [AddExpression]
+                ) [DesignatorExpr]
+              ) [DesignatorStat]
+            ) [Statements]
+            DesignatorStat(
+              DesignatorExpr(
+                Designator(
+                  WithoutNamespace(
+                   bodovi
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+                AssignOperation(
+                ) [AssignOperation]
+                PositiveStartExpr(
+                  MultipleTerms(
+                    SingleTerm(
+                      DesignatorFact(
+                        Designator(
+                          WithoutNamespace(
+                           bodovi
+                          ) [WithoutNamespace]
+                          NoArrayExpression(
+                          ) [NoArrayExpression]
+                        ) [Designator]
+                      ) [DesignatorFact]
+                    ) [SingleTerm]
+                    Multiply(
+                    ) [Multiply]
+                    DesignatorFact(
+                      Designator(
+                        WithoutNamespace(
+                         pet
+                        ) [WithoutNamespace]
+                        NoArrayExpression(
+                        ) [NoArrayExpression]
+                      ) [Designator]
+                    ) [DesignatorFact]
+                  ) [MultipleTerms]
+                ) [PositiveStartExpr]
+              ) [DesignatorExpr]
+            ) [DesignatorStat]
+          ) [Statements]
+          DesignatorStat(
+            DesignatorMM(
+              Designator(
+                WithoutNamespace(
+                 bodovi
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+            ) [DesignatorMM]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   bodovi
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:47:59,146 - ================ Semanticka obrada ===================
+INFO  19:47:59,160 - Const nula defined on line 3
+INFO  19:47:59,160 - Const jedan defined on line 4
+INFO  19:47:59,160 - Const pet defined on line 5
+INFO  19:47:59,162 - Symbol bodovi found on line 15
+INFO  19:47:59,163 - Symbol bodovi found on line 16
+INFO  19:47:59,163 - Symbol bodovi found on line 17
+INFO  19:47:59,163 - Symbol bodovi found on line 17
+INFO  19:47:59,163 - Symbol jedan found on line 17
+INFO  19:47:59,164 - Symbol bodovi found on line 18
+INFO  19:47:59,164 - Symbol bodovi found on line 18
+INFO  19:47:59,164 - Symbol pet found on line 18
+INFO  19:47:59,164 - Symbol bodovi found on line 19
+INFO  19:47:59,164 - Symbol bodovi found on line 20
+INFO  19:47:59,165 - main() method found on line 1
+INFO  19:47:59,176 - Parser SUCCESS!

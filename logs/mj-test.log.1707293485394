@@ -1,0 +1,197 @@
+INFO  09:06:49,256 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  09:06:49,257 - ================= LEKSICKA ANALIZA =================
+INFO  09:06:49,281 - #2 program
+INFO  09:06:49,281 - #46 test4
+INFO  09:06:49,281 - #10 namespace
+INFO  09:06:49,282 - #46 Konstante
+INFO  09:06:49,282 - #35 {
+INFO  09:06:49,282 - #3 const
+INFO  09:06:49,283 - #46 int
+INFO  09:06:49,283 - #46 nula
+INFO  09:06:49,283 - #24 =
+INFO  09:06:49,283 - #45 0
+INFO  09:06:49,283 - #27 ;
+INFO  09:06:49,283 - #3 const
+INFO  09:06:49,284 - #46 int
+INFO  09:06:49,284 - #46 jedan
+INFO  09:06:49,284 - #24 =
+INFO  09:06:49,284 - #45 1
+INFO  09:06:49,284 - #27 ;
+INFO  09:06:49,294 - #3 const
+INFO  09:06:49,294 - #46 int
+INFO  09:06:49,294 - #46 pet
+INFO  09:06:49,294 - #24 =
+INFO  09:06:49,294 - #45 5
+INFO  09:06:49,294 - #27 ;
+INFO  09:06:49,294 - #35 {
+INFO  09:06:49,294 - #36 }
+INFO  09:06:49,296 - #36 }
+INFO  09:06:49,296 - #3 const
+INFO  09:06:49,296 - #46 int
+INFO  09:06:49,296 - #46 a
+INFO  09:06:49,296 - #24 =
+INFO  09:06:49,296 - #45 5
+INFO  09:06:49,296 - #27 ;
+INFO  09:06:49,296 - #35 {
+INFO  09:06:49,296 - #8 void
+INFO  09:06:49,296 - #46 main
+INFO  09:06:49,296 - #31 (
+INFO  09:06:49,296 - #32 )
+INFO  09:06:49,296 - #46 int
+INFO  09:06:49,298 - #46 bodovi
+INFO  09:06:49,298 - #27 ;
+INFO  09:06:49,298 - #35 {
+INFO  09:06:49,299 - #5 print
+INFO  09:06:49,299 - #31 (
+INFO  09:06:49,299 - #46 a
+INFO  09:06:49,299 - #32 )
+INFO  09:06:49,300 - #27 ;
+INFO  09:06:49,300 - #36 }
+INFO  09:06:49,300 - #36 }
+INFO  09:06:49,301 - ================= PARSIRANO STABLO =================
+INFO  09:06:49,305 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  NamespaceDeclarations(
+    NoNamespaceDeclarations(
+    ) [NoNamespaceDeclarations]
+    Namespace(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstantDeclaration(
+              ConDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstDef(
+                 nula
+                  NumConst(
+                   0
+                  ) [NumConst]
+                ) [ConstDef]
+                NoConstantDeclaration(
+                ) [NoConstantDeclaration]
+              ) [ConDecl]
+            ) [ConstantDeclaration]
+          ) [Declarations]
+          ConstantDeclaration(
+            ConDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDef(
+               jedan
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [ConstDef]
+              NoConstantDeclaration(
+              ) [NoConstantDeclaration]
+            ) [ConDecl]
+          ) [ConstantDeclaration]
+        ) [Declarations]
+        ConstantDeclaration(
+          ConDecl(
+            Type(
+             int
+            ) [Type]
+            ConstDef(
+             pet
+              NumConst(
+               5
+              ) [NumConst]
+            ) [ConstDef]
+            NoConstantDeclaration(
+            ) [NoConstantDeclaration]
+          ) [ConDecl]
+        ) [ConstantDeclaration]
+      ) [Declarations]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [Namespace]
+  ) [NamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstantDeclaration(
+      ConDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDef(
+         a
+          NumConst(
+           5
+          ) [NumConst]
+        ) [ConstDef]
+        NoConstantDeclaration(
+        ) [NoConstantDeclaration]
+      ) [ConDecl]
+    ) [ConstantDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             bodovi
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   a
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  09:06:49,305 - ================ Semanticka obrada ===================
+INFO  09:06:49,308 - Const nula defined on line 6
+INFO  09:06:49,308 - Const jedan defined on line 7
+INFO  09:06:49,308 - Const pet defined on line 8
+INFO  09:06:49,309 - Const a defined on line 14
+INFO  09:06:49,310 - Symbol a found on line 20
+INFO  09:06:49,310 - main() method found on line 3
+INFO  09:06:49,311 - Parser SUCCESS!

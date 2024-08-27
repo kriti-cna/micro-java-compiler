@@ -1,0 +1,301 @@
+INFO  14:17:52,277 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:17:52,314 - #2 program
+INFO  14:17:52,314 - #46 MJProgram
+INFO  14:17:52,314 - #46 int
+INFO  14:17:52,315 - #46 x
+INFO  14:17:52,315 - #27 ;
+INFO  14:17:52,317 - #46 int
+INFO  14:17:52,317 - #46 y
+INFO  14:17:52,317 - #27 ;
+INFO  14:17:52,317 - #35 {
+INFO  14:17:52,317 - #46 int
+INFO  14:17:52,317 - #46 k
+INFO  14:17:52,317 - #31 (
+INFO  14:17:52,317 - #32 )
+INFO  14:17:52,318 - #46 int
+INFO  14:17:52,318 - #46 c
+INFO  14:17:52,318 - #27 ;
+INFO  14:17:52,318 - #35 {
+INFO  14:17:52,318 - #46 c
+INFO  14:17:52,319 - #24 =
+INFO  14:17:52,319 - #45 2
+INFO  14:17:52,320 - #27 ;
+INFO  14:17:52,330 - #7 return
+INFO  14:17:52,331 - #46 c
+INFO  14:17:52,331 - #11 +
+INFO  14:17:52,331 - #45 2
+INFO  14:17:52,331 - #27 ;
+INFO  14:17:52,331 - #36 }
+INFO  14:17:52,331 - #46 int
+INFO  14:17:52,331 - #46 main
+INFO  14:17:52,331 - #31 (
+INFO  14:17:52,333 - #32 )
+INFO  14:17:52,333 - #35 {
+INFO  14:17:52,333 - #5 print
+INFO  14:17:52,333 - #31 (
+INFO  14:17:52,333 - #45 1
+INFO  14:17:52,333 - #32 )
+INFO  14:17:52,333 - #27 ;
+INFO  14:17:52,333 - #46 x
+INFO  14:17:52,333 - #24 =
+INFO  14:17:52,333 - #46 y
+INFO  14:17:52,333 - #11 +
+INFO  14:17:52,334 - #45 5
+INFO  14:17:52,334 - #11 +
+INFO  14:17:52,334 - #45 3
+INFO  14:17:52,334 - #27 ;
+INFO  14:17:52,334 - #5 print
+INFO  14:17:52,334 - #31 (
+INFO  14:17:52,334 - #45 2
+INFO  14:17:52,334 - #32 )
+INFO  14:17:52,334 - #27 ;
+INFO  14:17:52,334 - #7 return
+INFO  14:17:52,334 - #45 1
+INFO  14:17:52,334 - #27 ;
+INFO  14:17:52,334 - #36 }
+INFO  14:17:52,334 - #36 }
+INFO  14:17:52,335 - ProgramDef(
+  ProgNameDef(
+   MJProgram
+  ) [ProgNameDef]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VariableDeclaration(
+        VarDeclaration(
+          TypeWithoutNamespace(
+           int
+          ) [TypeWithoutNamespace]
+         x
+          NoBrackets(
+          ) [NoBrackets]
+          NoVarDeclaration(
+          ) [NoVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        TypeWithoutNamespace(
+         int
+        ) [TypeWithoutNamespace]
+       y
+        NoBrackets(
+        ) [NoBrackets]
+        NoVarDeclaration(
+        ) [NoVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDeclaration(
+        ReturnType(
+          TypeWithoutNamespace(
+           int
+          ) [TypeWithoutNamespace]
+        ) [ReturnType]
+       k
+        NoFormPars(
+        ) [NoFormPars]
+        VarDeclarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            TypeWithoutNamespace(
+             int
+            ) [TypeWithoutNamespace]
+           c
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDeclaration(
+            ) [NoVarDeclaration]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStat(
+              DesignatorExpr(
+                DesignatorWithoutNamespace(
+                 c
+                  NoBracketsExpression(
+                  ) [NoBracketsExpression]
+                ) [DesignatorWithoutNamespace]
+                ExpressionDef(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermDef(
+                    NumberConst(
+                     2
+                    ) [NumberConst]
+                    NoFactor(
+                    ) [NoFactor]
+                  ) [TermDef]
+                  NoTer(
+                  ) [NoTer]
+                ) [ExpressionDef]
+              ) [DesignatorExpr]
+            ) [DesignatorStat]
+          ) [Statements]
+          ReturnExpression(
+            ExpressionDef(
+              NoMinus(
+              ) [NoMinus]
+              TermDef(
+                DesignatorFact(
+                  DesignatorWithoutNamespace(
+                   c
+                    NoBracketsExpression(
+                    ) [NoBracketsExpression]
+                  ) [DesignatorWithoutNamespace]
+                ) [DesignatorFact]
+                NoFactor(
+                ) [NoFactor]
+              ) [TermDef]
+              AddTer(
+                NoTer(
+                ) [NoTer]
+                Plus(
+                ) [Plus]
+                TermDef(
+                  NumberConst(
+                   2
+                  ) [NumberConst]
+                  NoFactor(
+                  ) [NoFactor]
+                ) [TermDef]
+              ) [AddTer]
+            ) [ExpressionDef]
+          ) [ReturnExpression]
+        ) [Statements]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      ReturnType(
+        TypeWithoutNamespace(
+         int
+        ) [TypeWithoutNamespace]
+      ) [ReturnType]
+     main
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              PrintExpr(
+                ExpressionDef(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermDef(
+                    NumberConst(
+                     1
+                    ) [NumberConst]
+                    NoFactor(
+                    ) [NoFactor]
+                  ) [TermDef]
+                  NoTer(
+                  ) [NoTer]
+                ) [ExpressionDef]
+                NoNumConstOpt(
+                ) [NoNumConstOpt]
+              ) [PrintExpr]
+            ) [Statements]
+            DesignatorStat(
+              DesignatorExpr(
+                DesignatorWithoutNamespace(
+                 x
+                  NoBracketsExpression(
+                  ) [NoBracketsExpression]
+                ) [DesignatorWithoutNamespace]
+                ExpressionDef(
+                  NoMinus(
+                  ) [NoMinus]
+                  TermDef(
+                    DesignatorFact(
+                      DesignatorWithoutNamespace(
+                       y
+                        NoBracketsExpression(
+                        ) [NoBracketsExpression]
+                      ) [DesignatorWithoutNamespace]
+                    ) [DesignatorFact]
+                    NoFactor(
+                    ) [NoFactor]
+                  ) [TermDef]
+                  AddTer(
+                    AddTer(
+                      NoTer(
+                      ) [NoTer]
+                      Plus(
+                      ) [Plus]
+                      TermDef(
+                        NumberConst(
+                         5
+                        ) [NumberConst]
+                        NoFactor(
+                        ) [NoFactor]
+                      ) [TermDef]
+                    ) [AddTer]
+                    Plus(
+                    ) [Plus]
+                    TermDef(
+                      NumberConst(
+                       3
+                      ) [NumberConst]
+                      NoFactor(
+                      ) [NoFactor]
+                    ) [TermDef]
+                  ) [AddTer]
+                ) [ExpressionDef]
+              ) [DesignatorExpr]
+            ) [DesignatorStat]
+          ) [Statements]
+          PrintExpr(
+            ExpressionDef(
+              NoMinus(
+              ) [NoMinus]
+              TermDef(
+                NumberConst(
+                 2
+                ) [NumberConst]
+                NoFactor(
+                ) [NoFactor]
+              ) [TermDef]
+              NoTer(
+              ) [NoTer]
+            ) [ExpressionDef]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [PrintExpr]
+        ) [Statements]
+        ReturnExpression(
+          ExpressionDef(
+            NoMinus(
+            ) [NoMinus]
+            TermDef(
+              NumberConst(
+               1
+              ) [NumberConst]
+              NoFactor(
+              ) [NoFactor]
+            ) [TermDef]
+            NoTer(
+            ) [NoTer]
+          ) [ExpressionDef]
+        ) [ReturnExpression]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [ProgramDef]
+INFO  14:17:52,335 - ===================================

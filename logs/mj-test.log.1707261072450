@@ -1,0 +1,154 @@
+INFO  00:10:25,906 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:10:25,927 - #2 program
+INFO  00:10:25,927 - #46 test301
+INFO  00:10:25,927 - #46 int
+INFO  00:10:25,928 - #46 a
+INFO  00:10:25,928 - #29 ,
+INFO  00:10:25,929 - #46 c
+INFO  00:10:25,929 - #27 ;
+INFO  00:10:25,929 - #35 {
+INFO  00:10:25,929 - #8 void
+INFO  00:10:25,929 - #46 main
+INFO  00:10:25,929 - #31 (
+INFO  00:10:25,929 - #32 )
+INFO  00:10:25,931 - #46 int
+INFO  00:10:25,931 - #46 b
+INFO  00:10:25,931 - #27 ;
+INFO  00:10:25,931 - #46 bool
+INFO  00:10:25,931 - #46 c
+INFO  00:10:25,931 - #27 ;
+INFO  00:10:25,931 - #35 {
+INFO  00:10:25,931 - #46 b
+INFO  00:10:25,931 - #24 =
+INFO  00:10:25,932 - #45 1
+INFO  00:10:25,934 - #27 ;
+INFO  00:10:25,934 - #5 print
+INFO  00:10:25,934 - #31 (
+INFO  00:10:25,934 - #46 b
+INFO  00:10:25,934 - #32 )
+INFO  00:10:25,935 - #27 ;
+INFO  00:10:25,935 - #36 }
+INFO  00:10:25,936 - #36 }
+INFO  00:10:25,938 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclarations(
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+          AddVarDecl1(
+           c
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [MultipleVarDeclarations]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               b
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             c
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 b
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   b
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:10:25,939 - ===================================
+INFO  00:10:25,942 - Symbol b found na liniji 13
+INFO  00:10:25,942 - Symbol b found na liniji 14
+INFO  00:10:25,942 - Found main() method na liniji 3
+INFO  00:10:25,944 - Parsiranje uspesno zavrseno!

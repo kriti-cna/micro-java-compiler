@@ -1,0 +1,26 @@
+INFO  01:19:21,791 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+ERROR 01:19:21,818 - 
+Sintaksna greska na liniji 7
+ERROR 01:19:21,819 - Global variable declaration syntax error on line 7
+ERROR 01:19:21,819 - 
+Sintaksna greska na liniji 16
+ERROR 01:19:21,819 - Global variable declaration syntax error on line 16
+ERROR 01:19:21,819 - 
+Sintaksna greska na liniji 17
+ERROR 01:19:21,819 - Global variable declaration syntax error on line 17
+ERROR 01:19:21,819 - 
+Sintaksna greska na liniji 18
+ERROR 01:19:21,819 - Global variable declaration syntax error on line 18
+ERROR 01:19:21,819 - 
+Sintaksna greska na liniji 19
+ERROR 01:19:21,820 - Global variable declaration syntax error on line 19
+ERROR 01:19:21,820 - 
+Sintaksna greska na liniji 24
+ERROR 01:19:21,820 - Global variable declaration syntax error on line 24
+ERROR 01:19:21,820 - 
+Sintaksna greska na liniji 25
+ERROR 01:19:21,820 - Global variable declaration syntax error on line 25
+ERROR 01:19:21,820 - 
+Sintaksna greska na liniji 26
+ERROR 01:19:21,820 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 28
+INFO  01:19:21,820 - Postoji sintaksna greska

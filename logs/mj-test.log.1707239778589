@@ -1,0 +1,76 @@
+INFO  18:15:53,905 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:15:53,925 - #2 program
+INFO  18:15:53,925 - #46 test301
+INFO  18:15:53,925 - #46 int
+INFO  18:15:53,926 - #46 a
+INFO  18:15:53,926 - #29 ,
+INFO  18:15:53,927 - #46 dd_
+INFO  18:15:53,927 - #29 ,
+INFO  18:15:53,927 - #46 c
+INFO  18:15:53,928 - #27 ;
+INFO  18:15:53,928 - #35 {
+INFO  18:15:53,928 - #8 void
+INFO  18:15:53,928 - #46 main
+INFO  18:15:53,929 - #31 (
+INFO  18:15:53,931 - #32 )
+INFO  18:15:53,932 - #35 {
+INFO  18:15:53,933 - #36 }
+INFO  18:15:53,933 - #36 }
+INFO  18:15:53,939 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclarations(
+          MultipleVarDeclarations(
+            OneVarDeclaration(
+              AddVarDecl(
+               a
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl]
+            ) [OneVarDeclaration]
+            AddVarDecl(
+             dd_
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl]
+          ) [MultipleVarDeclarations]
+          AddVarDecl(
+           c
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl]
+        ) [MultipleVarDeclarations]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:15:53,950 - ===================================
+INFO  18:15:53,954 - Parsiranje uspesno zavrseno!

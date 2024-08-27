@@ -1,0 +1,216 @@
+INFO  09:12:14,600 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  09:12:14,601 - ================= LEKSICKA ANALIZA =================
+INFO  09:12:14,623 - #2 program
+INFO  09:12:14,623 - #46 test4
+INFO  09:12:14,623 - #10 namespace
+INFO  09:12:14,624 - #46 Konstante
+INFO  09:12:14,624 - #35 {
+INFO  09:12:14,624 - #3 const
+INFO  09:12:14,625 - #46 int
+INFO  09:12:14,625 - #46 nula
+INFO  09:12:14,625 - #24 =
+INFO  09:12:14,626 - #45 0
+INFO  09:12:14,626 - #27 ;
+INFO  09:12:14,627 - #3 const
+INFO  09:12:14,627 - #46 int
+INFO  09:12:14,627 - #46 jedan
+INFO  09:12:14,628 - #24 =
+INFO  09:12:14,628 - #45 1
+INFO  09:12:14,628 - #27 ;
+INFO  09:12:14,628 - #3 const
+INFO  09:12:14,628 - #46 int
+INFO  09:12:14,628 - #46 pet
+INFO  09:12:14,628 - #24 =
+INFO  09:12:14,628 - #45 5
+INFO  09:12:14,628 - #27 ;
+INFO  09:12:14,628 - #35 {
+INFO  09:12:14,628 - #36 }
+INFO  09:12:14,629 - #36 }
+INFO  09:12:14,629 - #3 const
+INFO  09:12:14,629 - #46 int
+INFO  09:12:14,629 - #46 a
+INFO  09:12:14,629 - #24 =
+INFO  09:12:14,629 - #45 5
+INFO  09:12:14,629 - #27 ;
+INFO  09:12:14,629 - #35 {
+INFO  09:12:14,629 - #8 void
+INFO  09:12:14,630 - #46 main
+INFO  09:12:14,630 - #31 (
+INFO  09:12:14,630 - #32 )
+INFO  09:12:14,631 - #46 int
+INFO  09:12:14,631 - #46 bodovi
+INFO  09:12:14,631 - #27 ;
+INFO  09:12:14,631 - #46 char
+INFO  09:12:14,632 - #46 c
+INFO  09:12:14,632 - #33 [
+INFO  09:12:14,632 - #34 ]
+INFO  09:12:14,632 - #27 ;
+INFO  09:12:14,632 - #35 {
+INFO  09:12:14,632 - #5 print
+INFO  09:12:14,633 - #31 (
+INFO  09:12:14,633 - #46 a
+INFO  09:12:14,633 - #32 )
+INFO  09:12:14,634 - #27 ;
+INFO  09:12:14,634 - #36 }
+INFO  09:12:14,634 - #36 }
+INFO  09:12:14,635 - ================= PARSIRANO STABLO =================
+INFO  09:12:14,638 - Program(
+  ProgName(
+   test4
+  ) [ProgName]
+  NamespaceDeclarations(
+    NoNamespaceDeclarations(
+    ) [NoNamespaceDeclarations]
+    Namespace(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstantDeclaration(
+              ConDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstDef(
+                 nula
+                  NumConst(
+                   0
+                  ) [NumConst]
+                ) [ConstDef]
+                NoConstantDeclaration(
+                ) [NoConstantDeclaration]
+              ) [ConDecl]
+            ) [ConstantDeclaration]
+          ) [Declarations]
+          ConstantDeclaration(
+            ConDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDef(
+               jedan
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [ConstDef]
+              NoConstantDeclaration(
+              ) [NoConstantDeclaration]
+            ) [ConDecl]
+          ) [ConstantDeclaration]
+        ) [Declarations]
+        ConstantDeclaration(
+          ConDecl(
+            Type(
+             int
+            ) [Type]
+            ConstDef(
+             pet
+              NumConst(
+               5
+              ) [NumConst]
+            ) [ConstDef]
+            NoConstantDeclaration(
+            ) [NoConstantDeclaration]
+          ) [ConDecl]
+        ) [ConstantDeclaration]
+      ) [Declarations]
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+    ) [Namespace]
+  ) [NamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstantDeclaration(
+      ConDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDef(
+         a
+          NumConst(
+           5
+          ) [NumConst]
+        ) [ConstDef]
+        NoConstantDeclaration(
+        ) [NoConstantDeclaration]
+      ) [ConDecl]
+    ) [ConstantDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               bodovi
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             c
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   a
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  09:12:14,638 - ================ Semanticka obrada ===================
+INFO  09:12:14,640 - Const nula defined on line 6
+INFO  09:12:14,640 - Const jedan defined on line 7
+INFO  09:12:14,640 - Const pet defined on line 8
+INFO  09:12:14,640 - Const a defined on line 14
+INFO  09:12:14,640 - Symbol a found on line 21
+INFO  09:12:14,640 - main() method found on line 3
+INFO  09:12:14,644 - Parser SUCCESS!

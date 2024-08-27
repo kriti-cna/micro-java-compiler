@@ -1,0 +1,100 @@
+INFO  18:51:03,871 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:51:03,875 - ================= LEKSICKA ANALIZA =================
+INFO  18:51:03,924 - #2 program
+INFO  18:51:03,925 - #47 test301
+INFO  18:51:03,925 - #35 {
+INFO  18:51:03,926 - #8 void
+INFO  18:51:03,927 - #47 main
+INFO  18:51:03,928 - #31 (
+INFO  18:51:03,928 - #32 )
+INFO  18:51:03,929 - #47 int
+INFO  18:51:03,930 - #47 niz
+INFO  18:51:03,930 - #33 [
+INFO  18:51:03,930 - #34 ]
+INFO  18:51:03,930 - #27 ;
+INFO  18:51:03,932 - #35 {
+INFO  18:51:03,932 - #47 niz
+INFO  18:51:03,932 - #24 =
+INFO  18:51:03,934 - #10 range
+ERROR 18:51:03,934 - 
+Sintaksna greska on line 8
+INFO  18:51:03,970 - #31 (
+INFO  18:51:03,970 - #46 3
+INFO  18:51:03,970 - #32 )
+INFO  18:51:03,971 - #27 ;
+ERROR 18:51:03,971 - Recovered from error8
+INFO  18:51:03,973 - #36 }
+INFO  18:51:03,973 - #36 }
+INFO  18:51:03,976 - ================= PARSIRANO STABLO =================
+INFO  18:51:03,984 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             niz
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               niz
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            PositiveStartExpr(
+              SingleTerm(
+                ExpressionFact(
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       3
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [ExpressionFact]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:51:03,984 - ================ Semanticka obrada ===================
+INFO  18:51:03,990 - Symbol niz found on line 8
+INFO  18:51:03,991 - main() method found on line 1
+INFO  18:51:03,994 - Parser SUCCESS!

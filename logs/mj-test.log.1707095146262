@@ -1,0 +1,4 @@
+INFO  01:55:04,213 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+ERROR 01:55:04,242 - 
+Sintaksna greska na liniji 9
+ERROR 01:55:04,243 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16

@@ -1,0 +1,27 @@
+INFO  14:29:56,487 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:29:56,490 - #2 program
+INFO  14:29:56,491 - #46 test301
+INFO  14:29:56,491 - #10 namespace
+INFO  14:29:56,492 - #46 Konstante
+INFO  14:29:56,492 - #35 {
+INFO  14:29:56,492 - #3 const
+INFO  14:29:56,492 - #46 int
+INFO  14:29:56,492 - #46 nula
+INFO  14:29:56,492 - #24 =
+INFO  14:29:56,492 - #45 0
+INFO  14:29:56,492 - #27 ;
+INFO  14:29:56,492 - #3 const
+INFO  14:29:56,493 - #46 int
+INFO  14:29:56,493 - #46 jedan
+INFO  14:29:56,493 - #24 =
+INFO  14:29:56,493 - #45 1
+INFO  14:29:56,493 - #27 ;
+INFO  14:29:56,493 - #3 const
+INFO  14:29:56,493 - #46 int
+INFO  14:29:56,493 - #46 pet
+INFO  14:29:56,493 - #24 =
+INFO  14:29:56,493 - #45 5
+INFO  14:29:56,493 - #27 ;
+INFO  14:29:56,493 - #35 {
+INFO  14:29:56,493 - #36 }
+INFO  14:29:56,493 - #36 }

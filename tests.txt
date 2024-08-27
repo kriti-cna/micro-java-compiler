@@ -1,0 +1,441 @@
+
+
+program test1
+
+	int a;
+	
+{
+	void main()	
+		int b;
+		bool c;
+	{
+
+		b = b+1;
+			
+	}
+}
+
+//success
+
+program test2
+
+	int a, c-;
+	
+{
+	void main()	
+		int b;
+		bool c;
+	{
+
+		b = b+1;
+			
+	}
+}
+
+
+// ERROR 23:36:35,126 - 
+// Sintaksna greska na liniji 5
+// ERROR 23:36:35,127 - Recovered from error 5
+
+
+
+
+program test3
+
+	int a/, c;
+	
+{
+	void main()	
+		int b;
+		bool c;
+	{
+
+		b = c;
+			
+	}
+}
+
+// ERROR 23:40:50,412 - 
+// Sintaksna greska na liniji 5
+// ERROR 23:40:50,412 - Recovered from error 5
+
+
+
+
+program test4
+
+namespace Konstante{
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+	
+	{}
+}
+
+namespace Konstante{
+	int niz[];
+	char nizch[];
+	
+	{}
+}
+
+	int a;
+	
+{
+	void main()	
+		int bodovi;
+		bool bt;
+	{
+			
+	}
+}
+
+
+//ERROR 08:48:55,052 - Namespace Konstante already exists on line 13
+
+
+
+
+program test5
+
+namespace Konstante{
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+	
+	{}
+}
+
+
+	int a;
+	
+{
+	void main()	
+		ini bodovi;
+	{
+			
+	}
+}
+
+
+ERROR 08:51:07,905 - Type ini does not exist on line 18
+
+
+
+program test6
+
+namespace Konstante{
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+	
+	{}
+}
+
+
+	int a;
+	
+{
+	void main()	
+		int bodovi;
+		int bodovi;
+	{
+			
+	}
+}
+
+
+//ERROR 08:55:09,416 - Variable bodovi already exist on line 19
+
+
+
+
+
+program test7
+
+namespace Konstante{
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+	
+	{}
+}
+
+namespace Nizovi{
+	int niz[];
+	char nizch[];
+	
+	{}
+}
+
+	int a;
+	bool b;
+	
+{
+	void main()	
+		int bodovi[];
+		bool bt;
+	{
+		a = b;
+			
+	}
+}
+
+
+ERROR 09:31:25,978 - Error: Types not matching  on line 28
+
+
+
+
+program test8
+
+namespace Konstante{
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+	
+	{}
+}
+
+namespace Nizovi{
+	int niz[];
+	char nizch[];
+	
+	{}
+}
+
+	int a;
+	bool b;
+	
+{
+	void main()	
+		int bodovi[];
+		bool bt;
+	{
+		a = a * true;
+			
+	}
+}
+
+ERROR 09:34:54,982 - Invalid mulop for types on line 28
+
+
+program test9
+
+namespace Konstante{
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+	
+	{}
+}
+
+namespace Nizovi{
+	int niz[];
+	char nizch[];
+	
+	{}
+}
+
+	int a;
+	bool b;
+	
+{
+	void main()	
+		int bodovi[];
+		bool bt;
+	{
+		a = - true;
+			
+	}
+}
+
+ERROR 09:36:07,162 - Invalid expression type on line 28
+ERROR 09:36:07,162 - Error: Types not matching  on line 28
+
+
+
+
+
+program test10
+
+namespace Konstante{
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+	
+	{}
+}
+
+namespace Nizovi{
+	int niz[];
+	char nizch[];
+	
+	{}
+}
+
+	int a;
+	bool b;
+	
+{
+	void main()	
+		int bodovi[];
+		bool bt;
+	{
+		a = bodovi[bt];
+			
+	}
+}
+
+
+ERROR 09:40:06,822 - Array size inside [] must be an Int on line 28
+
+
+program test11
+
+
+{
+	void main()	
+		int niz[];
+		bool nizb[];
+	{
+		niz = range(7);
+		!!!$
+		print(niz);
+	}
+}
+
+Leksicka greska (!) u liniji 10
+Leksicka greska (!) u liniji 10
+Leksicka greska (!) u liniji 10
+Leksicka greska ($) u liniji 10
+
+
+program test12
+	int a+, b;
+
+{
+	void main()	
+		int niz[];
+		bool nizb[];
+	{
+		niz = range(7);
+		print(niz);
+	}
+}
+
+INFO  19:21:44,379 - #47 a
+INFO  19:21:44,379 - #11 +
+ERROR 19:21:44,381 - 
+Sintaksna greska on line 2
+INFO  19:21:44,381 - #29 ,
+INFO  19:21:44,381 - #47 b
+INFO  19:21:44,381 - #27 ;
+ERROR 19:21:44,381 - Recovered from error2
+
+
+
+program test13
+	int a, b;
+
+{
+	void main()	
+		int niz[];
+		bool nizb[];
+	{
+	
+		niz = range(7);
+		print(niz);
+	}
+}
+
+Variable niz already exists on line 8
+
+program test14
+	int a, b;
+
+{
+	void main()	
+		int niz[];
+		bool nizb[];
+		int a;
+	{
+		niz = range(7);
+		print(niz);
+		a = niz;
+		a = niz[0];
+	}
+}
+
+ERROR 20:45:39,185 - Error: Types not matching  on line 12
+
+
+// Test301
+
+// Test301
+
+program test301
+
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+
+	int niz[];
+	char nizch[];
+	int mat[][];
+
+	int a;
+	
+{
+	void main()	
+		int bodovi;
+		bool bt;
+	{
+		bodovi = 0;
+		bodovi++;
+		bodovi = bodovi + jedan;
+		bodovi = bodovi * pet;
+		bodovi--;
+		print(bodovi);
+		
+		niz = new int[3];
+		niz[nula] = jedan;
+		niz[1] = 2;
+		niz[niz[jedan]] = niz[niz[0]] * 3;
+		bodovi = niz[2]/niz[0];
+		print(bodovi);
+		print(niz[2]);
+			
+		
+		nizch = new char[3];
+		nizch[0] = 'a';
+		nizch[jedan] = 'b';
+		nizch[pet - 3] = 'c';
+		print(nizch[1]);
+		print(nizch[jedan * 2]);
+			
+		a=1;
+		read(bodovi);
+		bodovi = -bodovi + (pet * a / 2 - jedan) * bodovi - (3 % 2 + 3 * 2 - 3); 
+		print(bodovi);
+			
+		mat = new int[2][3];
+		mat[nula][jedan - 1] = jedan;
+		mat[0][mat[0][0]] = 2;
+		mat[0][mat[0][1]] = 5;
+		mat[1][mat[0][0]*2] = 4;
+		mat[mat[0][0]][1] = 3;
+		mat[1][0] = 2;
+		
+		print(mat[1][2]);
+		print(mat[0][2]);
+		
+		//1 2 5 matrica
+		//2 3 4
+	}
+}
+
+//SUCCESS
+
+
+

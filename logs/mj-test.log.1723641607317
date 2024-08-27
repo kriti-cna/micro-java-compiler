@@ -1,0 +1,64 @@
+INFO  15:19:59,103 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:19:59,104 - ================= LEKSICKA ANALIZA =================
+INFO  15:19:59,129 - #2 program
+INFO  15:19:59,129 - #47 test301
+INFO  15:19:59,129 - #47 int
+INFO  15:19:59,130 - #47 mat
+INFO  15:19:59,130 - #33 [
+INFO  15:19:59,130 - #34 ]
+INFO  15:19:59,130 - #33 [
+INFO  15:19:59,130 - #34 ]
+INFO  15:19:59,130 - #27 ;
+INFO  15:19:59,131 - #35 {
+INFO  15:19:59,131 - #8 void
+INFO  15:19:59,132 - #47 main
+INFO  15:19:59,132 - #31 (
+INFO  15:19:59,133 - #32 )
+INFO  15:19:59,134 - #35 {
+INFO  15:19:59,135 - #36 }
+INFO  15:19:59,135 - #36 }
+INFO  15:19:59,136 - ================= PARSIRANO STABLO =================
+INFO  15:19:59,151 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           mat
+            TwoBrackets(
+            ) [TwoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:19:59,151 - ================ Semanticka obrada ===================
+INFO  15:19:59,154 - NEW SYMBOL

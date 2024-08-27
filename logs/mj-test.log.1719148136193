@@ -1,0 +1,160 @@
+INFO  15:08:22,207 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:08:22,208 - ================= LEKSICKA ANALIZA =================
+INFO  15:08:22,262 - #2 program
+INFO  15:08:22,262 - #46 test301
+INFO  15:08:22,262 - #3 const
+INFO  15:08:22,264 - #46 int
+INFO  15:08:22,264 - #46 jed
+INFO  15:08:22,264 - #24 =
+INFO  15:08:22,265 - #45 11
+INFO  15:08:22,265 - #27 ;
+INFO  15:08:22,266 - #35 {
+INFO  15:08:22,266 - #8 void
+INFO  15:08:22,267 - #46 main
+INFO  15:08:22,267 - #31 (
+INFO  15:08:22,268 - #32 )
+INFO  15:08:22,269 - #46 int
+INFO  15:08:22,269 - #46 a
+INFO  15:08:22,269 - #27 ;
+INFO  15:08:22,271 - #35 {
+INFO  15:08:22,272 - #46 a
+INFO  15:08:22,310 - #24 =
+INFO  15:08:22,314 - #45 10
+INFO  15:08:22,317 - #27 ;
+INFO  15:08:22,318 - #5 print
+INFO  15:08:22,319 - #31 (
+INFO  15:08:22,319 - #46 a
+INFO  15:08:22,319 - #32 )
+INFO  15:08:22,321 - #27 ;
+INFO  15:08:22,321 - #5 print
+INFO  15:08:22,322 - #31 (
+INFO  15:08:22,322 - #46 jed
+INFO  15:08:22,322 - #32 )
+INFO  15:08:22,322 - #27 ;
+INFO  15:08:22,322 - #36 }
+INFO  15:08:22,322 - #36 }
+INFO  15:08:22,327 - ================= PARSIRANO STABLO =================
+INFO  15:08:22,338 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstantDeclaration(
+      ConDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDef(
+         jed
+          NumConst(
+           11
+          ) [NumConst]
+        ) [ConstDef]
+        NoConstantDeclaration(
+        ) [NoConstantDeclaration]
+      ) [ConDecl]
+    ) [ConstantDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStat(
+              DesignatorExpr(
+                Designator(
+                  WithoutNamespace(
+                   a
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+                AssignOperation(
+                ) [AssignOperation]
+                PositiveStartExpr(
+                  SingleTerm(
+                    NumberConst(
+                     10
+                    ) [NumberConst]
+                  ) [SingleTerm]
+                ) [PositiveStartExpr]
+              ) [DesignatorExpr]
+            ) [DesignatorStat]
+          ) [Statements]
+          PrintExpr(
+            PositiveStartExpr(
+              SingleTerm(
+                DesignatorFact(
+                  Designator(
+                    WithoutNamespace(
+                     a
+                    ) [WithoutNamespace]
+                    NoArrayExpression(
+                    ) [NoArrayExpression]
+                  ) [Designator]
+                ) [DesignatorFact]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [PrintExpr]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   jed
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:08:22,338 - ================ Semanticka obrada ===================
+INFO  15:08:33,603 - Const jed defined0 on line 3
+INFO  15:08:33,605 - Symbol a found on line 9
+INFO  15:08:33,606 - Symbol a found on line 10
+INFO  15:08:33,606 - Symbol jed found on line 11
+INFO  15:08:33,607 - main() method found on line 1
+INFO  15:08:33,647 - Parser SUCCESS!

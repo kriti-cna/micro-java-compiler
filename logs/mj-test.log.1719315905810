@@ -1,0 +1,131 @@
+INFO  13:44:53,914 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:44:53,915 - ================= LEKSICKA ANALIZA =================
+INFO  13:44:53,939 - #2 program
+INFO  13:44:53,939 - #47 test301
+INFO  13:44:53,939 - #35 {
+INFO  13:44:53,940 - #8 void
+INFO  13:44:53,941 - #47 main
+INFO  13:44:53,941 - #31 (
+INFO  13:44:53,942 - #32 )
+INFO  13:44:53,943 - #47 int
+INFO  13:44:53,944 - #47 niz
+INFO  13:44:53,947 - #33 [
+INFO  13:44:53,947 - #34 ]
+INFO  13:44:53,947 - #27 ;
+INFO  13:44:53,948 - #35 {
+INFO  13:44:53,948 - #47 niz
+INFO  13:44:53,951 - #24 =
+INFO  13:44:53,953 - #45 range
+INFO  13:44:53,953 - #31 (
+INFO  13:44:53,953 - #47 a
+INFO  13:44:53,953 - #32 )
+INFO  13:44:53,954 - #27 ;
+INFO  13:44:53,954 - #5 print
+INFO  13:44:53,954 - #31 (
+INFO  13:44:53,954 - #47 niz
+INFO  13:44:53,954 - #32 )
+INFO  13:44:53,955 - #27 ;
+INFO  13:44:53,955 - #36 }
+INFO  13:44:53,955 - #36 }
+INFO  13:44:53,958 - ================= PARSIRANO STABLO =================
+INFO  13:44:53,964 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             niz
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 niz
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  RangeExpression(
+                    PositiveStartExpr(
+                      SingleTerm(
+                        DesignatorFact(
+                          Designator(
+                            WithoutNamespace(
+                             a
+                            ) [WithoutNamespace]
+                            NoArrayExpression(
+                            ) [NoArrayExpression]
+                          ) [Designator]
+                        ) [DesignatorFact]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [RangeExpression]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   niz
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:44:53,965 - ================ Semanticka obrada ===================
+INFO  13:44:53,969 - Symbol niz found on line 8
+ERROR 13:44:53,969 - Symbol a does not exist on line 8
+ERROR 13:44:53,969 - Identifier does not exist  on line 8
+ERROR 13:44:53,969 - Invalid expression for range [] on line 8
+INFO  13:44:53,969 - Symbol niz found on line 9
+INFO  13:44:53,971 - main() method found on line 1
+ERROR 13:44:53,971 - Parser FAIL!

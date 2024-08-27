@@ -1,0 +1,54 @@
+INFO  20:41:34,417 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+ERROR 20:41:34,453 - 
+Sintaksna greska na liniji 4
+ERROR 20:41:34,454 -  SEMICOLON Global variable declaration syntax error on line 4
+INFO  20:41:34,460 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VariableDeclaration(
+          VarDeclaration(
+            TypeWithoutNamespace(
+             int
+            ) [TypeWithoutNamespace]
+           a
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDeclaration(
+            ) [NoVarDeclaration]
+          ) [VarDeclaration]
+        ) [VariableDeclaration]
+      ) [Declarations]
+      VariableDeclaration(
+        VarDeclaration(
+          TypeWithoutNamespace(
+           char
+          ) [TypeWithoutNamespace]
+         b
+          NoBrackets(
+          ) [NoBrackets]
+          NoVarDeclaration(
+          ) [NoVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclDerived1(
+      ) [VarDeclDerived1]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  20:41:34,470 - ===================================
+INFO  20:41:34,473 - int
+INFO  20:41:34,473 - Deklarisana promenljiva a na liniji 2
+INFO  20:41:34,473 - char
+INFO  20:41:34,474 - Deklarisana promenljiva b na liniji 3

@@ -1,0 +1,105 @@
+INFO  14:59:23,030 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:59:23,031 - ================= LEKSICKA ANALIZA =================
+INFO  14:59:23,055 - #2 program
+INFO  14:59:23,055 - #47 test301
+INFO  14:59:23,055 - #47 int
+INFO  14:59:23,056 - #47 niz
+INFO  14:59:23,057 - #33 [
+INFO  14:59:23,057 - #34 ]
+INFO  14:59:23,057 - #27 ;
+INFO  14:59:23,058 - #35 {
+INFO  14:59:23,058 - #8 void
+INFO  14:59:23,058 - #47 main
+INFO  14:59:23,058 - #31 (
+INFO  14:59:23,058 - #32 )
+INFO  14:59:23,060 - #35 {
+INFO  14:59:23,060 - #47 niz
+INFO  14:59:23,060 - #24 =
+INFO  14:59:23,061 - #4 new
+INFO  14:59:23,061 - #47 int
+INFO  14:59:23,061 - #33 [
+INFO  14:59:23,072 - #46 2
+INFO  14:59:23,072 - #34 ]
+INFO  14:59:23,072 - #27 ;
+INFO  14:59:23,072 - #36 }
+INFO  14:59:23,072 - #36 }
+INFO  14:59:23,074 - ================= PARSIRANO STABLO =================
+INFO  14:59:23,076 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           niz
+            Brackets(
+            ) [Brackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               niz
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignOperation(
+            ) [AssignOperation]
+            PositiveStartExpr(
+              SingleTerm(
+                NewType(
+                  Type(
+                   int
+                  ) [Type]
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       2
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [NewType]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:59:23,076 - ================ Semanticka obrada ===================
+INFO  14:59:23,078 - NEW SYMBOL
+INFO  14:59:23,078 - Var niz: Arr of int, 0, 0 on line 4
+INFO  14:59:23,078 - Var niz: Arr of int, 0, 0 on line 11
+INFO  14:59:23,078 - Meth main: notype, 0, 0 on line 3
+INFO  14:59:23,080 - Parser SUCCESS!

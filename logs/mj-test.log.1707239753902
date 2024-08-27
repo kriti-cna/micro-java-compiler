@@ -1,0 +1,22 @@
+INFO  18:14:56,292 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:14:56,312 - #2 program
+INFO  18:14:56,313 - #46 test301
+INFO  18:14:56,313 - #46 int
+INFO  18:14:56,313 - #46 a
+INFO  18:14:56,314 - #29 ,
+INFO  18:14:56,315 - #46 dd
+INFO  18:14:56,315 - #12 -
+ERROR 18:14:56,315 - 
+Sintaksna greska na liniji 5
+INFO  18:14:56,315 - #29 ,
+INFO  18:14:56,315 - #46 c
+INFO  18:14:56,315 - #27 ;
+INFO  18:14:56,316 - #35 {
+INFO  18:14:56,316 - #8 void
+INFO  18:14:56,316 - #46 main
+INFO  18:14:56,316 - #31 (
+INFO  18:14:56,316 - #32 )
+INFO  18:14:56,316 - #35 {
+INFO  18:14:56,316 - #36 }
+INFO  18:14:56,316 - #36 }
+ERROR 18:14:56,318 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

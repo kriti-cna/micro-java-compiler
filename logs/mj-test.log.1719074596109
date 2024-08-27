@@ -1,0 +1,24 @@
+INFO  18:42:00,133 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:42:00,138 - #2 program
+INFO  18:42:00,138 - #46 test301
+INFO  18:42:00,138 - #46 int
+INFO  18:42:00,138 - #46 a
+INFO  18:42:00,138 - #33 [
+INFO  18:42:00,138 - #34 ]
+INFO  18:42:00,139 - #27 ;
+INFO  18:42:00,139 - #35 {
+INFO  18:42:00,139 - #8 void
+INFO  18:42:00,139 - #46 Main
+INFO  18:42:00,139 - #31 (
+INFO  18:42:00,139 - #32 )
+INFO  18:42:00,139 - #35 {
+INFO  18:42:00,139 - #46 a
+INFO  18:42:00,140 - #24 =
+INFO  18:42:00,140 - #4 new
+INFO  18:42:00,140 - #46 int
+INFO  18:42:00,140 - #33 [
+INFO  18:42:00,140 - #45 3
+INFO  18:42:00,140 - #34 ]
+INFO  18:42:00,141 - #27 ;
+INFO  18:42:00,175 - #36 }
+INFO  18:42:00,175 - #36 }

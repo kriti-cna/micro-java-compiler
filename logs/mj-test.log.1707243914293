@@ -1,0 +1,67 @@
+INFO  19:22:59,020 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:22:59,042 - #2 program
+INFO  19:22:59,042 - #46 test301
+INFO  19:22:59,042 - #46 int
+INFO  19:22:59,043 - #46 a
+INFO  19:22:59,043 - #29 ,
+INFO  19:22:59,043 - #46 b
+INFO  19:22:59,043 - #27 ;
+INFO  19:22:59,043 - #35 {
+INFO  19:22:59,044 - #8 void
+INFO  19:22:59,044 - #46 main
+INFO  19:22:59,044 - #31 (
+INFO  19:22:59,045 - #32 )
+INFO  19:22:59,045 - #35 {
+INFO  19:22:59,045 - #36 }
+INFO  19:22:59,045 - #36 }
+INFO  19:22:59,054 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclarations(
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+          AddVarDecl1(
+           b
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [MultipleVarDeclarations]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:22:59,055 - ===================================
+INFO  19:22:59,069 - Parsiranje uspesno zavrseno!

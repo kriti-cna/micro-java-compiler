@@ -1,0 +1,41 @@
+INFO  08:53:14,994 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  08:53:14,994 - ================= LEKSICKA ANALIZA =================
+INFO  08:53:15,017 - #2 program
+INFO  08:53:15,019 - #46 test4
+INFO  08:53:15,019 - #10 namespace
+INFO  08:53:15,019 - #46 Konstante
+INFO  08:53:15,019 - #35 {
+INFO  08:53:15,020 - #3 const
+INFO  08:53:15,020 - #46 int
+INFO  08:53:15,020 - #46 nula
+INFO  08:53:15,020 - #24 =
+INFO  08:53:15,020 - #45 0
+INFO  08:53:15,020 - #27 ;
+INFO  08:53:15,021 - #3 const
+INFO  08:53:15,021 - #46 int
+INFO  08:53:15,021 - #46 jedan
+INFO  08:53:15,021 - #24 =
+INFO  08:53:15,021 - #45 1
+INFO  08:53:15,021 - #27 ;
+INFO  08:53:15,021 - #3 const
+INFO  08:53:15,022 - #46 int
+INFO  08:53:15,022 - #46 pet
+INFO  08:53:15,022 - #24 =
+INFO  08:53:15,022 - #45 5
+INFO  08:53:15,022 - #27 ;
+INFO  08:53:15,022 - #35 {
+INFO  08:53:15,022 - #36 }
+INFO  08:53:15,022 - #36 }
+INFO  08:53:15,022 - #46 int
+INFO  08:53:15,023 - #46 a
+INFO  08:53:15,023 - #27 ;
+INFO  08:53:15,024 - #35 {
+INFO  08:53:15,025 - #8 void
+INFO  08:53:15,025 - #46 main
+INFO  08:53:15,025 - #31 (
+INFO  08:53:15,026 - #32 )
+INFO  08:53:15,026 - #10 namespace
+ERROR 08:53:15,026 - 
+Sintaksna greska on line 18
+ERROR 08:53:15,026 - Fatalna greska, parsiranje se ne moze nastaviti on line 18
+INFO  08:53:15,026 - ================= PARSIRANO STABLO =================

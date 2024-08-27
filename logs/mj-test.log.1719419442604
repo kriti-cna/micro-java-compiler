@@ -1,0 +1,48 @@
+INFO  18:26:25,832 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:26:25,832 - ================= LEKSICKA ANALIZA =================
+INFO  18:26:25,854 - #2 program
+INFO  18:26:25,854 - #47 test301
+INFO  18:26:25,854 - #47 int
+INFO  18:26:25,855 - #47 a
+INFO  18:26:25,856 - #24 =
+ERROR 18:26:25,856 - 
+Sintaksna greska on line 2
+INFO  18:26:25,856 - #47 d
+INFO  18:26:25,856 - #27 ;
+INFO  18:26:25,856 - #47 int
+INFO  18:26:25,856 - #47 b
+INFO  18:26:25,856 - #24 =
+INFO  18:26:25,856 - #46 5
+INFO  18:26:25,856 - #27 ;
+INFO  18:26:25,856 - #35 {
+INFO  18:26:25,856 - #8 void
+INFO  18:26:25,856 - #47 main
+INFO  18:26:25,856 - #31 (
+INFO  18:26:25,867 - #32 )
+INFO  18:26:25,867 - #47 int
+INFO  18:26:25,867 - #47 niz
+INFO  18:26:25,867 - #33 [
+INFO  18:26:25,867 - #34 ]
+INFO  18:26:25,867 - #27 ;
+INFO  18:26:25,867 - #47 bool
+INFO  18:26:25,867 - #47 nizb
+INFO  18:26:25,867 - #33 [
+INFO  18:26:25,867 - #34 ]
+INFO  18:26:25,867 - #27 ;
+INFO  18:26:25,867 - #35 {
+INFO  18:26:25,867 - #47 niz
+INFO  18:26:25,868 - #24 =
+INFO  18:26:25,868 - #45 range
+INFO  18:26:25,868 - #31 (
+INFO  18:26:25,868 - #46 7
+INFO  18:26:25,868 - #32 )
+INFO  18:26:25,868 - #27 ;
+INFO  18:26:25,868 - #5 print
+INFO  18:26:25,868 - #31 (
+INFO  18:26:25,868 - #47 niz
+INFO  18:26:25,868 - #32 )
+INFO  18:26:25,868 - #27 ;
+INFO  18:26:25,868 - #36 }
+INFO  18:26:25,868 - #36 }
+ERROR 18:26:25,869 - Fatalna greska, parsiranje se ne moze nastaviti on line 14
+INFO  18:26:25,869 - ================= PARSIRANO STABLO =================

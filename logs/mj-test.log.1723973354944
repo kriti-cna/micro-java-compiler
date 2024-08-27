@@ -1,0 +1,319 @@
+INFO  11:27:20,573 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  11:27:20,574 - ================= LEKSICKA ANALIZA =================
+INFO  11:27:20,597 - #2 program
+INFO  11:27:20,597 - #47 test301
+INFO  11:27:20,597 - #47 int
+INFO  11:27:20,599 - #47 niz
+INFO  11:27:20,599 - #33 [
+INFO  11:27:20,599 - #34 ]
+INFO  11:27:20,599 - #27 ;
+INFO  11:27:20,600 - #47 int
+INFO  11:27:20,600 - #47 mat
+INFO  11:27:20,600 - #33 [
+INFO  11:27:20,600 - #34 ]
+INFO  11:27:20,600 - #33 [
+INFO  11:27:20,600 - #34 ]
+INFO  11:27:20,600 - #27 ;
+INFO  11:27:20,601 - #47 char
+INFO  11:27:20,601 - #47 c
+INFO  11:27:20,601 - #27 ;
+INFO  11:27:20,602 - #47 bool
+INFO  11:27:20,612 - #47 a
+INFO  11:27:20,612 - #27 ;
+INFO  11:27:20,612 - #47 int
+INFO  11:27:20,612 - #47 in
+INFO  11:27:20,612 - #27 ;
+INFO  11:27:20,612 - #35 {
+INFO  11:27:20,612 - #8 void
+INFO  11:27:20,613 - #47 main
+INFO  11:27:20,614 - #31 (
+INFO  11:27:20,614 - #32 )
+INFO  11:27:20,615 - #35 {
+INFO  11:27:20,615 - #47 mat
+INFO  11:27:20,615 - #24 =
+INFO  11:27:20,616 - #4 new
+INFO  11:27:20,617 - #47 int
+INFO  11:27:20,617 - #33 [
+INFO  11:27:20,617 - #46 7
+INFO  11:27:20,617 - #34 ]
+INFO  11:27:20,617 - #33 [
+INFO  11:27:20,617 - #46 4
+INFO  11:27:20,617 - #11 +
+INFO  11:27:20,617 - #46 4
+INFO  11:27:20,617 - #34 ]
+INFO  11:27:20,619 - #27 ;
+INFO  11:27:20,619 - #47 in
+INFO  11:27:20,619 - #24 =
+INFO  11:27:20,619 - #47 mat
+INFO  11:27:20,619 - #33 [
+INFO  11:27:20,619 - #46 0
+INFO  11:27:20,619 - #34 ]
+INFO  11:27:20,619 - #33 [
+INFO  11:27:20,620 - #46 3
+INFO  11:27:20,620 - #12 -
+INFO  11:27:20,620 - #46 4
+INFO  11:27:20,620 - #11 +
+INFO  11:27:20,620 - #46 2
+INFO  11:27:20,620 - #34 ]
+INFO  11:27:20,620 - #27 ;
+INFO  11:27:20,620 - #5 print
+INFO  11:27:20,620 - #31 (
+INFO  11:27:20,620 - #47 c
+INFO  11:27:20,620 - #32 )
+INFO  11:27:20,621 - #27 ;
+INFO  11:27:20,621 - #36 }
+INFO  11:27:20,621 - #36 }
+INFO  11:27:20,622 - ================= PARSIRANO STABLO =================
+INFO  11:27:20,625 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VariableDeclaration(
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+                OneVarDeclaration(
+                  AddVarDecl1(
+                   niz
+                    Brackets(
+                    ) [Brackets]
+                  ) [AddVarDecl1]
+                ) [OneVarDeclaration]
+              ) [VarDeclaration]
+            ) [VariableDeclaration]
+          ) [Declarations]
+          VariableDeclaration(
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclaration(
+                AddVarDecl1(
+                 mat
+                  TwoBrackets(
+                  ) [TwoBrackets]
+                ) [AddVarDecl1]
+              ) [OneVarDeclaration]
+            ) [VarDeclaration]
+          ) [VariableDeclaration]
+        ) [Declarations]
+        VariableDeclaration(
+          VarDeclaration(
+            Type(
+             char
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               c
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [VariableDeclaration]
+      ) [Declarations]
+      VariableDeclaration(
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [VariableDeclaration]
+    ) [Declarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           in
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            DesignatorStat(
+              DesignatorExpr(
+                Designator(
+                  WithoutNamespace(
+                   mat
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+                AssignOperation(
+                ) [AssignOperation]
+                PositiveStartExpr(
+                  SingleTerm(
+                    NewTypeMat(
+                      Type(
+                       int
+                      ) [Type]
+                      PositiveStartExpr(
+                        SingleTerm(
+                          NumberConst(
+                           7
+                          ) [NumberConst]
+                        ) [SingleTerm]
+                      ) [PositiveStartExpr]
+                      AddExpression(
+                        PositiveStartExpr(
+                          SingleTerm(
+                            NumberConst(
+                             4
+                            ) [NumberConst]
+                          ) [SingleTerm]
+                        ) [PositiveStartExpr]
+                        Plus(
+                        ) [Plus]
+                        SingleTerm(
+                          NumberConst(
+                           4
+                          ) [NumberConst]
+                        ) [SingleTerm]
+                      ) [AddExpression]
+                    ) [NewTypeMat]
+                  ) [SingleTerm]
+                ) [PositiveStartExpr]
+              ) [DesignatorExpr]
+            ) [DesignatorStat]
+          ) [Statements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 in
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  DesignatorFact(
+                    Designator(
+                      WithoutNamespace(
+                       mat
+                      ) [WithoutNamespace]
+                      AddMatrixExpression(
+                        BraExpr(
+                          PositiveStartExpr(
+                            SingleTerm(
+                              NumberConst(
+                               0
+                              ) [NumberConst]
+                            ) [SingleTerm]
+                          ) [PositiveStartExpr]
+                        ) [BraExpr]
+                        BraExpr(
+                          AddExpression(
+                            AddExpression(
+                              PositiveStartExpr(
+                                SingleTerm(
+                                  NumberConst(
+                                   3
+                                  ) [NumberConst]
+                                ) [SingleTerm]
+                              ) [PositiveStartExpr]
+                              Minus(
+                              ) [Minus]
+                              SingleTerm(
+                                NumberConst(
+                                 4
+                                ) [NumberConst]
+                              ) [SingleTerm]
+                            ) [AddExpression]
+                            Plus(
+                            ) [Plus]
+                            SingleTerm(
+                              NumberConst(
+                               2
+                              ) [NumberConst]
+                            ) [SingleTerm]
+                          ) [AddExpression]
+                        ) [BraExpr]
+                      ) [AddMatrixExpression]
+                    ) [Designator]
+                  ) [DesignatorFact]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   c
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:27:20,625 - ================ Semanticka obrada ===================
+INFO  11:27:20,628 - NEW SYMBOL
+INFO  11:27:20,628 - Var niz: Arr of int, 0, 0 on line 2
+INFO  11:27:20,629 - NEW SYMBOL
+INFO  11:27:20,629 - Var mat: Matrix of int, 1, 0 on line 3
+INFO  11:27:20,629 - NEW SYMBOL
+INFO  11:27:20,629 - Var c: char, 2, 0 on line 4
+INFO  11:27:20,629 - NEW SYMBOL
+INFO  11:27:20,629 - Var a: boolean, 3, 0 on line 5
+INFO  11:27:20,629 - NEW SYMBOL
+INFO  11:27:20,629 - Var in: int, 4, 0 on line 6
+INFO  11:27:20,629 - Var mat: Matrix of int, 1, 0 on line 15
+INFO  11:27:20,629 - Var in: int, 4, 0 on line 16
+INFO  11:27:20,629 - Var mat: Matrix of int, 1, 0 on line 16
+INFO  11:27:20,629 - Var c: char, 2, 0 on line 17
+INFO  11:27:20,629 - Meth main: notype, 0, 0 on line 1
+INFO  11:27:20,632 - Parser SUCCESS!

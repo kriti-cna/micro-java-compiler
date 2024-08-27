@@ -1,0 +1,58 @@
+INFO  18:17:46,080 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:17:46,101 - #2 program
+INFO  18:17:46,101 - #46 test301
+INFO  18:17:46,101 - #46 int
+INFO  18:17:46,102 - #46 a
+INFO  18:17:46,102 - #12 -
+ERROR 18:17:46,102 - 
+Sintaksna greska na liniji 5
+INFO  18:17:46,102 - #29 ,
+INFO  18:17:46,102 - #27 ;
+INFO  18:17:46,102 - #35 {
+INFO  18:17:46,103 - #8 void
+ERROR 18:17:46,103 - Global variable declaration syntax error on line 5
+INFO  18:17:46,104 - #46 main
+INFO  18:17:46,104 - #31 (
+INFO  18:17:46,104 - #32 )
+INFO  18:17:46,105 - #35 {
+INFO  18:17:46,106 - #36 }
+INFO  18:17:46,107 - #36 }
+INFO  18:17:46,111 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:17:46,121 - ===================================
+ERROR 18:17:46,124 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,150 @@
+INFO  00:34:40,300 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:34:40,331 - #2 program
+INFO  00:34:40,331 - #46 test301
+INFO  00:34:40,331 - #46 int
+INFO  00:34:40,332 - #46 a
+INFO  00:34:40,333 - #29 ,
+INFO  00:34:40,334 - #46 c
+INFO  00:34:40,335 - #27 ;
+INFO  00:34:40,335 - #35 {
+INFO  00:34:40,335 - #8 void
+INFO  00:34:40,335 - #46 main
+INFO  00:34:40,337 - #31 (
+INFO  00:34:40,337 - #32 )
+INFO  00:34:40,338 - #46 int
+INFO  00:34:40,338 - #46 b
+INFO  00:34:40,338 - #27 ;
+INFO  00:34:40,338 - #46 bool
+INFO  00:34:40,338 - #46 c
+INFO  00:34:40,338 - #27 ;
+INFO  00:34:40,338 - #35 {
+INFO  00:34:40,338 - #46 b
+INFO  00:34:40,338 - #24 =
+INFO  00:34:40,339 - #45 1
+INFO  00:34:40,340 - #27 ;
+INFO  00:34:40,340 - #5 print
+INFO  00:34:40,341 - #31 (
+INFO  00:34:40,341 - #46 b
+INFO  00:34:40,341 - #32 )
+INFO  00:34:40,342 - #27 ;
+INFO  00:34:40,342 - #36 }
+INFO  00:34:40,342 - #36 }
+INFO  00:34:40,345 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        MultipleVarDeclarations(
+          OneVarDeclaration(
+            AddVarDecl1(
+             a
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+          AddVarDecl1(
+           c
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [MultipleVarDeclarations]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               b
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             c
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 b
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   b
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:34:40,347 - ===================================

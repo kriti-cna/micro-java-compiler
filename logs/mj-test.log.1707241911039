@@ -1,0 +1,14 @@
+INFO  18:51:12,409 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:51:12,434 - #2 program
+INFO  18:51:12,434 - #46 test301
+INFO  18:51:12,434 - #46 int
+INFO  18:51:12,435 - #46 a
+INFO  18:51:12,436 - #29 ,
+INFO  18:51:12,437 - #46 a
+INFO  18:51:12,437 - #11 +
+ERROR 18:51:12,437 - 
+Sintaksna greska na liniji 5
+INFO  18:51:12,437 - #27 ;
+INFO  18:51:12,437 - #35 {
+INFO  18:51:12,437 - #8 void
+INFO  18:51:12,438 - #46 main

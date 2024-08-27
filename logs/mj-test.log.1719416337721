@@ -1,0 +1,163 @@
+INFO  17:38:01,666 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:38:01,666 - ================= LEKSICKA ANALIZA =================
+INFO  17:38:01,701 - #2 program
+INFO  17:38:01,702 - #47 test301
+INFO  17:38:01,702 - #35 {
+INFO  17:38:01,704 - #8 void
+INFO  17:38:01,704 - #47 main
+INFO  17:38:01,706 - #31 (
+INFO  17:38:01,707 - #32 )
+INFO  17:38:01,707 - #47 int
+INFO  17:38:01,708 - #47 niz
+INFO  17:38:01,709 - #33 [
+INFO  17:38:01,709 - #34 ]
+INFO  17:38:01,710 - #27 ;
+INFO  17:38:01,712 - #47 bool
+INFO  17:38:01,713 - #47 nizb
+INFO  17:38:01,714 - #33 [
+INFO  17:38:01,714 - #34 ]
+INFO  17:38:01,714 - #27 ;
+INFO  17:38:01,714 - #35 {
+INFO  17:38:01,715 - #47 niz
+INFO  17:38:01,716 - #24 =
+INFO  17:38:01,718 - #45 range
+INFO  17:38:01,719 - #31 (
+INFO  17:38:01,719 - #46 7
+INFO  17:38:01,719 - #32 )
+INFO  17:38:01,721 - #27 ;
+INFO  17:38:01,721 - #47 niz
+INFO  17:38:01,721 - #11 +
+ERROR 17:38:01,721 - 
+Sintaksna greska on line 10
+INFO  17:38:01,721 - #27 ;
+INFO  17:38:01,721 - #5 print
+INFO  17:38:01,721 - #31 (
+INFO  17:38:01,723 - #47 niz
+INFO  17:38:01,723 - #32 )
+INFO  17:38:01,723 - #27 ;
+ERROR 17:38:01,723 - Recovered from error10
+INFO  17:38:01,724 - #36 }
+INFO  17:38:01,724 - #36 }
+INFO  17:38:01,726 - ================= PARSIRANO STABLO =================
+INFO  17:38:01,732 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               niz
+                Brackets(
+                ) [Brackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             nizb
+              Brackets(
+              ) [Brackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 niz
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  RangeExpression(
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         7
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [RangeExpression]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               niz
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            PositiveStartExpr(
+              SingleTerm(
+                ExpressionFact(
+                  PositiveStartExpr(
+                    SingleTerm(
+                      DesignatorFact(
+                        Designator(
+                          WithoutNamespace(
+                           niz
+                          ) [WithoutNamespace]
+                          NoArrayExpression(
+                          ) [NoArrayExpression]
+                        ) [Designator]
+                      ) [DesignatorFact]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [ExpressionFact]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:38:01,732 - ================ Semanticka obrada ===================
+INFO  17:38:01,735 - Symbol niz found on line 9
+INFO  17:38:01,735 - Symbol niz found on line 10
+INFO  17:38:01,735 - Symbol niz found on line 11
+INFO  17:38:01,735 - main() method found on line 1
+INFO  17:38:01,737 - Parser SUCCESS!

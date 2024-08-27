@@ -1,0 +1,118 @@
+INFO  18:43:16,112 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:43:16,147 - #2 program
+INFO  18:43:16,147 - #46 test301
+INFO  18:43:16,147 - #46 int
+INFO  18:43:16,148 - #46 a
+INFO  18:43:16,149 - #33 [
+INFO  18:43:16,149 - #34 ]
+INFO  18:43:16,149 - #27 ;
+INFO  18:43:16,149 - #35 {
+INFO  18:43:16,150 - #8 void
+INFO  18:43:16,151 - #46 Main
+INFO  18:43:16,151 - #31 (
+INFO  18:43:16,151 - #32 )
+INFO  18:43:16,152 - #35 {
+INFO  18:43:16,153 - #46 a
+INFO  18:43:16,153 - #24 =
+INFO  18:43:16,155 - #4 new
+INFO  18:43:16,156 - #46 int
+INFO  18:43:16,156 - #33 [
+INFO  18:43:16,156 - #45 3
+INFO  18:43:16,156 - #34 ]
+INFO  18:43:16,157 - #27 ;
+INFO  18:43:16,193 - #5 print
+INFO  18:43:16,194 - #31 (
+INFO  18:43:16,194 - #45 3
+INFO  18:43:16,194 - #32 )
+INFO  18:43:16,196 - #27 ;
+INFO  18:43:16,196 - #36 }
+INFO  18:43:16,196 - #36 }
+INFO  18:43:16,200 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           a
+            Brackets(
+            ) [Brackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       Main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 a
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  NewType(
+                    Type(
+                     int
+                    ) [Type]
+                    PositiveStartExpr(
+                      SingleTerm(
+                        NumberConst(
+                         3
+                        ) [NumberConst]
+                      ) [SingleTerm]
+                    ) [PositiveStartExpr]
+                  ) [NewType]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              NumberConst(
+               3
+              ) [NumberConst]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:43:16,200 - ===================================
+INFO  18:43:16,205 - Prepoznata naredba Print!
+INFO  18:43:16,206 -  Print count calls = 1

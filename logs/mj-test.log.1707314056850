@@ -1,0 +1,81 @@
+INFO  14:54:02,071 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:54:02,074 - ================= LEKSICKA ANALIZA =================
+INFO  14:54:02,164 - #2 program
+INFO  14:54:02,165 - #46 test301
+INFO  14:54:02,165 - #35 {
+INFO  14:54:02,169 - #8 void
+INFO  14:54:02,170 - #46 Main
+INFO  14:54:02,171 - #31 (
+INFO  14:54:02,174 - #32 )
+INFO  14:54:02,175 - #35 {
+INFO  14:54:02,176 - #46 a
+INFO  14:54:02,178 - #24 =
+INFO  14:54:02,182 - #4 new
+INFO  14:54:02,183 - #46 int
+INFO  14:54:02,183 - #33 [
+INFO  14:54:02,186 - #45 3
+INFO  14:54:02,187 - #34 ]
+INFO  14:54:02,189 - #27 ;
+INFO  14:54:02,190 - #36 }
+INFO  14:54:02,191 - #36 }
+INFO  14:54:02,233 - ================= PARSIRANO STABLO =================
+INFO  14:54:02,245 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       Main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        DesignatorStat(
+          DesignatorExpr(
+            Designator(
+              WithoutNamespace(
+               a
+              ) [WithoutNamespace]
+              NoArrayExpression(
+              ) [NoArrayExpression]
+            ) [Designator]
+            AssignOperation(
+            ) [AssignOperation]
+            PositiveStartExpr(
+              SingleTerm(
+                NewType(
+                  Type(
+                   int
+                  ) [Type]
+                  PositiveStartExpr(
+                    SingleTerm(
+                      NumberConst(
+                       3
+                      ) [NumberConst]
+                    ) [SingleTerm]
+                  ) [PositiveStartExpr]
+                ) [NewType]
+              ) [SingleTerm]
+            ) [PositiveStartExpr]
+          ) [DesignatorExpr]
+        ) [DesignatorStat]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:54:02,246 - ================ Semanticka obrada ===================
+ERROR 14:54:02,257 - Symbol a does not exist on line 9
+ERROR 14:54:02,258 - Identifier does not exist  on line 9

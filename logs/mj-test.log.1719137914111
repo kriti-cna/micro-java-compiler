@@ -1,0 +1,134 @@
+INFO  12:17:41,189 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:17:41,190 - ================= LEKSICKA ANALIZA =================
+INFO  12:17:41,223 - #2 program
+INFO  12:17:41,223 - #46 test301
+INFO  12:17:41,223 - #3 const
+INFO  12:17:41,224 - #46 int
+INFO  12:17:41,224 - #46 pet
+INFO  12:17:41,225 - #24 =
+INFO  12:17:41,225 - #45 5
+INFO  12:17:41,225 - #27 ;
+INFO  12:17:41,226 - #35 {
+INFO  12:17:41,226 - #8 void
+INFO  12:17:41,227 - #46 main
+INFO  12:17:41,227 - #31 (
+INFO  12:17:41,228 - #32 )
+INFO  12:17:41,228 - #35 {
+INFO  12:17:41,229 - #5 print
+INFO  12:17:41,229 - #31 (
+INFO  12:17:41,229 - #46 pet
+INFO  12:17:41,229 - #32 )
+INFO  12:17:41,269 - #27 ;
+INFO  12:17:41,269 - #46 pet
+INFO  12:17:41,270 - #25 ++
+INFO  12:17:41,270 - #27 ;
+INFO  12:17:41,270 - #5 print
+INFO  12:17:41,270 - #31 (
+INFO  12:17:41,271 - #46 pet
+INFO  12:17:41,271 - #32 )
+INFO  12:17:41,271 - #27 ;
+INFO  12:17:41,271 - #36 }
+INFO  12:17:41,271 - #36 }
+INFO  12:17:41,274 - ================= PARSIRANO STABLO =================
+INFO  12:17:41,286 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    ConstantDeclaration(
+      ConDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDef(
+         pet
+          NumConst(
+           5
+          ) [NumConst]
+        ) [ConstDef]
+        NoConstantDeclaration(
+        ) [NoConstantDeclaration]
+      ) [ConDecl]
+    ) [ConstantDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            NoStatements(
+            ) [NoStatements]
+            PrintExpr(
+              PositiveStartExpr(
+                SingleTerm(
+                  DesignatorFact(
+                    Designator(
+                      WithoutNamespace(
+                       pet
+                      ) [WithoutNamespace]
+                      NoArrayExpression(
+                      ) [NoArrayExpression]
+                    ) [Designator]
+                  ) [DesignatorFact]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+              NoNumConstOpt(
+              ) [NoNumConstOpt]
+            ) [PrintExpr]
+          ) [Statements]
+          DesignatorStat(
+            DesignatorPP(
+              Designator(
+                WithoutNamespace(
+                 pet
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+            ) [DesignatorPP]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   pet
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:17:41,287 - ================ Semanticka obrada ===================
+INFO  12:17:41,294 - Const pet defined on line 3
+INFO  12:17:41,294 - Symbol pet found on line 9
+INFO  12:17:41,294 - Symbol pet found on line 10
+ERROR 12:17:41,294 - Error: Designator must be int on line 10
+INFO  12:17:41,295 - Symbol pet found on line 11
+INFO  12:17:41,295 - main() method found on line 1
+ERROR 12:17:41,296 - Parser FAIL!

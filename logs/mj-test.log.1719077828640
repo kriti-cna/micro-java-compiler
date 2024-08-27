@@ -1,0 +1,147 @@
+INFO  19:34:20,243 - Compiling source file: C:\Users\elena\Desktop\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:34:20,243 - ================= LEKSICKA ANALIZA =================
+INFO  19:34:20,281 - #2 program
+INFO  19:34:20,281 - #46 test1
+INFO  19:34:20,281 - #46 int
+INFO  19:34:20,282 - #46 a
+INFO  19:34:20,283 - #27 ;
+INFO  19:34:20,284 - #35 {
+INFO  19:34:20,284 - #8 void
+INFO  19:34:20,284 - #46 main
+INFO  19:34:20,285 - #31 (
+INFO  19:34:20,285 - #32 )
+INFO  19:34:20,286 - #46 int
+INFO  19:34:20,286 - #46 b
+INFO  19:34:20,287 - #27 ;
+INFO  19:34:20,287 - #46 bool
+INFO  19:34:20,287 - #46 c
+INFO  19:34:20,287 - #27 ;
+INFO  19:34:20,287 - #35 {
+INFO  19:34:20,287 - #46 b
+INFO  19:34:20,324 - #24 =
+INFO  19:34:20,326 - #45 1
+INFO  19:34:20,328 - #27 ;
+INFO  19:34:20,329 - #5 print
+INFO  19:34:20,329 - #31 (
+INFO  19:34:20,330 - #46 b
+INFO  19:34:20,330 - #32 )
+INFO  19:34:20,332 - #27 ;
+INFO  19:34:20,332 - #36 }
+INFO  19:34:20,332 - #36 }
+INFO  19:34:20,337 - ================= PARSIRANO STABLO =================
+INFO  19:34:20,351 - Program(
+  ProgName(
+   test1
+  ) [ProgName]
+  NoNamespaceDeclarations(
+  ) [NoNamespaceDeclarations]
+  Declarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VariableDeclaration(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclaration(
+          AddVarDecl1(
+           a
+            NoBrackets(
+            ) [NoBrackets]
+          ) [AddVarDecl1]
+        ) [OneVarDeclaration]
+      ) [VarDeclaration]
+    ) [VariableDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodVoid(
+      ) [MethodVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormPars(
+      ) [NoFormPars]
+      ListOfVarDecl(
+        ListOfVarDecl(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclaration(
+              AddVarDecl1(
+               b
+                NoBrackets(
+                ) [NoBrackets]
+              ) [AddVarDecl1]
+            ) [OneVarDeclaration]
+          ) [VarDeclaration]
+        ) [ListOfVarDecl]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarDeclaration(
+            AddVarDecl1(
+             c
+              NoBrackets(
+              ) [NoBrackets]
+            ) [AddVarDecl1]
+          ) [OneVarDeclaration]
+        ) [VarDeclaration]
+      ) [ListOfVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStat(
+            DesignatorExpr(
+              Designator(
+                WithoutNamespace(
+                 b
+                ) [WithoutNamespace]
+                NoArrayExpression(
+                ) [NoArrayExpression]
+              ) [Designator]
+              AssignOperation(
+              ) [AssignOperation]
+              PositiveStartExpr(
+                SingleTerm(
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [SingleTerm]
+              ) [PositiveStartExpr]
+            ) [DesignatorExpr]
+          ) [DesignatorStat]
+        ) [Statements]
+        PrintExpr(
+          PositiveStartExpr(
+            SingleTerm(
+              DesignatorFact(
+                Designator(
+                  WithoutNamespace(
+                   b
+                  ) [WithoutNamespace]
+                  NoArrayExpression(
+                  ) [NoArrayExpression]
+                ) [Designator]
+              ) [DesignatorFact]
+            ) [SingleTerm]
+          ) [PositiveStartExpr]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintExpr]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:34:20,352 - ================ Semanticka obrada ===================
+INFO  19:34:20,362 - Symbol b found on line 11
+INFO  19:34:20,363 - Symbol b found on line 12
+INFO  19:34:20,363 - main() method found on line 1
+INFO  19:34:20,372 - Parser SUCCESS!
